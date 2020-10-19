@@ -1,0 +1,40 @@
+﻿# these are checked in order
+
+cdol_succubus_name_succubus_trigger = {
+	OR = {
+		faith = { religion_tag = christianity_religion }
+		faith = { religion_tag = judaism_religion }
+		has_culture_group = culture_group:iberian_group
+		has_culture_group = culture_group:israelite_group
+		has_culture_group = culture_group:frankish_group
+		has_culture_group = culture_group:latin_group
+		has_culture_group = culture_group:west_germanic_group
+		has_culture_group = culture_group:central_germanic_group
+		has_culture_group = culture_group:byzantine_group
+	}
+}
+
+cdol_succubus_name_yakshi_trigger = {
+	OR = {
+		faith = { religion_tag = hinduism_religion }
+		faith = { religion_tag = buddhism_religion }
+		faith = { religion_tag = jainism_religion }
+		has_culture_group = culture_group:dravidian_group
+		has_culture_group = culture_group:indo_aryan_group
+	}
+}
+
+cdol_succubus_name_qarinah_trigger = {
+	OR = {
+		faith = { religion_tag = islam_religion }
+		has_culture_group = culture_group:arabic_group
+		has_culture_group = culture_group:iranian_group
+	}
+}
+
+cdol_succubus_name_leannan_sidhe_trigger = {
+	OR = {
+		has_culture_group = culture_group:brythonic_group
+		has_culture_group = culture_group:goidelic_group
+	}
+}

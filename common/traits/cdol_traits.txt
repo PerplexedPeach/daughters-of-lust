@@ -1,0 +1,66 @@
+﻿# Reserved: 6600-6699
+
+cdol_succubus = {
+	index = 6600
+
+	attraction_opinion = 10
+	seduce_scheme_power_add = 10
+	fame = yes
+
+	triggered_opinion = {
+		parameter = witchcraft_illegal
+		opinion_modifier = cdol_succubus_crime
+		ignore_opinion_value_if_same_trait = yes
+	}
+	triggered_opinion = {
+		parameter = witchcraft_shunned
+		opinion_modifier = cdol_succubus_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cdol_succubus_desc
+			}
+			desc = trait_cdol_succubus_character_desc
+		}
+	}
+
+	name = {
+		first_valid = {
+			triggered_desc = { # Default name Succubus, to show in brackets
+				trigger = { NOT = { exists = this } }
+				desc = cdol_succubus_cap
+			}
+			triggered_desc = { # Succubus
+				trigger = {
+					cdol_succubus_name_succubus_trigger = yes
+				}
+				desc = cdol_succubus_cap
+			}
+			triggered_desc = { # Yakshi
+				trigger = {
+					cdol_succubus_name_yakshi_trigger = yes
+				}
+				desc = cdol_yakshi_cap
+			}
+			triggered_desc = { # Qarinah
+				trigger = {
+					cdol_succubus_name_qarinah_trigger = yes
+				}
+				desc = cdol_qarinah_cap
+			}
+			triggered_desc = { # Leannán Sídhe
+				trigger = {
+					cdol_succubus_name_leannan_sidhe_trigger = yes
+				}
+				desc = cdol_leannan_sidhe_cap
+			}
+			desc = cdol_demoness_cap # Demoness
+		}
+	}
+}

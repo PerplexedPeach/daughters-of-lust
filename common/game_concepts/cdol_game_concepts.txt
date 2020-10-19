@@ -1,0 +1,10 @@
+﻿cdol_succubus = {
+	alias = { cdol_succubi }
+}
+
+cdol_sexual_power = {
+}
+
+cdol_suspicion = {
+	alias = { cdol_suspicious }
+}

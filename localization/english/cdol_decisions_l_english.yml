@@ -1,0 +1,4 @@
+﻿l_english:
+
+ cdol_become_succubus_decision: "Perform [ROOT.Char.Custom('CdolSuccubusName')|U] Transformation Ritual"
+ cdol_awaken_succubus_ancestry_decision: "Awaken [ROOT.Char.Custom('CdolSuccubusName')|U] Ancestry"

@@ -1,0 +1,4 @@
+﻿l_english:
+
+ cdol_sire_succubus_interaction: "Sire [ACTOR.Custom('CdolSuccubusName')|U]"
+ cdol_sire_succubus_interaction_desc: "Infuse [recipient.GetShortUINameNoTooltip] with [cdol_sexual_power|E]"

@@ -1,0 +1,5 @@
+﻿l_english:
+
+ trait_cdol_succubus: "Succubus"
+ trait_cdol_succubus_desc: "This character is known as a supernatural temptress who draws power from sex."
+ trait_cdol_succubus_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] is known as a supernatural temptress who draws power from sex."

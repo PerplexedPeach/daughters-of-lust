@@ -1,0 +1,8 @@
+﻿cdol_is_succubus_trigger = {
+	OR = {
+		has_trait = cdol_succubus
+		any_secret = {
+			secret_type = cdol_secret_succubus
+		}
+	}
+}

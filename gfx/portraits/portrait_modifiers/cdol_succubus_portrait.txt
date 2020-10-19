@@ -1,0 +1,84 @@
+﻿cdol_succubus_body = {
+	usage = game
+	cdol_succubus_body = {
+		dna_modifiers = {
+			morph = {
+				mode = replace
+				gene = face_detail_cheek_def
+				template = cheek_def_01
+				value = 0
+			}
+			morph = {
+				mode = replace
+				gene = face_detail_cheek_fat
+				template = cheek_fat_04_pos
+				value = 0
+			}
+			morph = {
+				mode = replace
+				gene = face_detail_nasolabial
+				template = nasolabial_04
+				value = 0
+			}
+			morph = {
+				mode = replace
+				gene = gene_bs_body_type
+				template = body_fat_head_fat_low
+				value = 0.4
+			}
+			morph = {
+				mode = replace
+				gene = gene_bs_body_shape
+				template = body_shape_pear_full
+				value = 0
+			}
+			morph = {
+				mode = replace
+				gene = gene_age
+				template = no_aging
+				value = 1.0
+			}
+			morph = {
+				mode = replace
+				gene = expression_other
+				template = cheek_wrinkles_left_01
+				value = 0.0
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				cdol_is_succubus_trigger = yes
+			}
+		}
+	}
+}
+
+cdol_revealed_succubus_portrait = {
+	usage = game
+	cdol_revealed_succubus_portrait = {
+		dna_modifiers = {
+			color = {
+				gene = eye_color
+				mode = replace
+					
+				x = 0.0
+				y = 0.2
+			}
+			morph = {
+				mode = add
+				gene = gene_cdol_succubus
+				value = 1.0
+				template = cdol_succubus
+			}
+		}		
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				has_trait = cdol_succubus
+			}
+		}
+	}
+}

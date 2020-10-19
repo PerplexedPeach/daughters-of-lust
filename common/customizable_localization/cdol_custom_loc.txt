@@ -1,0 +1,73 @@
+﻿CdolSuccubusName = {
+	type = character
+
+	text = {
+		trigger = {
+			cdol_succubus_name_succubus_trigger = yes
+		}
+		localization_key = cdol_succubus
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_yakshi_trigger = yes
+		}
+		localization_key = cdol_yakshi
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_qarinah_trigger = yes
+		}
+		localization_key = cdol_qarinah
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_leannan_sidhe_trigger = yes
+		}
+		localization_key = cdol_leannan_sidhe
+	}
+
+	text = {
+		localization_key = cdol_demoness
+		fallback = yes
+	}
+}
+
+CdolSuccubusNamePlural = {
+	type = character
+
+	text = {
+		trigger = {
+			cdol_succubus_name_succubus_trigger = yes
+		}
+		localization_key = cdol_succubus_plural
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_yakshi_trigger = yes
+		}
+		localization_key = cdol_yakshi_plural
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_qarinah_trigger = yes
+		}
+		localization_key = cdol_qarinah_plural
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_leannan_sidhe_trigger = yes
+		}
+		localization_key = cdol_leannan_sidhe_plural
+	}
+
+	text = {
+		localization_key = cdol_demoness_plural
+		fallback = yes
+	}
+}

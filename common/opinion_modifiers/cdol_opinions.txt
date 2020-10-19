@@ -1,0 +1,9 @@
+﻿cdol_succubus_crime = {
+	opinion = -50
+	imprisonment_reason = yes
+	execute_reason = yes
+}
+
+cdol_succubus_intolerant = {
+	opinion = -50
+}

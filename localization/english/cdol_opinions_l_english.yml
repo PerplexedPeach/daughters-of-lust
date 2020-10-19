@@ -1,0 +1,3 @@
+﻿l_english:
+ cdol_succubus_crime: "Known [GetTrait('cdol_succubus').GetName( GetNullCharacter )]"
+ cdol_succubus_intolerant: "Known [GetTrait('cdol_succubus').GetName( GetNullCharacter )]"
