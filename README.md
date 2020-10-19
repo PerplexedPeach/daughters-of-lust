@@ -1,16 +1,27 @@
 # Daughters of Lust
 
-Daughters of Lust is a mod that adds succubi to the world of Crusader Kings 3.
+Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
+
+# Goals
+- Be hot as fuck
+- Create interesting gameplay
+- Enable "awesome slut" fantasy
+- Enable "Lady Macbeth" fantasy
+- Enable "succubus hunter" fantasy
 
 # Todo
-- succubus trait icon
 - cdol_secrecy.0001
-- Becoming a Succubus
+- succubus birth control
+- succubus mastery tiers
 - Sexual Power
 - Sexual Power abilities
+-- Sire Succubus
 - Suspicion
-- Decision: Awakening
+- Perform Succubus Transformation Ritual
+- Awaken Succubus Ancestry
+- interesting succubus AI events
 
 # Credits
 
 * Head textures from [Character Beautification](https://steamcommunity.com/sharedfiles/filedetails/?id=2222302033)
+* Trait icon based off pattern 037 from [LewdMarks](https://www.loverslab.com/files/file/9655-lewdmarks/)

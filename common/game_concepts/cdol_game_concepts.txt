@@ -1,8 +1,10 @@
 ﻿cdol_succubus = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 	alias = { cdol_succubi }
 }
 
 cdol_sexual_power = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 }
 
 cdol_suspicion = {
