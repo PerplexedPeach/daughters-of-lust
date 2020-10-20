@@ -1,0 +1,33 @@
+﻿l_english:
+
+cdol_succubus: "succubus"
+cdol_succubus_cap: "Succubus"
+cdol_succubus_plural: "succubi"
+cdol_succubus_patron: "Lilith"
+
+cdol_yakshi: "yakshi"
+cdol_yakshi_cap: "Yakshi"
+cdol_yakshi_plural: "yakshis"
+cdol_yakshi_patron: "Kubera"
+
+cdol_qarinah: "qarinah"
+cdol_qarinah_cap: "Qarinah"
+cdol_qarinah_plural: "qarinat"
+cdol_qarinah_patron: "the smokeless flame"
+
+cdol_leannan_sidhe: "leannán sídhe"
+cdol_leannan_sidhe_cap: "Leannán Sídhe"
+cdol_leannan_sidhe_plural: "leannán sídhe"
+cdol_leannan_sidhe_patron: "Danu"
+
+cdol_demoness: "demoness"
+cdol_demoness_cap: "Demoness"
+cdol_demoness_plural: "demonesses"
+cdol_demoness_patron: "the spirit world"
+
+cdol_an_angel_sent_by_highgodname: "an angel sent by [ROOT.Char.GetFaith.GetHighGodName]"
+cdol_a_bodhisattva: "a bodhisattva"
+cdol_an_emissary_of_kubera: "an emissary of Kubera"
+cdol_an_innocent_sidhe: "an innocent fairy"
+cdol_a_sacred_maiden_of_the_wild: "a sacred maiden of the wild"
+cdol_a_divine_spirit: "a divine spirit"

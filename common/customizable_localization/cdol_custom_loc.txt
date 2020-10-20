@@ -71,3 +71,84 @@ CdolSuccubusNamePlural = {
 		fallback = yes
 	}
 }
+
+CdolSuccubusPatron = {
+	type = character
+
+	text = {
+		trigger = {
+			cdol_succubus_name_succubus_trigger = yes
+		}
+		localization_key = cdol_succubus_patron
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_yakshi_trigger = yes
+		}
+		localization_key = cdol_yakshi_patron
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_qarinah_trigger = yes
+		}
+		localization_key = cdol_qarinah_patron
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_leannan_sidhe_trigger = yes
+		}
+		localization_key = cdol_leannan_sidhe_patron
+	}
+
+	text = {
+		localization_key = cdol_demoness_patron
+		fallback = yes
+	}
+}
+
+CdolSuccubusPositiveDescription = {
+	type = character
+
+	text = {
+		trigger = {
+			cdol_succubus_positive_description_angel_trigger = yes
+		}
+		localization_key = cdol_an_angel_sent_by_highgodname
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_positive_description_bodhisattva_trigger = yes
+		}
+		localization_key = cdol_a_bodhisattva
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_positive_description_kubera_emissary_trigger = yes
+		}
+		localization_key = cdol_an_emissary_of_kubera
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_positive_description_fairy_trigger = yes
+		}
+		localization_key = cdol_an_innocent_fairy
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_positive_description_wild_maiden_trigger = yes
+		}
+		localization_key = cdol_a_sacred_maiden_of_the_wild
+	}
+
+	text = {
+		localization_key = cdol_a_divine_spirit
+		fallback = yes
+	}
+}
