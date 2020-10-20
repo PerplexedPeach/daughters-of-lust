@@ -1,0 +1,22 @@
+﻿l_english:
+
+ cdol_drain.generic_title: "[succubus.Custom('CdolSuccubusName')|U]: The Hunger"
+ cdol_drain.generic_opening: "As [carn_sex_partner.GetShortUINameNoTooltip] shudders in ecstasy, electric pleasure washes over me and I feel [carn_sex_partner.GetHerHis] strength flowing into my body.\n\n"
+
+ cdol_drain.generic_refusal: "No, [carn_sex_partner.GetShortUINameNoTooltip] deserves better."
+
+ cdol_drain.0010.ending: "The poetry of [carn_sex_partner.GetHerHis] soul sings to me, waiting to be drawn into my lips with a kiss."
+ cdol_drain.0010.a: "You shall be kindling for my grace."
+
+ cdol_drain.0020.ending: "I can feel the fire of [carn_sex_partner.GetHerHis] conviction on the cusp of setting me alight."
+ cdol_drain.0020.a: "Your strength shall be my strength."
+
+ cdol_drain.0030.ending: "[carn_sex_partner.GetHerHis|U] thoughts melt away, as [carn_sex_partner.GetSheHe] surrenders [carn_sex_partner.GetHerselfHimself] utterly to my intoxicating form."
+ cdol_drain.0030.a: "Your designs shall become part of me."
+
+
+ cdol_drain.generic_victim_title: "Exhaustion"
+ cdol_drain.generic_victim_opening: "Lately I have not been feeling like myself, although I would struggle to name the reason why.\n\n"
+
+ cdol_drain.0011.ending: "More and more often, I catch myself tripping over my own shoes or falling asleep in the middle of an address."
+ cdol_drain.0011.a: "Am I losing my touch?"

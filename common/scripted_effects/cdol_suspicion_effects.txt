@@ -1,0 +1,7 @@
+﻿cdol_add_suspicion_effect = {
+	# nothing for now
+}
+
+cdol_add_heavy_suspicion_effect = {
+	# nothing for now
+}

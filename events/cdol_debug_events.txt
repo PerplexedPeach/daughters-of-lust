@@ -1,0 +1,12 @@
+﻿namespace = cdol_debug
+
+# 0001. Become a succubus
+
+# 0001. Become a succubus
+cdol_debug.0001 = {
+	hidden = yes
+
+	immediate = {
+		cdol_become_succubus_effect = yes
+	}
+}

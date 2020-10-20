@@ -41,7 +41,7 @@ cdol_succubus_name_leannan_sidhe_trigger = {
 
 cdol_succubus_positive_description_angel_trigger = {
 	OR = {
-		faith = { is_in_family = rf_abrahamic }
+		faith.religion = { is_in_family = rf_abrahamic }
 		faith = { religion_tag = zoroastrianism_religion }
 	}
 }

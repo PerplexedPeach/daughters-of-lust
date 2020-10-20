@@ -1,0 +1,2 @@
+﻿cdol_sexual_power_sex_gain_value = 10
+cdol_sexual_power_drain_extra_gain_value = 10

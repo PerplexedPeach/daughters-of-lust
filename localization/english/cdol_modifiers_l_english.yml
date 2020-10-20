@@ -1,3 +1,25 @@
 ﻿l_english:
 
  cdol_succubus_mastery: "Succubus Mastery"
+ cdol_succubus_mastery_desc: "This succubus is growing in power."
+
+ cdol_diplomacy_drained_modifier: "Exhausted"
+ cdol_diplomacy_drained_modifier_desc: "Exhaustion weights heavily on this character."
+
+ cdol_martial_drained_modifier: "Weakened"
+ cdol_martial_drained_modifier_desc: "Long nights have left this character weak and unsteady."
+
+ cdol_stewardship_drained_modifier: "Unsteady"
+ cdol_stewardship_drained_modifier_desc: "This character finds it difficult to keep up with business."
+
+ cdol_intrigue_drained_modifier: "Unfocused"
+ cdol_intrigue_drained_modifier_desc: "This character is having trouble focusing."
+
+ cdol_learning_drained_modifier: "Absent-minded"
+ cdol_learning_drained_modifier_desc: "This character keeps forgetting simple things."
+
+ cdol_prowess_drained_modifier: "Overstrained"
+ cdol_prowess_drained_modifier_desc: "This character has exerted themselves too much."
+
+ cdol_health_drained_modifier: "Malaise"
+ cdol_health_drained_modifier_desc: "This character is not feeling well."

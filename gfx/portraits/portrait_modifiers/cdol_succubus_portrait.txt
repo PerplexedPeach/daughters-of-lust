@@ -77,7 +77,7 @@ cdol_revealed_succubus_portrait = {
 			base = 0
 			modifier = {
 				add = 200
-				has_trait = cdol_succubus
+				cdol_show_succubus_revealed_portrait_trigger = yes
 			}
 		}
 	}

@@ -1,0 +1,1150 @@
+﻿namespace = cdol_drain
+
+# 0001. Drain on sex
+# 0010-11. Opportunity to drain diplomacy
+# 0020-21. Opportunity to drain martial
+# 0030-31. Opportunity to drain stewardship
+# 0040-41. Opportunity to drain intrigue
+# 0050-51. Opportunity to drain learning
+# 0060-61. Opportunity to drain prowess
+# 0070-71. Opportunity to drain beauty
+# 0080-81. Opportunity to drain intellect
+# 0090-91. Opportunity to drain dick/tit size
+# 0100-101. Opportunity to drain health (generic)
+
+#
+# 0001. Drain on sex - fires from on_event
+#
+
+cdol_drain.0001 = {
+	hidden = yes
+
+	trigger = {
+		cdol_is_succubus_trigger = yes
+		scope:carn_sex_partner = { cdol_is_succubus_trigger = no }
+	}
+
+	immediate = {
+		save_scope_as = succubus
+		send_interface_message = {
+			title = cdol_drain.0001.notification
+			type = event_generic_good
+			left_icon = this
+			right_icon = scope:carn_sex_partner
+
+			# increment variables
+			cdol_gain_sexual_power_effect = {
+				VALUE = cdol_sexual_power_sex_gain_value
+			}
+			change_variable = {
+				name = cdol_succubus_mastery_level
+				add = 1
+			}
+
+			# gain succubus mastery modifier
+			add_character_modifier = {
+				modifier = cdol_succubus_mastery
+			}
+
+			# random bonuses!
+			random_list = {
+				50 = { # health boost
+					# uses a vanilla modifier to make it look less sus
+					add_character_modifier = {
+						name = spouse_health_modifier
+						years = 2
+					}
+				}
+				30 = { # temptation perk unlock
+					trigger = {
+						NOT = { has_trait = seducer }
+					}
+					cdol_unlock_random_temptation_tree_perk_effect = yes
+				}
+				10 = { # opportunity to drain diplomacy
+					trigger = {
+						scope:carn_sex_partner = {
+							diplomacy >= 10
+							NOT = { has_character_flag = cdol_diplomacy_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0010
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain martial
+					trigger = {
+						scope:carn_sex_partner = {
+							martial >= 10
+							NOT = { has_character_flag = cdol_martial_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0020
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain stewardship
+					trigger = {
+						scope:carn_sex_partner = {
+							stewardship >= 10
+							NOT = { has_character_flag = cdol_stewardship_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0030
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain intrigue
+					trigger = {
+						scope:carn_sex_partner = {
+							intrigue >= 10
+							NOT = { has_character_flag = cdol_intrigue_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0040
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain learning
+					trigger = {
+						scope:carn_sex_partner = {
+							learning >= 10
+							NOT = { has_character_flag = cdol_learning_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0050
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain prowess
+					trigger = {
+						scope:carn_sex_partner = {
+							prowess >= 10
+							NOT = { has_character_flag = cdol_prowess_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0060
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain beauty
+					trigger = {
+						NOT = { has_trait = beauty_good_3 }
+						scope:carn_sex_partner = {
+							has_trait = beauty_good
+							NOT = { has_character_flag = cdol_beauty_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0070
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain intellect
+					trigger = {
+						NOT = { has_trait = intellect_good_3 }
+						scope:carn_sex_partner = {
+							has_trait = intellect_good
+							NOT = { has_character_flag = cdol_intellect_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0080
+						days = 1
+					}
+				}
+				10 = { # opportunity to drain dick/tit size
+					trigger = {
+						has_game_rule = carn_dt_enabled_true
+						NOT = { has_trait = tits_big_3 }
+						OR = {
+							carn_gender_can_impregnate_trigger = no
+							NOT = { has_trait = dick_big_3 }
+						}
+						scope:carn_sex_partner = {
+							OR = {
+								has_trait = tits_big
+								has_trait = dick_big
+							}
+							NOT = { has_character_flag = cdol_dt_drained }
+						}
+					}
+					trigger_event = {
+						id = cdol_drain.0090
+						days = 1
+					}
+				}
+				20 = { # opportunity to drain health (generic)
+					trigger_event = {
+						id = cdol_drain.0100
+						days = 1
+					}
+				}
+			}
+		}
+	}
+}
+
+#
+# 0010. Opportunity to drain diplomacy
+#
+
+cdol_drain.0010 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0010.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0010.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_diplomacy_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_diplomacy_drained
+				trigger_event = {
+					id = cdol_drain.0011
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_diplomacy_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0011. Your diplomacy was drained
+#
+
+cdol_drain.0011 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0011.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_diplomacy_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0011.a
+	}
+}
+
+#
+# 0020. Opportunity to drain martial
+#
+
+cdol_drain.0020 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0020.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0020.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_martial_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_martial_drained
+				trigger_event = {
+					id = cdol_drain.0021
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_martial_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0021. Your martial was drained
+#
+
+cdol_drain.0021 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0021.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_martial_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0021.a
+	}
+}
+
+#
+# 0030. Opportunity to drain stewardship
+#
+
+cdol_drain.0030 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0030.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0030.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_stewardship_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_stewardship_drained
+				trigger_event = {
+					id = cdol_drain.0031
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_stewardship_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0031. Your stewardship was drained
+#
+
+cdol_drain.0031 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0031.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_stewardship_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0031.a
+	}
+}
+
+#
+# 0040. Opportunity to drain intrigue
+#
+
+cdol_drain.0040 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0040.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0040.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_intrigue_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_intrigue_drained
+				trigger_event = {
+					id = cdol_drain.0041
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_intrigue_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0041. Your intrigue was drained
+#
+
+cdol_drain.0041 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0041.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_intrigue_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0041.a
+	}
+}
+
+#
+# 0050. Opportunity to drain learning
+#
+
+cdol_drain.0050 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0050.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0050.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_learning_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_learning_drained
+				trigger_event = {
+					id = cdol_drain.0051
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_learning_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0051. Your learning was drained
+#
+
+cdol_drain.0051 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0051.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_learning_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0051.a
+	}
+}
+
+#
+# 0060. Opportunity to drain prowess
+#
+
+cdol_drain.0060 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0060.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0060.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_prowess_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_prowess_drained
+				trigger_event = {
+					id = cdol_drain.0061
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		add_prowess_skill = 1
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0061. Your prowess was drained
+#
+
+cdol_drain.0061 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0061.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_prowess_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0061.a
+	}
+}
+
+#
+# 0070. Opportunity to drain beauty
+#
+
+cdol_drain.0070 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0070.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0070.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				carn_decrease_beauty_one_step_effect = yes
+				add_character_modifier = {
+					name = cdol_health_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_beauty_drained
+				trigger_event = {
+					id = cdol_drain.0071
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		carn_increase_beauty_one_step_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0071. Your beauty was drained
+#
+
+cdol_drain.0071 = {
+	type = character_event
+	title = cdol_drain.0071.title
+	desc = cdol_drain.0071.desc
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		carn_decrease_beauty_one_step_effect = yes
+		add_character_modifier = {
+			name = cdol_health_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0071.a
+	}
+}
+
+#
+# 0080. Opportunity to drain intellect
+#
+
+cdol_drain.0080 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0080.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0080.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				carn_decrease_intellect_one_step_effect = yes
+				add_character_modifier = {
+					name = cdol_health_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_intellect_drained
+				trigger_event = {
+					id = cdol_drain.0081
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		carn_increase_intellect_one_step_effect = yes
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0081. Your intellect was drained
+#
+
+cdol_drain.0081 = {
+	type = character_event
+	title = cdol_drain.0081.title
+	desc = cdol_drain.0081.desc
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		carn_decrease_intellect_one_step_effect = yes
+		add_character_modifier = {
+			name = cdol_health_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0081.a
+	}
+}
+
+# 0090. Opportunity to drain dick/tit size
+
+
+cdol_drain.0090 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0090.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0090.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				if = {
+					limit = { has_trait = dick_big }
+					carn_decrease_dick_size_one_step_effect = yes
+				}
+				else_if = {
+					limit = { has_trait = tits_big }
+					carn_decrease_tits_size_one_step_effect = yes
+				}
+				add_character_modifier = {
+					name = cdol_health_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				add_character_flag = cdol_dt_drained
+				trigger_event = {
+					id = cdol_drain.0091
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		if = {
+			limit = {
+				carn_gender_can_impregnate_trigger = yes
+				scope:carn_sex_partner = { has_trait = dick_big }
+			}
+			carn_increase_dick_size_one_step_effect = yes
+		}
+		else_if = {
+			limit = {
+				scope:carn_sex_partner = { has_trait = tits_big }
+			}
+			carn_increase_tits_size_one_step_effect = yes
+		}
+		else_if = {
+			limit = {
+				carn_gender_can_impregnate_trigger = yes
+			}
+			carn_increase_dick_size_one_step_effect = yes
+		}
+		else = {
+			carn_increase_tits_size_one_step_effect = yes
+		}
+		cdol_add_heavy_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0091. Your dick/tit size was drained
+#
+
+cdol_drain.0091 = {
+	type = character_event
+	title = cdol_drain.0091.title
+	desc = cdol_drain.0091.desc
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		if = {
+			limit = { has_trait = dick_big }
+			carn_decrease_dick_size_one_step_effect = yes
+		}
+		else_if = {
+			limit = { has_trait = tits_big }
+			carn_decrease_tits_size_one_step_effect = yes
+		}
+		add_character_modifier = {
+			name = cdol_health_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0091.a
+	}
+}
+
+# 0100. Opportunity to drain health (generic)
+
+
+cdol_drain.0100 = {
+	type = character_event
+	title = cdol_drain.generic_title
+	desc = {
+		desc = cdol_drain.generic_opening
+		desc = cdol_drain.0100.ending
+	}
+	theme = seduce_scheme
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = ecstasy
+	}
+
+	immediate = {
+		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
+		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+	}
+	
+	trigger = {
+		scope:carn_sex_partner = { is_alive = yes }
+	}
+
+	option = { # Drain
+		name = cdol_drain.0100.a
+		scope:carn_sex_partner = {
+			show_as_tooltip = {
+				add_character_modifier = {
+					name = cdol_health_drained_modifier
+					years = 5
+				}
+			}
+			hidden_effect = {
+				trigger_event = {
+					id = cdol_drain.0101
+					days = 20 40
+				}
+			}
+		}
+		cdol_gain_sexual_power_effect = {
+			VALUE = cdol_sexual_power_drain_extra_gain_value
+		}
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Don't drain
+		name = cdol_drain.generic_refusal
+	}
+
+	after = {
+		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
+		cdol_stop_reveal_root_succubus_nature_effect = yes
+	}
+}
+
+#
+# 0101. Your health was drained
+#
+
+cdol_drain.0101 = {
+	type = character_event
+	title = cdol_drain.generic_victim_title
+	desc = {
+		desc = cdol_drain.generic_victim_opening
+		desc = cdol_drain.0101.ending
+	}
+	theme = physical_health
+	left_portrait = {
+		character = scope:carn_sex_partner
+		animation = worry
+	}
+
+	immediate = {
+		add_character_modifier = {
+			name = cdol_health_drained_modifier
+			years = 5
+		}
+	}
+
+	option = {
+		name = cdol_drain.0101.a
+	}
+}

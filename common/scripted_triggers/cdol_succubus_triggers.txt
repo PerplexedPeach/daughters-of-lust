@@ -7,6 +7,13 @@
 	}
 }
 
+cdol_show_succubus_revealed_portrait_trigger = {
+	OR = {
+		has_trait = cdol_succubus
+		has_character_flag = cdol_show_succubus_revealed_portrait
+	}
+}
+
 cdol_has_succubus_ancestry_trigger = {
 	any_ancestor = {
 		cdol_is_succubus_trigger = yes
@@ -15,9 +22,8 @@ cdol_has_succubus_ancestry_trigger = {
 
 cdol_has_negative_attitude_towards_succubi_trigger = {
 	cdol_is_succubus_trigger = no
-	faith = { save_temporary_scope_as = my_faith }
 	OR = {
-		trait_is_shunned_in_faith_trigger = { TRAIT = witch FAITH = scope:my_faith GENDER_CHARACTER = $GENDER_CHARACTER$ }
-		trait_is_criminal_in_faith_trigger = { TRAIT = witch FAITH = scope:my_faith GENDER_CHARACTER = $GENDER_CHARACTER$ }
+		faith = { has_doctrine_parameter = witchcraft_shunned }
+		faith = { has_doctrine_parameter = witchcraft_illegal }
 	}
 }
