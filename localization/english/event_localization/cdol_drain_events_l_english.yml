@@ -4,15 +4,37 @@
  cdol_drain.generic_opening: "As [carn_sex_partner.GetShortUINameNoTooltip] shudders in ecstasy, electric pleasure washes over me and I feel [carn_sex_partner.GetHerHis] strength flowing into my body.\n\n"
 
  cdol_drain.generic_refusal: "No, [carn_sex_partner.GetShortUINameNoTooltip] deserves better."
+ cdol_drain.difficult_refusal: "I... I must resist!"
 
  cdol_drain.0010.ending: "The poetry of [carn_sex_partner.GetHerHis] soul sings to me, waiting to be drawn into my lips with a kiss."
  cdol_drain.0010.a: "You shall be kindling for my grace."
 
  cdol_drain.0020.ending: "I can feel the fire of [carn_sex_partner.GetHerHis] conviction on the cusp of setting me alight."
- cdol_drain.0020.a: "Your strength shall be my strength."
+ cdol_drain.0020.a: "As you have conquered, so shall I conquer you."
 
- cdol_drain.0030.ending: "[carn_sex_partner.GetHerHis|U] thoughts melt away, as [carn_sex_partner.GetSheHe] surrenders [carn_sex_partner.GetHerselfHimself] utterly to my intoxicating form."
+ cdol_drain.0030.ending: "Orgasm by orgasm, [carn_sex_partner.GetHerHis|U] caution and reason give way to the heat of raw desire."
  cdol_drain.0030.a: "Your designs shall become part of me."
+
+ cdol_drain.0040.ending: "[carn_sex_partner.GetHerHis|U] gazes into my eyes, completely smitten, and the windows of [carn_sex_partner.GetHerHis] soul are open to me."
+ cdol_drain.0040.a: "Let us become one in the dark."
+
+ cdol_drain.0050.ending: "[carn_sex_partner.GetHerHis|U] thoughts and worries melt away as [carn_sex_partner.GetSheHe] surrenders [carn_sex_partner.GetHerselfHimself] to my intoxicating form."
+ cdol_drain.0050.a: "Forget it all and lie with me..."
+
+ cdol_drain.0060.ending: "I can feel the raw power and art of [carn_sex_partner.GetHerHis] form filling me like the rays of the sun."
+ cdol_drain.0060.a: "Your strength shall be my strength."
+
+ cdol_drain.0070.ending: "I writhe in orgasm as I feel [carn_sex_partner.GetHerHis] sweetness, [carn_sex_partner.GetHerHis] magnificence, caressing my skin and burning into my soul."
+ cdol_drain.0070.a: "Complete me! Make me perfect!"
+
+ cdol_drain.0080.ending: "We orgasm as one, our minds and experiences blossoming into a universe of pleasure, a mind-melting climax that stretches into infinity..."
+ cdol_drain.0080.a: "I see everything, everything...!"
+
+ cdol_drain.0090.ending: "[carn_sex_partner.GetHerHis|U] every touch sets my skin alight, flooding my bosom and loins with an unimaginably pleasurable fire."
+ cdol_drain.0090.a: "Yes! Fill me up... Make me whole!"
+
+ cdol_drain.0100.ending: "I can feel [carn_sex_partner.GetHerHis] intoxicating passion and vitality, melting deliciously into my lips as we embrace."
+ cdol_drain.0100.a: "You shall be a moth to my flame."
 
 
  cdol_drain.generic_victim_title: "Exhaustion"
@@ -20,3 +42,33 @@
 
  cdol_drain.0011.ending: "More and more often, I catch myself tripping over my own shoes or falling asleep in the middle of an address."
  cdol_drain.0011.a: "Am I losing my touch?"
+
+ cdol_drain.0021.ending: "I frequently find my eyes glazing over scouts' reports, and my troops whisper that I am unfit to command."
+ cdol_drain.0021.a: "I do not understand..."
+
+ cdol_drain.0031.ending: "As my advisors press for my judgment on taxes and trade, I find that I am unable to summon the wisdom to answer them."
+ cdol_drain.0031.a: "Am I losing my mind?"
+
+ cdol_drain.0041.ending: "The pace of court is overwhelming, and I find it more and more difficult to gauge the intentions of others."
+ cdol_drain.0041.a: "I feel so tired."
+
+ cdol_drain.0051.ending: "I have found myself growing more and more scatter-brained, unable to recall the simplest things."
+ cdol_drain.0051.a: "I should get some rest..."
+
+ cdol_drain.0061.ending: "I have been forced to retire from sparring, for I am too tired and unsteady to hold a sword."
+ cdol_drain.0061.a: "What is going on?"
+ 
+ cdol_drain.0071.title: "Fleeting Beauty"
+ cdol_drain.0071.desc: "As I looked in the mirror today, I was horrified to see a face that I barely recognized.\n\nMy imperfections have grown into huge dimples and unsightly scars, and the natural grace I once possessed is nowhere to be found."
+ cdol_drain.0071.a: "What!? Who has done this to me!?"
+ 
+ cdol_drain.0081.title: "A Strange Feeling"
+ cdol_drain.0081.desc: "Lately, I have felt oddly tired and drained in the course of my duties. My scribes have been giving me strange looks and asking if I am feeling well.\n\nThere is a nagging feeling, in the back of my mind, that I have forgotten something important."
+ cdol_drain.0081.a: "It's probably nothing..."
+ 
+ cdol_drain.0091.title: "An Unwelcome Change"
+ cdol_drain.0091.desc: "Today, my body felt strangely light and sore. I thought nothing of it until I went to dress myself and looked in the mirror.\n\nMy most intimate parts have, for lack of a better word, shrunk. They have grown smaller and smoother, almost mocking my [ROOT.Char.GetWomanMan]ly figure with their diminished proportions."
+ cdol_drain.0091.a: "What!? How could this happen!?"
+
+ cdol_drain.0101.ending: "In my daily duties, I feel tired and listless, without the motivation to do much of anything."
+ cdol_drain.0101.a: "Maybe I should lie down for a bit..."

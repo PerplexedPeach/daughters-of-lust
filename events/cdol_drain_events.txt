@@ -805,7 +805,7 @@ cdol_drain.0070 = {
 	}
 
 	option = { # Don't drain
-		name = cdol_drain.generic_refusal
+		name = cdol_drain.difficult_refusal
 	}
 
 	after = {
@@ -825,7 +825,7 @@ cdol_drain.0071 = {
 	theme = physical_health
 	left_portrait = {
 		character = scope:carn_sex_partner
-		animation = worry
+		animation = shock
 	}
 
 	immediate = {
@@ -834,6 +834,7 @@ cdol_drain.0071 = {
 			name = cdol_health_drained_modifier
 			years = 5
 		}
+		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -897,7 +898,7 @@ cdol_drain.0080 = {
 	}
 
 	option = { # Don't drain
-		name = cdol_drain.generic_refusal
+		name = cdol_drain.difficult_refusal
 	}
 
 	after = {
@@ -926,6 +927,7 @@ cdol_drain.0081 = {
 			name = cdol_health_drained_modifier
 			years = 5
 		}
+		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -1016,7 +1018,7 @@ cdol_drain.0090 = {
 	}
 
 	option = { # Don't drain
-		name = cdol_drain.generic_refusal
+		name = cdol_drain.difficult_refusal
 	}
 
 	after = {
@@ -1052,6 +1054,7 @@ cdol_drain.0091 = {
 			name = cdol_health_drained_modifier
 			years = 5
 		}
+		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -1134,7 +1137,7 @@ cdol_drain.0101 = {
 	theme = physical_health
 	left_portrait = {
 		character = scope:carn_sex_partner
-		animation = worry
+		animation = boredom
 	}
 
 	immediate = {

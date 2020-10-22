@@ -9,8 +9,7 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - Enable "Lady Macbeth" fantasy
 - Enable "succubus hunter" fantasy
 
-# Todo
-- test and write loc for draining events
+# Todo\
 - succubus birth control
 - succubus mastery tiers
 - Sexual Power abilities
