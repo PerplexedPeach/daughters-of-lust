@@ -1,5 +1,7 @@
 ﻿l_english:
 
+ cdol_drain.0001.notification: "[succubus.Custom('CdolSuccubusName')|U]: Sexual Power Absorbed"
+
  cdol_drain.generic_title: "[succubus.Custom('CdolSuccubusName')|U]: The Hunger"
  cdol_drain.generic_opening: "As [carn_sex_partner.GetShortUINameNoTooltip] shudders in ecstasy, electric pleasure washes over me and I feel [carn_sex_partner.GetHerHis] strength flowing into my body.\n\n"
 

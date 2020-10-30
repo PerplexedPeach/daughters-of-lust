@@ -7,6 +7,14 @@
 	}
 }
 
+cdol_has_succubus_powers_trigger = {
+	OR = {
+		cdol_is_succubus_trigger = yes
+		has_character_flag = cdol_has_succubus_powers
+		has_trait_with_flag = cdol_has_succubus_powers
+	}
+}
+
 cdol_show_succubus_revealed_portrait_trigger = {
 	OR = {
 		has_trait = cdol_succubus

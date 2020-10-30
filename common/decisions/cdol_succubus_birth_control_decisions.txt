@@ -1,0 +1,64 @@
+﻿cdol_start_succubus_birth_control_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_succubus_birth_control.dds"
+
+	desc = cdol_start_succubus_birth_control_decision_desc
+
+	selection_tooltip = cdol_start_succubus_birth_control_decision_tooltip
+
+	is_shown = {
+		is_adult = yes
+		cdol_is_succubus_trigger = yes
+		carn_has_absolute_birth_control_trigger = no
+		carn_is_visibly_pregnant_trigger = no
+		carn_has_any_custom_pregnancy_trigger = no
+	}
+	
+	effect = {
+		add_character_flag = carn_absolute_birth_control
+		send_interface_toast = {
+			title = msg_cdol_started_succubus_birth_control
+			left_icon = root
+		}
+		trigger_event = { id = carn_absolute_birth_control.0001 }
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}
+
+cdol_stop_succubus_birth_control_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_succubus_birth_control.dds"
+
+	desc = cdol_stop_succubus_birth_control_decision_desc
+
+	selection_tooltip = cdol_stop_succubus_birth_control_decision_tooltip
+
+	is_shown = {
+		cdol_is_succubus_trigger = yes
+		has_character_flag = carn_absolute_birth_control
+		NOT = { has_trait_with_flag = carn_absolute_birth_control }
+	}
+
+	effect = {
+		remove_character_flag = carn_absolute_birth_control
+		send_interface_toast = {
+			title = msg_cdol_stopped_succubus_birth_control
+			left_icon = root
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

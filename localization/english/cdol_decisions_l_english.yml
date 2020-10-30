@@ -1,4 +1,16 @@
 ﻿l_english:
 
+ cdol_start_succubus_birth_control_decision: "Seal Womb"
+ cdol_start_succubus_birth_control_decision_desc: "As a [ROOT.Char.Custom('CdolSuccubusName')], I can exert fine control over my fertility cycle, ensuring that my trysts will never result in pregnancy."
+ cdol_start_succubus_birth_control_decision_tooltip: "Prevent unwanted pregnancies from occurring"
+ cdol_start_succubus_birth_control_decision_confirm: "I feel the warmth filling me..."
+ msg_cdol_started_succubus_birth_control: "Sealed Womb"
+
+ cdol_stop_succubus_birth_control_decision: "Unseal Womb"
+ cdol_stop_succubus_birth_control_decision_desc: "It is time to relax my control over my fertility and allow myself to experience the joy of impregnation once more."
+ cdol_stop_succubus_birth_control_decision_tooltip: "Allow yourself to get pregnant"
+ cdol_stop_succubus_birth_control_decision_confirm: "I feel the warmth filling me..."
+ msg_cdol_stopped_succubus_birth_control: "Unsealed Womb"
+
  cdol_become_succubus_decision: "Perform [ROOT.Char.Custom('CdolSuccubusName')|U] Transformation Ritual"
  cdol_awaken_succubus_ancestry_decision: "Awaken [ROOT.Char.Custom('CdolSuccubusName')|U] Ancestry"

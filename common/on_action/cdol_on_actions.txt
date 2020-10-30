@@ -1,5 +1,5 @@
 ﻿carn_on_sex = {
 	events = {
-		cdol_drain.0001
+		cdol_drain.0001 # succubus drain on sex
 	}
 }
