@@ -1,7 +1,7 @@
 ﻿l_english:
 
- cdol_succubus_mastery: "Succubus Mastery"
- cdol_succubus_mastery_desc: "This succubus is growing in power."
+ cdol_succubus_mastery: "[GetPlayer.Custom('CdolSuccubusName')|U] Mastery"
+ cdol_succubus_mastery_desc: "[cdol_sexual_power|E] courses through your body."
 
  cdol_diplomacy_drained_modifier: "Exhausted"
  cdol_diplomacy_drained_modifier_desc: "Exhaustion weights heavily on this character."

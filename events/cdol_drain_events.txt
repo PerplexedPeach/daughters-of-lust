@@ -26,6 +26,155 @@ cdol_drain.0001 = {
 
 	immediate = {
 		save_scope_as = succubus
+		save_scope_value_as = {
+			name = cdol_drain_outcome
+			value = flag:event
+		}
+
+		# random bonuses!
+		random_list = {
+			50 = { # health boost
+				save_scope_value_as = {
+					name = cdol_drain_outcome
+					value = flag:health_boost
+				}
+			}
+			30 = { # temptation perk unlock
+				trigger = {
+					NOT = { has_trait = seducer }
+				}
+				save_scope_value_as = {
+					name = cdol_drain_outcome
+					value = flag:perk
+				}
+			}
+			10 = { # opportunity to drain diplomacy
+				trigger = {
+					scope:carn_sex_partner = {
+						diplomacy >= 10
+						NOT = { has_character_flag = cdol_diplomacy_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0010
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain martial
+				trigger = {
+					scope:carn_sex_partner = {
+						martial >= 10
+						NOT = { has_character_flag = cdol_martial_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0020
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain stewardship
+				trigger = {
+					scope:carn_sex_partner = {
+						stewardship >= 10
+						NOT = { has_character_flag = cdol_stewardship_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0030
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain intrigue
+				trigger = {
+					scope:carn_sex_partner = {
+						intrigue >= 10
+						NOT = { has_character_flag = cdol_intrigue_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0040
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain learning
+				trigger = {
+					scope:carn_sex_partner = {
+						learning >= 10
+						NOT = { has_character_flag = cdol_learning_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0050
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain prowess
+				trigger = {
+					scope:carn_sex_partner = {
+						prowess >= 10
+						NOT = { has_character_flag = cdol_prowess_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0060
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain beauty
+				trigger = {
+					NOT = { has_trait = beauty_good_3 }
+					scope:carn_sex_partner = {
+						has_trait = beauty_good
+						NOT = { has_character_flag = cdol_beauty_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0070
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain intellect
+				trigger = {
+					NOT = { has_trait = intellect_good_3 }
+					scope:carn_sex_partner = {
+						has_trait = intellect_good
+						NOT = { has_character_flag = cdol_intellect_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0080
+					days = 1
+				}
+			}
+			10 = { # opportunity to drain dick/tit size
+				trigger = {
+					has_game_rule = carn_dt_enabled
+					NOT = { has_trait = tits_big_3 }
+					OR = {
+						carn_gender_can_impregnate_trigger = no
+						NOT = { has_trait = dick_big_3 }
+					}
+					scope:carn_sex_partner = {
+						OR = {
+							has_trait = tits_big
+							has_trait = dick_big
+						}
+						NOT = { has_character_flag = cdol_dt_drained }
+					}
+				}
+				trigger_event = {
+					id = cdol_drain.0090
+					days = 1
+				}
+			}
+			20 = { # opportunity to drain health (generic)
+				trigger_event = {
+					id = cdol_drain.0100
+					days = 1
+				}
+			}
+		}
+
 		send_interface_message = {
 			title = cdol_drain.0001.notification
 			type = event_generic_good
@@ -44,146 +193,21 @@ cdol_drain.0001 = {
 			# gain succubus mastery modifier
 			add_character_modifier = cdol_succubus_mastery
 
-			# random bonuses!
-			random_list = {
-				50 = { # health boost
-					# uses a vanilla modifier to make it look less sus
-					add_character_modifier = {
-						modifier = spouse_health_modifier
-						years = 2
-					}
+			if = {
+				limit = {
+					scope:cdol_drain_outcome = flag:health_boost
 				}
-				30 = { # temptation perk unlock
-					trigger = {
-						NOT = { has_trait = seducer }
-					}
-					cdol_unlock_random_temptation_tree_perk_effect = yes
+				# uses a vanilla modifier to make it look less sus
+				add_character_modifier = {
+					modifier = spouse_health_modifier
+					years = 2
 				}
-				10 = { # opportunity to drain diplomacy
-					trigger = {
-						scope:carn_sex_partner = {
-							diplomacy >= 10
-							NOT = { has_character_flag = cdol_diplomacy_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0010
-						days = 1
-					}
+			}
+			else_if = {
+				limit = {
+					scope:cdol_drain_outcome = flag:perk
 				}
-				10 = { # opportunity to drain martial
-					trigger = {
-						scope:carn_sex_partner = {
-							martial >= 10
-							NOT = { has_character_flag = cdol_martial_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0020
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain stewardship
-					trigger = {
-						scope:carn_sex_partner = {
-							stewardship >= 10
-							NOT = { has_character_flag = cdol_stewardship_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0030
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain intrigue
-					trigger = {
-						scope:carn_sex_partner = {
-							intrigue >= 10
-							NOT = { has_character_flag = cdol_intrigue_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0040
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain learning
-					trigger = {
-						scope:carn_sex_partner = {
-							learning >= 10
-							NOT = { has_character_flag = cdol_learning_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0050
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain prowess
-					trigger = {
-						scope:carn_sex_partner = {
-							prowess >= 10
-							NOT = { has_character_flag = cdol_prowess_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0060
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain beauty
-					trigger = {
-						NOT = { has_trait = beauty_good_3 }
-						scope:carn_sex_partner = {
-							has_trait = beauty_good
-							NOT = { has_character_flag = cdol_beauty_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0070
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain intellect
-					trigger = {
-						NOT = { has_trait = intellect_good_3 }
-						scope:carn_sex_partner = {
-							has_trait = intellect_good
-							NOT = { has_character_flag = cdol_intellect_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0080
-						days = 1
-					}
-				}
-				10 = { # opportunity to drain dick/tit size
-					trigger = {
-						has_game_rule = carn_dt_enabled
-						NOT = { has_trait = tits_big_3 }
-						OR = {
-							carn_gender_can_impregnate_trigger = no
-							NOT = { has_trait = dick_big_3 }
-						}
-						scope:carn_sex_partner = {
-							OR = {
-								has_trait = tits_big
-								has_trait = dick_big
-							}
-							NOT = { has_character_flag = cdol_dt_drained }
-						}
-					}
-					trigger_event = {
-						id = cdol_drain.0090
-						days = 1
-					}
-				}
-				20 = { # opportunity to drain health (generic)
-					trigger_event = {
-						id = cdol_drain.0100
-						days = 1
-					}
-				}
+				cdol_unlock_random_temptation_tree_perk_effect = yes
 			}
 		}
 	}

@@ -1,0 +1,8 @@
+﻿l_english:
+
+ cdol_gain_sexual_power_effect_first: "You gain $VALUE|0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect_first_past: "You gained $VALUE|0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] gains $VALUE|0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] gained $VALUE|0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect: "Gains $VALUE|0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect_past: "Gained $VALUE|0$ [cdol_sexual_power|E]"

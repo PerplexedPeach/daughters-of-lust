@@ -1,0 +1,8 @@
+﻿cdol_gain_sexual_power_effect = {
+	first = cdol_gain_sexual_power_effect_first
+	first_past = cdol_gain_sexual_power_effect_first_past
+	third = cdol_gain_sexual_power_effect_third
+	third_past = cdol_gain_sexual_power_effect_third_past
+	global = cdol_gain_sexual_power_effect
+	global_past = cdol_gain_sexual_power_past
+}

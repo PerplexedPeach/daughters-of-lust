@@ -1,0 +1,10 @@
+﻿cdol_gain_sexual_power_effect = {
+	custom_description = {
+		text = cdol_gain_sexual_power_effect
+		value = $VALUE$
+		change_variable = {
+			name = cdol_sexual_power
+			add = $VALUE$
+		}
+	}
+}

@@ -1,11 +1,4 @@
-﻿cdol_gain_sexual_power_effect = {
-	change_variable = {
-		name = cdol_sexual_power
-		add = $VALUE$
-	}
-}
-
-cdol_unlock_random_temptation_tree_perk_effect = {
+﻿cdol_unlock_random_temptation_tree_perk_effect = {
 	random_list = {
 		10 = {
 			trigger = {

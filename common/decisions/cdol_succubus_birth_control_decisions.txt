@@ -19,6 +19,7 @@
 		send_interface_toast = {
 			title = msg_cdol_started_succubus_birth_control
 			left_icon = root
+			custom_tooltip = cdol_start_succubus_birth_control_decision_effect_tooltip
 		}
 		trigger_event = { id = carn_absolute_birth_control.0001 }
 	}
@@ -51,6 +52,7 @@ cdol_stop_succubus_birth_control_decision = {
 		send_interface_toast = {
 			title = msg_cdol_stopped_succubus_birth_control
 			left_icon = root
+			custom_tooltip = cdol_stop_succubus_birth_control_decision_effect_tooltip
 		}
 	}
 	

@@ -1,4 +1,4 @@
 ﻿l_english:
 
- cdol_sire_succubus_interaction: "Sire [ACTOR.Custom('CdolSuccubusName')|U]"
- cdol_sire_succubus_interaction_desc: "Infuse [recipient.GetShortUINameNoTooltip] with [cdol_sexual_power|E]"
+ cdol_succubus_conversion_interaction: "[ACTOR.Custom('CdolSuccubusName')|U] Conversion"
+ cdol_succubus_conversion_interaction_desc: "Transform [recipient.GetShortUINameNoTooltip] into a [cdol_succubus|E]"
