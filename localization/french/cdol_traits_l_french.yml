@@ -1,0 +1,5 @@
+﻿l_french:
+
+trait_cdol_succubus:1 "Succube"
+trait_cdol_succubus_desc:1 "Ce personnage est connu comme étant une tentatrice surnaturelle qui tire son pouvoir du sexe."
+trait_cdol_succubus_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] est connue comme étant une tentatrice surnaturelle qui tire son pouvoir du sexe."

@@ -1,0 +1,7 @@
+﻿l_french: 
+########################################
+# French specific localization strings #
+########################################
+
+cdol_CustomLoc_FR_FemininMasculin_male:1 "masculin"
+cdol_CustomLoc_FR_FemininMasculin_female:1 "féminin"

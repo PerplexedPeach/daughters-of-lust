@@ -1,0 +1,76 @@
+﻿l_french:
+
+cdol_drain.0001.notification:1 "[succubus.Custom('CdolSuccubusName')|U]: Puissance sexuelle absorbée"
+
+cdol_drain.generic_title:1 "[succubus.Custom('CdolSuccubusName')|U]: La Faim"
+cdol_drain.generic_opening:1 "Alors que [carn_sex_partner.GetShortUINameNoTooltip] frissonne d'extase, un plaisir électrique me submerge et je sens sa force se répandre dans mon corps.\n\n"
+
+cdol_drain.generic_refusal:1 "Non, [carn_sex_partner.GetShortUINameNoTooltip] mérite mieux."
+cdol_drain.difficult_refusal:1 "Je... Je dois résister !"
+
+cdol_drain.0010.ending:1 "La poésie de son âme résonne en moi, attendant d'être amenée à mes lèvres par un baiser."
+cdol_drain.0010.a:1 "Vous serez la source de ma grâce."
+
+cdol_drain.0020.ending:1 "Je peux sentir le feu de sa passion sur le point de m'enflammer."
+cdol_drain.0020.a:1 "Comme vous avez conquis, je vous conquerrai aussi."
+
+cdol_drain.0030.ending:1 "Orgasme après orgasme, sa prudence et sa raison cédent place à la chaleur du désir."
+cdol_drain.0030.a:1 "Vos idées seront miennes."
+
+cdol_drain.0040.ending:1 "son regard perdu dans mes yeux, complètement subjugué[carn_sex_partner.Custom('FR_E')], et les fenêtres de son âme me sont ouvertes."
+cdol_drain.0040.a:1 "Devenons un dans l'obscurité."
+
+cdol_drain.0050.ending:1 "Ses pensées et ses soucis se dissipent alors qu'[carn_sex_partner.GetSheHe] s'abandonne à ma forme enivrante."
+cdol_drain.0050.a:1 "Oubliez tout le reste et allongez-vous avec moi..."
+
+cdol_drain.0060.ending:1 "Je peux sentir la puissance absolue et la beauté de sa forme me remplir comme les rayons du soleil."
+cdol_drain.0060.a:1 "Votre force sera ma force."
+
+cdol_drain.0070.ending:1 "Je me perds dans l'orgasme alors que je ressens sa douceur, sa magnificence, caressant ma peau et inondant mon âme."
+cdol_drain.0070.a:1 "Comblez moi ! Rendez-moi parfaite !"
+
+cdol_drain.0080.ending:1 "Nous jouissons comme une seule personne, nos esprits et nos expériences s'épanouissent dans un univers de plaisir, un climax fusionnel s'étendant à l'infini..."
+cdol_drain.0080.a:1 "Je vois tout, tout... !"
+
+cdol_drain.0090.ending:1 "Chacun de ses contacts embrase ma peau, inondant ma poitrine et mes reins d'un plaisir inimaginable."
+cdol_drain.0090.a:1 "Oui ! Remplissez-moi... Rendez-moi entière !"
+
+cdol_drain.0100.ending:1 "Je peux sentir sa passion et sa vitalité enivrantes fondre délicieusement dans mes lèvres alors que nous nous embrassons."
+cdol_drain.0100.a:1 "Vous serez une phalène pour ma flamme."
+
+
+cdol_drain.generic_victim_title:1 "Épuisement"
+cdol_drain.generic_victim_opening:1 "Ces derniers temps, je ne me sens pas moi-même, même si j'aurais du mal à en donner la raison.\n\n"
+
+cdol_drain.0011.ending:1 "De plus en plus souvent, je me surprends à trébucher sur mes propres chaussures ou à m'endormir au milieu d'une audience."
+cdol_drain.0011.a:1 "Suis-je en train de perdre la main ?"
+
+cdol_drain.0021.ending:1 "J'ai souvent les yeux dans le vague sur les rapports des éclaireurs, et mes troupes murmurent que je suis inapte à commander."
+cdol_drain.0021.a:1 "Je ne comprends pas..."
+
+cdol_drain.0031.ending:1 "Alors que mes conseillers insistent pour que je rende un jugement sur les impôts et le commerce, je me rends compte que je ne suis pas en mesure d'invoquer la sagesse pour y répondre."
+cdol_drain.0031.a:1 "Suis-je en train de perdre la tête ?"
+
+cdol_drain.0041.ending:1 "Le rythme de la cour est effréné, et je trouve de plus en plus difficile de jauger les intentions des autres."
+cdol_drain.0041.a:1 "Je me sens si fatigué[ROOT.Char.Custom('FR_E')]."
+
+cdol_drain.0051.ending:1 "Je me suis senti[ROOT.Char.Custom('FR_E')] de plus en plus étourdi[ROOT.Char.Custom('FR_E')], incapable de me souvenir des choses les plus simples."
+cdol_drain.0051.a:1 "Je devrais me reposer..."
+
+cdol_drain.0061.ending:1 "J'ai été contraint[ROOT.Char.Custom('FR_E')] de me retirer du combat, car je suis trop fatigué[ROOT.Char.Custom('FR_E')] et instable pour tenir une épée."
+cdol_drain.0061.a:1 "Que se passe-t-il ?"
+
+cdol_drain.0071.title:1 "Beauté vacillante"
+cdol_drain.0071.desc:1 "En me regardant dans le miroir aujourd'hui, j'ai été horrifiée de voir un visage que je reconnaissais à peine.\n\nMes imperfections sont devenues d'énormes fossettes et des cicatrices disgracieuses, et la grâce naturelle que je possédais autrefois a disparue."
+cdol_drain.0071.a:1 "Quoi !? Qui m'a fait ça !?"
+
+cdol_drain.0081.title:1 "Un sentiment étrange"
+cdol_drain.0081.desc:1 "Ces derniers temps, je me suis senti[ROOT.Char.Custom('FR_E')] étrangement fatigué[ROOT.Char.Custom('FR_E')] et épuisé[ROOT.Char.Custom('FR_E')] dans l'exercice de mes fonctions. Mes scribes m'ont lancé des regards étranges et m'ont demandé si je me sentais bien.\n\nJ'ai le sentiment tenace, au fond de mon esprit, d'avoir oublié quelque chose d'important."
+cdol_drain.0081.a:1 "Ce n'est probablement rien..."
+
+cdol_drain.0091.title:1 "Un changement malvenu"
+cdol_drain.0091.desc:1 "Aujourd'hui, mon corps était étrangement léger et douloureux. Je n'y ai pas pensé jusqu'à ce que je m'habille et que je me regarde dans le miroir.\n\nMes parties les plus intimes ont, faute de mieux, rétréci. Elles sont devenues plus petites et plus lisses, moquant presque ma silhouette [ROOT.Char.Custom('FR_FemininMasculin')]e avec leurs proportions diminuées."
+cdol_drain.0091.a:1 "Quoi !? Comment cela a-t-il pu se produire !?"
+
+cdol_drain.0101.ending:1 "Dans mes tâches quotidiennes, je me sens fatigué[ROOT.Char.Custom('FR_E')] et apathique, sans la motivation nécessaire pour faire quoi que ce soit."
+cdol_drain.0101.a:1 "Je devrais peut-être m'allonger un peu..."

@@ -1,0 +1,27 @@
+﻿FR_FemininMasculin = { 
+	type = character
+	text = {
+		trigger = {
+			trigger_if = {
+				limit = { 
+					exists = this
+					NOT = { exists = scope:second }
+				}
+				this = { is_female = yes }
+			}
+			trigger_if = {
+				limit = { 
+					exists = this
+					exists = scope:second
+				}
+				this = { is_female = yes }
+				scope:second = { is_female = yes }
+			}
+		}
+		localization_key = cdol_CustomLoc_FR_FemininMasculin_female
+	}
+	text = {
+		localization_key = cdol_CustomLoc_FR_FemininMasculin_male
+		fallback = yes
+	}
+}

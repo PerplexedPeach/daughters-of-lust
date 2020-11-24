@@ -1,0 +1,3 @@
+﻿l_french:
+cdol_succubus_crime:1 "[GetTrait('cdol_succubus').GetName( GetNullCharacter )] connue"
+cdol_succubus_intolerant:1 "[GetTrait('cdol_succubus').GetName( GetNullCharacter )] connue"

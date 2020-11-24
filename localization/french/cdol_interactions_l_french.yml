@@ -1,0 +1,4 @@
+﻿l_french:
+
+cdol_succubus_conversion_interaction:1 "Conversion en [ACTOR.Custom('CdolSuccubusName')]"
+cdol_succubus_conversion_interaction_desc:1 "Transforme [recipient.GetShortUINameNoTooltip] en [cdol_succubus|El]"
