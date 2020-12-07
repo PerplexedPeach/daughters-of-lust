@@ -51,7 +51,7 @@ cdol_give_succubus_secret_or_trait_effect = {
 	}	
 }
 
-cdol_reveal_root_succubus_nature_for_this_event_effect = {
+cdol_reveal_root_succubus_portrait_for_this_event_effect = {
 	if = {
 		limit = { is_ai = no }
 		add_character_flag = {
@@ -61,6 +61,6 @@ cdol_reveal_root_succubus_nature_for_this_event_effect = {
 	}
 }
 
-cdol_stop_reveal_root_succubus_nature_effect = {
+cdol_stop_reveal_root_succubus_portrait_effect = {
 	remove_character_flag = cdol_show_succubus_revealed_portrait
 }

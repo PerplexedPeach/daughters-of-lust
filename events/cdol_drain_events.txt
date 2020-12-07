@@ -177,7 +177,7 @@ cdol_drain.0001 = {
 
 		send_interface_message = {
 			title = cdol_drain.0001.notification
-			type = event_generic_good
+			type = cdol_succubus_event_good
 			left_icon = this
 			right_icon = scope:carn_sex_partner
 
@@ -236,7 +236,7 @@ cdol_drain.0010 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -273,7 +273,7 @@ cdol_drain.0010 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -329,7 +329,7 @@ cdol_drain.0020 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -366,7 +366,7 @@ cdol_drain.0020 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -422,7 +422,7 @@ cdol_drain.0030 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -459,7 +459,7 @@ cdol_drain.0030 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -515,7 +515,7 @@ cdol_drain.0040 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -552,7 +552,7 @@ cdol_drain.0040 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -608,7 +608,7 @@ cdol_drain.0050 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -645,7 +645,7 @@ cdol_drain.0050 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -701,7 +701,7 @@ cdol_drain.0060 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -738,7 +738,7 @@ cdol_drain.0060 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -794,7 +794,7 @@ cdol_drain.0070 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -832,7 +832,7 @@ cdol_drain.0070 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -887,7 +887,7 @@ cdol_drain.0080 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -925,7 +925,7 @@ cdol_drain.0080 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -979,7 +979,7 @@ cdol_drain.0090 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -1045,7 +1045,7 @@ cdol_drain.0090 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -1106,7 +1106,7 @@ cdol_drain.0100 = {
 
 	immediate = {
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -1141,7 +1141,7 @@ cdol_drain.0100 = {
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
