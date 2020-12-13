@@ -47,6 +47,7 @@ cdol_drain.0001 = {
 					name = cdol_drain_outcome
 					value = flag:perk
 				}
+				cdol_select_random_unlockable_temptation_tree_perk_effect = yes
 			}
 			10 = { # opportunity to drain diplomacy
 				trigger = {
@@ -207,7 +208,7 @@ cdol_drain.0001 = {
 				limit = {
 					scope:cdol_drain_outcome = flag:perk
 				}
-				cdol_unlock_random_temptation_tree_perk_effect = yes
+				cdol_unlock_selected_temptation_tree_perk_effect = yes
 			}
 		}
 	}

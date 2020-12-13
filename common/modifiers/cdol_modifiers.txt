@@ -1,4 +1,5 @@
 ﻿cdol_succubus_mastery = {
+	icon = fertility_positive
 	fertility = 0.05
 	life_expectancy = 2
 	years_of_fertility = 2
