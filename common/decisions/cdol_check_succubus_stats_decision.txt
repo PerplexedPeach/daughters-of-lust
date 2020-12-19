@@ -5,15 +5,21 @@
 
 	desc = cdol_check_succubus_stats_decision_desc
 
-	selection_tooltip = cdol_current_sexual_power_description
+	selection_tooltip = cdol_check_succubus_stats_decision_desc
 
 	is_shown = {
-		cdol_is_succubus_trigger = yes
+		cdol_has_succubus_powers_trigger = yes
 	}
 	
 	effect = {
-		custom_tooltip = cdol_current_sexual_power_description
-		custom_tooltip = cdol_current_succubus_mastery_level_description
+		# custom_description_no_bullet = {
+		# 	text = cdol_current_sexual_power_description
+		# 	VALUE = var:cdol_sexual_power
+		# }
+		custom_description_no_bullet = {
+			text = cdol_current_succubus_mastery_level_description
+			VALUE = var:cdol_succubus_mastery_level
+		}
 	}
 	
 	ai_potential = {

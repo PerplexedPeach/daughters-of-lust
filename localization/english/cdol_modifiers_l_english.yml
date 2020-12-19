@@ -23,3 +23,5 @@
 
  cdol_health_drained_modifier: "Malaise"
  cdol_health_drained_modifier_desc: "This character is not feeling well."
+
+ cdol_life_drained_modifier: "Drained"

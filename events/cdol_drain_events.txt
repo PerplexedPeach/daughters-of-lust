@@ -26,6 +26,13 @@ cdol_drain.0001 = {
 
 	immediate = {
 		save_scope_as = succubus
+
+		set_variable = {
+			name = cdol_recent_succubus_sex_partner
+			value = scope:carn_sex_partner
+			days = 30
+		}
+		
 		save_scope_value_as = {
 			name = cdol_drain_outcome
 			value = flag:event

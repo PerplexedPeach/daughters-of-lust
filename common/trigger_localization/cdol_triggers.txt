@@ -1,0 +1,17 @@
+﻿cdol_has_sexual_power_trigger = {
+	first = cdol_you_have_sexual_power
+	first_not = cdol_you_do_not_have_sexual_power
+	third = cdol_they_has_sexual_power
+	third_not = cdol_they_do_not_have_sexual_power
+	global = cdol_has_sexual_power
+	global_not = cdol_does_not_have_sexual_power
+}
+
+cdol_recently_laid_with_target_trigger = {
+	first = cdol_you_recently_laid_with_target
+	first_not = cdol_you_did_not_recently_lay_with_target
+	third = cdol_they_recently_laid_with_target
+	third_not = cdol_they_did_not_recently_lay_with_target
+	global = cdol_recently_laid_with_target
+	global_not = cdol_did_not_recently_lay_with_target
+}

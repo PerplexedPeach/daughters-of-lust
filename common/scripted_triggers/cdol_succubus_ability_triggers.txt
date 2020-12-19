@@ -1,0 +1,10 @@
+﻿cdol_recent_succubus_sex_partner_is_recipient_trigger = {
+	scope:actor = {
+		custom_description = {
+			text = cdol_recently_laid_with_target_trigger
+			object = scope:recipient
+			has_variable = cdol_recent_succubus_sex_partner
+			var:cdol_recent_succubus_sex_partner = scope:recipient
+		}
+	}
+}

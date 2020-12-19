@@ -1,10 +1,55 @@
 ﻿cdol_gain_sexual_power_effect = {
-	custom_description = {
-		text = cdol_gain_sexual_power_effect
-		value = $VALUE$
-		change_variable = {
-			name = cdol_sexual_power
-			add = $VALUE$
+	if = {
+		limit = {
+			cdol_sexual_power_maximum < {
+				value = var:cdol_sexual_power
+				add = $VALUE$
+			}
+		}
+		custom_description = {
+			text = cdol_max_out_sexual_power_effect
+			set_variable = {
+				name = cdol_sexual_power
+				value = cdol_sexual_power_maximum
+			}
+		}
+	}
+	else = {
+		custom_description = {
+			text = cdol_gain_sexual_power_effect
+			value = $VALUE$
+			change_variable = {
+				name = cdol_sexual_power
+				add = $VALUE$
+			}
+		}
+	}
+}
+
+cdol_lose_sexual_power_effect = {
+	if = {
+		limit = {
+			0 > {
+				value = var:cdol_sexual_power
+				subtract = $VALUE$
+			}
+		}
+		custom_description = {
+			text = cdol_lose_all_sexual_power_effect
+			set_variable = {
+				name = cdol_sexual_power
+				value = 0
+			}
+		}
+	}
+	else = {
+		custom_description = {
+			text = cdol_lose_sexual_power_effect
+			value = $VALUE$
+			change_variable = {
+				name = cdol_sexual_power
+				subtract = $VALUE$
+			}
 		}
 	}
 }
