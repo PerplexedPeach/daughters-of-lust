@@ -37,7 +37,7 @@
                 }
             }
             cdol_manipulation_stress_impact_effect = {
-                $VICTIM$ = scope:recipient
+                VICTIM = scope:recipient
             }
             cdol_add_suspicion_effect = yes
         }

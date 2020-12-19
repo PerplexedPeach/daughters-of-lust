@@ -9,6 +9,7 @@
 			gluttonous = minor_stress_impact_loss
 			temperate = minor_stress_impact_gain
 		}
+	}
 	else_if = { # I care about them a lot
 		limit = {
 			OR = {
@@ -49,6 +50,7 @@ cdol_dont_drain_stress_impact_effect = {
 			compassionate = minor_stress_impact_loss
 			temperate = minor_stress_impact_loss
 		}
+	}
 	else_if = { # I care about them a lot
 		limit = {
 			OR = {
