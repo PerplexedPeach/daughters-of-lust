@@ -6,6 +6,9 @@ game_concept_cdol_awaken_succubus_ancestry_decision_desc: "A female character wi
 game_concept_cdol_become_succubus_decision: "Perform Succubus Transformation Ritual"
 game_concept_cdol_become_succubus_decision_desc: "A female [GetTrait('witch').GetName( GetNullCharacter )] can take this [decision|E] to transform herself into a [cdol_succubus|E]."
 
+game_concept_cdol_drain_life_interaction: "$cdol_drain_life_interaction$"
+game_concept_cdol_drain_life_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_drain_life_succubus_mastery_level')|0] can use this [character_interaction|E] to inflict a [health|E] penalty on a [character|E] she has laid with in the past 30 days."
+
 game_concept_cdol_sexual_power: "Sexual Power"
 game_concept_cdol_sexual_power_desc: "Sexual Power is used by [cdol_succubi|E] to fuel their abilities. It is absorbed through sex and may be spent on powerful [decisions|E] and [interactions|E] which are unlocked through [cdol_succubus_mastery|E].\n\nFrequently using Sexual Power may arouse [cdol_suspicion|E]."
 

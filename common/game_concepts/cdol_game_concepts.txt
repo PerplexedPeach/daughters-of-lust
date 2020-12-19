@@ -8,6 +8,11 @@ cdol_become_succubus_decision = {
 	parent = decision
 }
 
+cdol_drain_life_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
 cdol_sexual_power = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 }
