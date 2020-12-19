@@ -1,11 +1,11 @@
 ﻿l_english:
 
- cdol_you_have_sexual_power: "You have $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
- cdol_you_do_not_have_sexual_power: "You do not have $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
- cdol_they_has_sexual_power: "[CHARACTER.MakeScope.GetShortUIName|U] has $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
- cdol_they_do_not_have_sexual_power: "[CHARACTER.GetShortUIName|U] does not have $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
- cdol_has_sexual_power: "Has $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
- cdol_does_not_have_sexual_power: "Does not have $VALUE|0$ [cdol_sexual_power|E] #weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
+ cdol_you_have_sexual_power: "You have $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_you_do_not_have_sexual_power: "You do not have $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_they_has_sexual_power: "[CHARACTER.MakeScope.GetShortUIName|U] has $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_they_do_not_have_sexual_power: "[CHARACTER.GetShortUIName|U] does not have $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_has_sexual_power: "Has $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_does_not_have_sexual_power: "Does not have $VALUE|0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
 
  cdol_you_recently_laid_with_target: "You have laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
  cdol_you_did_not_recently_lay_with_target: "You have not laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"

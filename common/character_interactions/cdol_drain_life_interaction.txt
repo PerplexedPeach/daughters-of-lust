@@ -54,6 +54,9 @@
                     }
                 }
             }
+            cdol_drain_stress_impact_effect = {
+                VICTIM = scope:recipient
+            }
             cdol_add_suspicion_effect = yes
         }
     }

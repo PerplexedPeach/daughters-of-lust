@@ -272,11 +272,17 @@ cdol_drain.0010 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_diplomacy_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -365,11 +371,17 @@ cdol_drain.0020 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_martial_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -458,11 +470,17 @@ cdol_drain.0030 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_stewardship_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -551,11 +569,17 @@ cdol_drain.0040 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_intrigue_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -644,11 +668,17 @@ cdol_drain.0050 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_learning_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -737,11 +767,17 @@ cdol_drain.0060 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_prowess_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -831,11 +867,17 @@ cdol_drain.0070 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		carn_increase_beauty_one_step_effect = yes
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -924,11 +966,17 @@ cdol_drain.0080 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		carn_increase_intellect_one_step_effect = yes
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -1044,11 +1092,17 @@ cdol_drain.0090 = {
 		else = {
 			carn_increase_tits_size_one_step_effect = yes
 		}
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
@@ -1140,11 +1194,17 @@ cdol_drain.0100 = {
 		cdol_gain_sexual_power_effect = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {

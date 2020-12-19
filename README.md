@@ -24,10 +24,10 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 # Completed Abilities
 
 - 1: Drain Life (Inflict major health penalty on someone after sleeping with them)
+- 5: Fascinate (Single target opinion increase)
 
 # Todo Abilities
 
-- 5: Fascinate (Single target opinion increase)
 - 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
 - 15: Alter Self (Change own beauty, body part size)
 - 20: Alter Sexuality (Sexuality change on target)

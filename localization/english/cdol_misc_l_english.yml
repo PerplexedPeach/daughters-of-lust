@@ -1,0 +1,3 @@
+﻿l_english:
+
+ cdol_current_sexual_power_note: "#weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"

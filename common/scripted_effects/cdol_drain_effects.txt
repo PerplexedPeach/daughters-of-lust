@@ -1,4 +1,5 @@
-﻿# We have to save the unlocked perk separately because tooltips don't handle random lists well. The solution is to randomly select the perk and save it as a scope before displaying the tooltip
+﻿# Temptation Perk effects
+# We have to save the unlocked perk separately because tooltips don't handle random lists well. The solution is to randomly select the perk and save it as a scope before displaying the tooltip
 
 cdol_select_random_unlockable_temptation_tree_perk_effect = {
 	random_list = {

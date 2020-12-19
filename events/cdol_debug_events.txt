@@ -1,6 +1,7 @@
 ﻿namespace = cdol_debug
 
 # 0001. Become a succubus
+# 0002. Max out succubus mastery
 
 # 0001. Become a succubus
 cdol_debug.0001 = {
@@ -8,5 +9,21 @@ cdol_debug.0001 = {
 
 	immediate = {
 		cdol_become_succubus_effect = yes
+	}
+}
+
+# 0002. Max out succubus mastery
+cdol_debug.0002 = {
+	hidden = yes
+
+	immediate = {
+		set_variable = {
+			name = cdol_sexual_power
+			value = cdol_sexual_power_maximum
+		}
+		set_variable = {
+			name = cdol_succubus_mastery_level
+			value = 100
+		}
 	}
 }

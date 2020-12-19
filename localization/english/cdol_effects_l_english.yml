@@ -1,11 +1,11 @@
 ﻿l_english:
 
- cdol_gain_sexual_power_effect_first: "You gain $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_gain_sexual_power_effect_first_past: "You gained $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_gain_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_gain_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_gain_sexual_power_effect: "Gains $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_gain_sexual_power_effect_past: "Gained $VALUE|V0$ [cdol_sexual_power|E]"
+ cdol_gain_sexual_power_effect_first: "You gain $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_first_past: "You gained $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] gains $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] gained $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect: "Gains $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_past: "Gained $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
 
  cdol_max_out_sexual_power_effect: "You reach a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
  cdol_max_out_sexual_power_effect_first_past: "You reached a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
@@ -14,12 +14,12 @@
  cdol_max_out_sexual_power_effect: "Reaches a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
  cdol_max_out_sexual_power_effect_past: "Reached a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
 
- cdol_lose_sexual_power_effect_first: "You lose $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_lose_sexual_power_effect_first_past: "You lost $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_lose_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] loses $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_lose_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] lost $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_lose_sexual_power_effect: "Lose $VALUE|V0$ [cdol_sexual_power|E]"
- cdol_lose_sexual_power_effect_past: "Lost $VALUE|V0$ [cdol_sexual_power|E]"
+ cdol_lose_sexual_power_effect_first: "You lose $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_first_past: "You lost $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] loses $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] lost $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect: "Lose $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_past: "Lost $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
 
  cdol_lose_all_sexual_power_effect_first: "You lose all [cdol_sexual_power|E]"
  cdol_lose_all_sexual_power_effect_first_past: "You lost all [cdol_sexual_power|E]"

@@ -7,3 +7,10 @@
 cdol_succubus_intolerant = {
 	opinion = -50
 }
+
+cdol_fascinated_opinion = {
+	opinion = 40
+	monthly_change = 0.2
+	decaying = yes
+	stacking = yes
+}
