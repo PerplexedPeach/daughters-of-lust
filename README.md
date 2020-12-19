@@ -23,7 +23,7 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - 1: Drain Life (Inflict major health penalty on someone after sleeping with them)
 - 5: Fascinate (Single target opinion increase)
 - 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
-- 15: Shapeshift (Change own beauty, body part size)
+- 15: Alter Self (Change own beauty, body part size)
 - 20: Alter Sexuality (Sexuality change on target)
 - 25: Regenerate (Cure wounds/disfigurements)
 - 30: Torment (Increase Stress on target)
@@ -41,4 +41,5 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 * Head textures from [Character Beautification](https://steamcommunity.com/sharedfiles/filedetails/?id=2222302033)
 * Trait icon based off pattern 037 from [LewdMarks](https://www.loverslab.com/files/file/9655-lewdmarks/)
-* Birth control illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)
+* Check Succubus Stats illustration edited from [Succubus 2](https://www.deviantart.com/leevitron/art/Succubus-2-113565769) by [Leevitron](https://www.deviantart.com/leevitron)
+* Seal/Unseal Womb illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)

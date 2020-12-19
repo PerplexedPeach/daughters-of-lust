@@ -1,0 +1,13 @@
+﻿cdol_reveal_root_succubus_portrait_for_this_event_effect = {
+	if = {
+		limit = { is_ai = no }
+		add_character_flag = {
+			flag = cdol_show_succubus_revealed_portrait
+			days = 1
+		}
+	}
+}
+
+cdol_stop_reveal_root_succubus_portrait_effect = {
+	remove_character_flag = cdol_show_succubus_revealed_portrait
+}

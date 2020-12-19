@@ -1,5 +1,12 @@
 ﻿l_english:
 
+ cdol_check_succubus_stats_decision: "Check [ROOT.Char.Custom('CdolSuccubusName')|U] Stats"
+ cdol_check_succubus_stats_decision_desc: ""
+ cdol_check_succubus_stats_decision_tooltip: "Check your current [cdol_sexual_power|E] and [cdol_succubus_mastery_level|E]"
+ cdol_check_succubus_stats_decision_confirm: "OK"
+ cdol_current_sexual_power_description: "[cdol_sexual_power|E]: #high THIS.Var('cdol_sexual_power').GetValue|0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|0]#!"
+ cdol_current_succubus_mastery_level_description: "[cdol_succubus_mastery_level|E]: #high [THIS.Var('cdol_succubus_mastery_level').GetValue|0]#!"
+
  cdol_start_succubus_birth_control_decision: "Seal Womb"
  cdol_start_succubus_birth_control_decision_desc: "As a [ROOT.Char.Custom('CdolSuccubusName')], I can exert fine control over my fertility cycle, ensuring that my trysts will never result in pregnancy."
  cdol_start_succubus_birth_control_decision_tooltip: "Prevent unwanted pregnancies from occurring"

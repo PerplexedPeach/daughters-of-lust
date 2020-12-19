@@ -1,0 +1,26 @@
+﻿cdol_check_succubus_stats_decision = {
+	ai_check_interval = 0
+	major = yes
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_check_succubus_stats.dds"
+
+	desc = cdol_check_succubus_stats_decision_desc
+
+	selection_tooltip = cdol_current_sexual_power_description
+
+	is_shown = {
+		cdol_is_succubus_trigger = yes
+	}
+	
+	effect = {
+		custom_tooltip = cdol_current_sexual_power_description
+		custom_tooltip = cdol_current_succubus_mastery_level_description
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

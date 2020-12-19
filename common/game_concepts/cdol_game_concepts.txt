@@ -3,6 +3,11 @@
 	alias = { cdol_succubi }
 }
 
+cdol_succubus_mastery = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	alias = { cdol_succubus_mastery_level }
+}
+
 cdol_sexual_power = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 }
