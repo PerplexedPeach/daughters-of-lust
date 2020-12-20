@@ -1,0 +1,49 @@
+﻿CdolDrainLifeFlavor = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = cdol_drain_life_flavor_1
+	}
+
+	text = {
+		localization_key = cdol_drain_life_flavor_2
+	}
+
+	text = {
+		localization_key = cdol_drain_life_flavor_3
+	}
+
+	text = {
+		localization_key = cdol_drain_life_flavor_4
+	}
+
+	text = {
+		localization_key = cdol_drain_life_flavor_5
+	}
+}
+
+CdolFascinateFlavor = {
+	type = character
+	random_valid = yes
+
+	text = {
+		localization_key = cdol_fascinate_flavor_1
+	}
+
+	text = {
+		localization_key = cdol_fascinate_flavor_2
+	}
+
+	text = {
+		localization_key = cdol_fascinate_flavor_3
+	}
+
+	text = {
+		localization_key = cdol_fascinate_flavor_4
+	}
+
+	text = {
+		localization_key = cdol_fascinate_flavor_5
+	}
+}

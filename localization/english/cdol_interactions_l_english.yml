@@ -2,11 +2,11 @@
 
  cdol_drain_life_interaction: "Drain Life"
  cdol_drain_life_interaction_desc: "Use [cdol_sexual_power|E] to secretly drain [recipient.GetShortUINameNoTooltip]'s health"
- cdol_drain_life_interaction_notification: "It feels so good"
+ cdol_drain_life_interaction_notification: "[actor.Custom('CdolDrainLifeFlavor')]"
 
  cdol_fascinate_interaction: "Fascinate"
  cdol_fascinate_interaction_desc: "Use [cdol_sexual_power|E] to improve [recipient.GetShortUINameNoTooltip]'s [opinion|E] of you"
- cdol_fascinate_interaction_notification: "[recipient.GetSheHe|U] can't look away"
+ cdol_fascinate_interaction_notification: "[actor.Custom('CdolFascinateFlavor')]"
 
  cdol_succubus_conversion_interaction: "[ACTOR.Custom('CdolSuccubusName')|U] Conversion"
  cdol_succubus_conversion_interaction_desc: "Transform [recipient.GetShortUINameNoTooltip] into a [cdol_succubus|E]"

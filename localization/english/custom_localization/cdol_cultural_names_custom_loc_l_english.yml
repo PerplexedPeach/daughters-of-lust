@@ -31,5 +31,3 @@ cdol_an_emissary_of_kubera: "an emissary of Kubera"
 cdol_an_innocent_sidhe: "an innocent fairy"
 cdol_a_sacred_maiden_of_the_wild: "a sacred maiden of the wild"
 cdol_a_divine_spirit: "a divine spirit"
-
-cdol_sexual_power_maximum_description: "[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]"

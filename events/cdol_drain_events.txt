@@ -183,6 +183,8 @@ cdol_drain.0001 = {
 			}
 		}
 
+		cdol_on_drain_milk_production_effect = yes
+
 		send_interface_message = {
 			title = cdol_drain.0001.notification
 			type = cdol_succubus_event_good

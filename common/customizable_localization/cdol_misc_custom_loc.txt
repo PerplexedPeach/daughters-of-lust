@@ -1,0 +1,7 @@
+﻿CdolSexualPowerMaximumDescription = {
+	type = character
+	text = {
+		localization_key = cdol_sexual_power_maximum_description
+		fallback = yes
+	}
+}
