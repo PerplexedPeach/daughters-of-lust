@@ -14,7 +14,6 @@
 		limit = {
 			OR = {
 				has_relation_friend = $VICTIM$
-				has_relation_lover = $VICTIM$
 				has_relation_soulmate = $VICTIM$
 				any_child = { this = $VICTIM$ }
 			}
@@ -55,7 +54,6 @@ cdol_dont_drain_stress_impact_effect = {
 		limit = {
 			OR = {
 				has_relation_friend = $VICTIM$
-				has_relation_lover = $VICTIM$
 				has_relation_soulmate = $VICTIM$
 				any_child = { this = $VICTIM$ }
 			}
