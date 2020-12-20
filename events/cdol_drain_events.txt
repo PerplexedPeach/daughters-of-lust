@@ -191,17 +191,18 @@ cdol_drain.0001 = {
 			left_icon = this
 			right_icon = scope:carn_sex_partner
 
-			# increment variables
+			# gain sexual power
 			cdol_gain_sexual_power_effect = {
 				VALUE = cdol_sexual_power_sex_gain_value
 			}
+
+			# gain succubus mastery
 			change_variable = {
 				name = cdol_succubus_mastery_level
 				add = 1
 			}
-
-			# gain succubus mastery modifier
 			add_character_modifier = cdol_succubus_mastery
+			cdol_ability_unlock_tooltip_effect = yes
 
 			if = {
 				limit = {
@@ -245,6 +246,7 @@ cdol_drain.0010 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -311,6 +313,7 @@ cdol_drain.0011 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_diplomacy_drained_modifier
 			years = 5
@@ -344,6 +347,7 @@ cdol_drain.0020 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -410,6 +414,7 @@ cdol_drain.0021 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_martial_drained_modifier
 			years = 5
@@ -443,6 +448,7 @@ cdol_drain.0030 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -509,6 +515,7 @@ cdol_drain.0031 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_stewardship_drained_modifier
 			years = 5
@@ -542,6 +549,7 @@ cdol_drain.0040 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -608,6 +616,7 @@ cdol_drain.0041 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_intrigue_drained_modifier
 			years = 5
@@ -641,6 +650,7 @@ cdol_drain.0050 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -707,6 +717,7 @@ cdol_drain.0051 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_learning_drained_modifier
 			years = 5
@@ -740,6 +751,7 @@ cdol_drain.0060 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -806,6 +818,7 @@ cdol_drain.0061 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_prowess_drained_modifier
 			years = 5
@@ -839,6 +852,7 @@ cdol_drain.0070 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -903,12 +917,12 @@ cdol_drain.0071 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		carn_decrease_beauty_one_step_effect = yes
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -938,6 +952,7 @@ cdol_drain.0080 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -1002,12 +1017,12 @@ cdol_drain.0081 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		carn_decrease_intellect_one_step_effect = yes
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -1036,6 +1051,7 @@ cdol_drain.0090 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -1128,6 +1144,7 @@ cdol_drain.0091 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		if = {
 			limit = { has_trait = dick_big }
 			carn_decrease_dick_size_one_step_effect = yes
@@ -1140,7 +1157,6 @@ cdol_drain.0091 = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -1169,6 +1185,7 @@ cdol_drain.0100 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
 		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
@@ -1233,6 +1250,7 @@ cdol_drain.0101 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5

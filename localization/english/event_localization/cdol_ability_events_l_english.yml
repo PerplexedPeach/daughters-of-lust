@@ -1,0 +1,5 @@
+﻿l_english:
+
+ cdol_ability.0100.t: "A Promise in the Dark"
+ cdol_ability.0100.desc: "Everything seems to fade away when you are with your lover [actor.GetTitledFirstName]. Seductive, flawless, insatiable: every night with her is a whirlwind of carnal delight and indescribable pleasure.\n\nOne night, after bringing you to the most incredible orgasm you have experienced in weeks, your [recipient.Custom('LoverPetName'] curls up beside you and murmurs something in that silky smooth voice of hers. As you bask in the feeling of her touch, you realize she is waiting for a response."
+ cdol_ability.0100.a: "Yes, of course, my dear. Anything for you..."

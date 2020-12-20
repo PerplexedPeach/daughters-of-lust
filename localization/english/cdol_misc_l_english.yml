@@ -1,3 +1,4 @@
 ﻿l_english:
 
- cdol_current_sexual_power_note: "#weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0])#!"
+ cdol_current_sexual_power_note: "#weak (Current: [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')])#!"
+ cdol_line_break_spacer: "\n"

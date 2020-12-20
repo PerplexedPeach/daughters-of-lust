@@ -1,0 +1,35 @@
+﻿namespace = cdol_ability
+
+# 0100. Mesmerize (recipient)
+
+#
+# 0100. Mesmerize (recipient)
+#
+
+cdol_ability.0100 = {
+	type = character_event
+	title = cdol_ability.0100.t
+	desc = cdol_ability.0100.desc
+	theme = seduce_scheme
+	
+	left_portrait = {
+		character = scope:actor
+		animation = flirtation
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_seduction"
+		show_as_tooltip = {
+			scope:actor = {
+				add_hook = {
+					type = favor_hook
+					target = prev
+				}
+			}
+		}
+	}
+
+	option = {
+		name = cdol_ability.0100.a
+	}
+}

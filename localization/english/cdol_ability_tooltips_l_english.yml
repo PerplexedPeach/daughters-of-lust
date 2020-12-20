@@ -1,0 +1,11 @@
+﻿l_english:
+
+ cdol_drain_life_unlocked_tooltip: "You unlocked [cdol_drain_life_interaction|E]"
+ cdol_fascinate_unlocked_tooltip: "You unlocked [cdol_fascinate_interaction|E]"
+ cdol_mesmerize_unlocked_tooltip: "You unlocked [cdol_mesmerize_interaction|E]"
+ cdol_succubus_conversion_unlocked_tooltip: "You unlocked [cdol_succubus_conversion_interaction|E]"
+
+ cdol_drain_life_list_tooltip: "[EmptyScope.ScriptValue('cdol_drain_life_succubus_mastery_level')|0]: [cdol_drain_life_interaction|E]"
+ cdol_fascinate_list_tooltip: "[EmptyScope.ScriptValue('cdol_fascinate_succubus_mastery_level')|0]: [cdol_fascinate_interaction|E]"
+ cdol_mesmerize_list_tooltip: "[EmptyScope.ScriptValue('cdol_mesmerize_succubus_mastery_level')|0]: [cdol_mesmerize_interaction|E]"
+ cdol_succubus_conversion_list_tooltip: "[EmptyScope.ScriptValue('cdol_succubus_conversion_succubus_mastery_level')|0]: [cdol_succubus_conversion_interaction|E]"

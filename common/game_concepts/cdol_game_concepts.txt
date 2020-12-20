@@ -13,6 +13,16 @@ cdol_drain_life_interaction = {
 	parent = interaction
 }
 
+cdol_fascinate_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
+cdol_mesmerize_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
 cdol_sexual_power = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 }

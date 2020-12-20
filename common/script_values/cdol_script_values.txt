@@ -1,12 +1,16 @@
 ﻿cdol_sexual_power_sex_gain_value = 10
 cdol_sexual_power_drain_extra_gain_value = 10
-cdol_sexual_power_maximum = 100
+cdol_sexual_power_maximum = 50
 
 cdol_drain_life_succubus_mastery_level = 1
 cdol_drain_life_sexual_power_cost = 20
 
 cdol_fascinate_succubus_mastery_level = 5
 cdol_fascinate_sexual_power_cost = 10
+
+cdol_mesmerize_succubus_mastery_level = 10
+cdol_mesmerize_sexual_power_cost = 20
+cdol_mesmerize_cooldown_years = 1
 
 cdol_succubus_conversion_succubus_mastery_level = 100
 

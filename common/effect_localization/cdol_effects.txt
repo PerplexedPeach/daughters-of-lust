@@ -51,3 +51,7 @@ cdol_current_succubus_mastery_level_description = {
 	global = cdol_current_succubus_mastery_level_description
 	global_past = cdol_current_succubus_mastery_level_description
 }
+
+cdol_unlocked_abilities_text = {
+	first = cdol_unlocked_abilities_text
+}

@@ -31,3 +31,5 @@
  cdol_current_sexual_power_description: "[cdol_sexual_power|E]: #high [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|V0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')]#!"
 
  cdol_current_succubus_mastery_level_description: "[cdol_succubus_mastery_level|E]: #high [CHARACTER.MakeScope.Var('cdol_succubus_mastery_level').GetValue|V0]#!"
+
+ cdol_unlocked_abilities_text: "Powers Unlocked:"

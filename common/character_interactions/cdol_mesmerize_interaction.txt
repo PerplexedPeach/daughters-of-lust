@@ -1,0 +1,75 @@
+﻿cdol_mesmerize_interaction = {
+    category = interaction_category_hostile
+    
+    desc = cdol_mesmerize_interaction_desc
+    use_diplomatic_range = no
+	cooldown_against_recipient = { years = cdol_mesmerize_cooldown_years }
+
+    is_shown = {
+        scope:actor = {
+		    cdol_has_succubus_powers_trigger = yes
+            var:cdol_succubus_mastery_level >= cdol_mesmerize_succubus_mastery_level
+        }
+        scope:recipient = {
+		    cdol_has_succubus_powers_trigger = no
+        }
+    }
+
+	is_highlighted = {
+        cdol_recent_succubus_sex_partner_is_recipient_trigger = yes
+        scope:actor = {
+            cdol_has_sexual_power_trigger = {
+                VALUE = cdol_mesmerize_sexual_power_cost
+            }
+			NOT = {
+				has_hook_of_type = {
+					target = scope:recipient
+					type = favor_hook
+				}
+			}
+        }
+	}
+
+    is_valid_showing_failures_only = {
+        cdol_recent_succubus_sex_partner_is_recipient_trigger = yes
+        scope:actor = {
+            cdol_has_sexual_power_trigger = {
+                VALUE = cdol_mesmerize_sexual_power_cost
+            }
+			NOT = {
+				has_hook_of_type = {
+					target = scope:recipient
+					type = favor_hook
+				}
+			}
+        }
+    }
+
+    on_accept = {
+        scope:actor = {
+            cdol_lose_sexual_power_effect = {
+                VALUE = cdol_mesmerize_sexual_power_cost
+            }
+            send_interface_toast = {
+                title = cdol_mesmerize_interaction_notification
+                left_icon = scope:actor
+                right_icon = scope:recipient
+                add_hook_no_toast = {
+                    type = favor_hook
+                    target = scope:recipient
+                }
+            }
+            cdol_manipulation_stress_impact_effect = {
+                VICTIM = scope:recipient
+            }
+            cdol_add_heavy_suspicion_effect = yes
+        }
+		hidden_effect = {
+			scope:recipient = {
+				trigger_event = { id = cdol_ability.0100 }
+			}
+		}
+    }
+
+    auto_accept = yes
+}

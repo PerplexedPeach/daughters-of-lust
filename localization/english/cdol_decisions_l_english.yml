@@ -1,6 +1,6 @@
 ﻿l_english:
 
- cdol_check_succubus_stats_decision: "Check [ROOT.Char.Custom('CdolSuccubusName')|U] Stats"
+ cdol_check_succubus_stats_decision: "Check Succubus Stats"
  cdol_check_succubus_stats_decision_desc: "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
  cdol_check_succubus_stats_decision_confirm: "OK"
 

@@ -16,6 +16,16 @@
 
 	is_highlighted = {
         cdol_recent_succubus_sex_partner_is_recipient_trigger = yes
+        scope:actor = {
+            cdol_has_sexual_power_trigger = {
+                VALUE = cdol_drain_life_sexual_power_cost
+            }
+        }
+        scope:recipient = {
+            NOT = {
+                has_character_modifier = cdol_life_drained_modifier
+            }
+        }
 	}
 
     is_valid_showing_failures_only = {

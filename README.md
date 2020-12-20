@@ -16,6 +16,7 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - Notifications and UI for Sexual Power ability unlocks
 - Perform Succubus Transformation Ritual
 - Awaken Succubus Ancestry
+- Withdrawal
 - Suspicion
 - Depose Succubus CB
 - Changing identities to avoid Suspicion
@@ -25,10 +26,10 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 - 1: Drain Life (Inflict major health penalty on someone after sleeping with them)
 - 5: Fascinate (Single target opinion increase)
+- 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
 
 # Todo Abilities
 
-- 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
 - 15: Alter Self (Change own beauty, body part size)
 - 20: Alter Sexuality (Sexuality change on target)
 - 25: Regenerate (Cure wounds/disfigurements)
@@ -42,6 +43,15 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - 80: Mindbreak (Massive personality change on someone after sleeping with them)
 - 90: Unsoul (Make someone die or become Incapable after sleeping with them)
 - 100: Succubus Conversion (Transform human into succubus)
+
+# Per ability:
+
+- Implementation
+- Game concept
+- Game concept localization
+- Add to list in "Succubus Mastery" concept
+- Add to cdol_ability_unlock_tooltip_effect
+- Add to cdol_unlocked_abilities_tooltip_effect
 
 # Credits
 

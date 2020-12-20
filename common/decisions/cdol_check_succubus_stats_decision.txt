@@ -20,6 +20,13 @@
 			text = cdol_current_succubus_mastery_level_description
 			VALUE = var:cdol_succubus_mastery_level
 		}
+		custom_description_no_bullet = {
+			text = cdol_line_break_spacer
+		}
+		custom_description_no_bullet = {
+			text = cdol_unlocked_abilities_text
+		}
+		cdol_unlocked_abilities_tooltip_effect = yes
 	}
 	
 	ai_potential = {

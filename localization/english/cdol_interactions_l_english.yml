@@ -8,5 +8,9 @@
  cdol_fascinate_interaction_desc: "Use [cdol_sexual_power|E] to improve [recipient.GetShortUINameNoTooltip]'s [opinion|E] of you"
  cdol_fascinate_interaction_notification: "[actor.Custom('CdolFascinateFlavor')]"
 
+ cdol_mesmerize_interaction: "Mesmerize"
+ cdol_mesmerize_interaction_desc: "Use [cdol_sexual_power|E] to get a [weak_hook|E] on [recipient.GetShortUINameNoTooltip]"
+ cdol_mesmerize_interaction_notification: "[actor.Custom('CdolMesmerizeFlavor')]"
+
  cdol_succubus_conversion_interaction: "[ACTOR.Custom('CdolSuccubusName')|U] Conversion"
- cdol_succubus_conversion_interaction_desc: "Transform [recipient.GetShortUINameNoTooltip] into a [cdol_succubus|E]"
+ cdol_succubus_conversion_interaction_desc: "Use [cdol_sexual_power|E] to transform [recipient.GetShortUINameNoTooltip] into a [cdol_succubus|E]"
