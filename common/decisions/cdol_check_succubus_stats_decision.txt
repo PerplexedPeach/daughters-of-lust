@@ -1,0 +1,39 @@
+﻿cdol_check_succubus_stats_decision = {
+	ai_check_interval = 0
+	major = yes
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_check_succubus_stats.dds"
+
+	desc = cdol_check_succubus_stats_decision_desc
+
+	selection_tooltip = cdol_check_succubus_stats_decision_desc
+
+	is_shown = {
+		cdol_has_succubus_powers_trigger = yes
+	}
+	
+	effect = {
+		# custom_description_no_bullet = {
+		# 	text = cdol_current_sexual_power_description
+		# 	VALUE = var:cdol_sexual_power
+		# }
+		custom_description_no_bullet = {
+			text = cdol_current_succubus_mastery_level_description
+			VALUE = var:cdol_succubus_mastery_level
+		}
+		custom_description_no_bullet = {
+			text = cdol_line_break_spacer
+		}
+		custom_description_no_bullet = {
+			text = cdol_unlocked_abilities_text
+		}
+		cdol_unlocked_abilities_tooltip_effect = yes
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

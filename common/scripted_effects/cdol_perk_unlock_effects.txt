@@ -1,0 +1,154 @@
+﻿# Temptation Perk effects
+# We have to save the unlocked perk separately because tooltips don't handle random lists well. The solution is to randomly select the perk and save it as a scope before displaying the tooltip
+
+cdol_select_random_unlockable_temptation_tree_perk_effect = {
+	random_list = {
+		10 = {
+			trigger = {
+				NOT = { has_perk = like_weed_in_a_garden_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:like_weed_in_a_garden_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = like_weed_in_a_garden_perk
+				NOT = { has_perk = unshackled_lust_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:unshackled_lust_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = unshackled_lust_perk
+				NOT = { has_perk = subtle_desire_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:subtle_desire_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = subtle_desire_perk
+				NOT = { has_perk = mortal_adoration_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:mortal_adoration_perk
+			}
+		}
+		10 = {
+			trigger = {
+				NOT = { has_perk = enticing_opportunity_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:enticing_opportunity_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = enticing_opportunity_perk
+				NOT = { has_perk = home_advantage_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:home_advantage_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = home_advantage_perk
+				NOT = { has_perk = graceful_recovery_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:graceful_recovery_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = graceful_recovery_perk
+				NOT = { has_perk = smooth_operator_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:smooth_operator_perk
+			}
+		}
+		10 = {
+			trigger = {
+				has_perk = mortal_adoration_perk
+				has_perk = smooth_operator_perk
+				NOT = { has_perk = seducer_perk }
+			}
+			save_scope_value_as = {
+				name = cdol_unlocked_perk
+				value = flag:seducer_perk
+			}
+		}
+	}
+}
+
+cdol_unlock_selected_temptation_tree_perk_effect = {
+	if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:like_weed_in_a_garden_perk
+		}
+		add_perk = like_weed_in_a_garden_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:unshackled_lust_perk
+		}
+		add_perk = unshackled_lust_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:subtle_desire_perk
+		}
+		add_perk = subtle_desire_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:mortal_adoration_perk
+		}
+		add_perk = mortal_adoration_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:enticing_opportunity_perk
+		}
+		add_perk = enticing_opportunity_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:home_advantage_perk
+		}
+		add_perk = home_advantage_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:graceful_recovery_perk
+		}
+		add_perk = graceful_recovery_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:smooth_operator_perk
+		}
+		add_perk = smooth_operator_perk
+	}
+	else_if = {
+		limit = {
+			scope:cdol_unlocked_perk = flag:seducer_perk
+		}
+		add_perk = seducer_perk
+		add_trait_force_tooltip = seducer
+	}
+}

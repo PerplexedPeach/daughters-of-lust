@@ -6,3 +6,52 @@
 	global = cdol_gain_sexual_power_effect
 	global_past = cdol_gain_sexual_power_past
 }
+
+cdol_max_out_sexual_power_effect = {
+	first = cdol_max_out_sexual_power_effect_first
+	first_past = cdol_max_out_sexual_power_effect_first_past
+	third = cdol_max_out_sexual_power_effect_third
+	third_past = cdol_max_out_sexual_power_effect_third_past
+	global = cdol_max_out_sexual_power_effect
+	global_past = cdol_max_out_sexual_power_past
+}
+
+cdol_lose_sexual_power_effect = {
+	first = cdol_lose_sexual_power_effect_first
+	first_past = cdol_lose_sexual_power_effect_first_past
+	third = cdol_lose_sexual_power_effect_third
+	third_past = cdol_lose_sexual_power_effect_third_past
+	global = cdol_lose_sexual_power_effect
+	global_past = cdol_lose_sexual_power_past
+}
+
+cdol_lose_all_sexual_power_effect = {
+	first = cdol_lose_all_sexual_power_effect_first
+	first_past = cdol_lose_all_sexual_power_effect_first_past
+	third = cdol_lose_all_sexual_power_effect_third
+	third_past = cdol_lose_all_sexual_power_effect_third_past
+	global = cdol_lose_all_sexual_power_effect
+	global_past = cdol_lose_all_sexual_power_past
+}
+
+cdol_current_sexual_power_description = {
+	first = cdol_current_sexual_power_description
+	first_past = cdol_current_sexual_power_description
+	third = cdol_current_sexual_power_description
+	third_past = cdol_current_sexual_power_description
+	global = cdol_current_sexual_power_description
+	global_past = cdol_current_sexual_power_description
+}
+
+cdol_current_succubus_mastery_level_description = {
+	first = cdol_current_succubus_mastery_level_description
+	first_past = cdol_current_succubus_mastery_level_description
+	third = cdol_current_succubus_mastery_level_description
+	third_past = cdol_current_succubus_mastery_level_description
+	global = cdol_current_succubus_mastery_level_description
+	global_past = cdol_current_succubus_mastery_level_description
+}
+
+cdol_unlocked_abilities_text = {
+	first = cdol_unlocked_abilities_text
+}

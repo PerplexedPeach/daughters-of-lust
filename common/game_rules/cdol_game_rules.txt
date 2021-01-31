@@ -1,0 +1,5 @@
+﻿cdol_succubus_lactation = {
+	default = cdol_succubus_lactation_disabled
+	cdol_succubus_lactation_disabled = {}
+	cdol_succubus_lactation_enabled = {}
+}

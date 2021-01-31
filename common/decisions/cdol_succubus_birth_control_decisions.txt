@@ -8,7 +8,7 @@
 
 	is_shown = {
 		is_adult = yes
-		cdol_is_succubus_trigger = yes
+		cdol_has_succubus_powers_trigger = yes
 		carn_has_absolute_birth_control_trigger = no
 		carn_is_visibly_pregnant_trigger = no
 		carn_has_any_custom_pregnancy_trigger = no
@@ -42,7 +42,7 @@ cdol_stop_succubus_birth_control_decision = {
 	selection_tooltip = cdol_stop_succubus_birth_control_decision_tooltip
 
 	is_shown = {
-		cdol_is_succubus_trigger = yes
+		cdol_has_succubus_powers_trigger = yes
 		has_character_flag = carn_absolute_birth_control
 		NOT = { has_trait_with_flag = carn_absolute_birth_control }
 	}

@@ -26,6 +26,13 @@ cdol_drain.0001 = {
 
 	immediate = {
 		save_scope_as = succubus
+
+		set_variable = {
+			name = cdol_recent_succubus_sex_partner
+			value = scope:carn_sex_partner
+			days = 30
+		}
+		
 		save_scope_value_as = {
 			name = cdol_drain_outcome
 			value = flag:event
@@ -47,6 +54,7 @@ cdol_drain.0001 = {
 					name = cdol_drain_outcome
 					value = flag:perk
 				}
+				cdol_select_random_unlockable_temptation_tree_perk_effect = yes
 			}
 			10 = { # opportunity to drain diplomacy
 				trigger = {
@@ -175,23 +183,25 @@ cdol_drain.0001 = {
 			}
 		}
 
+		cdol_on_drain_milk_production_effect = yes
+
+		change_variable = {
+			name = cdol_succubus_mastery_level
+			add = 1
+		}
+
 		send_interface_message = {
 			title = cdol_drain.0001.notification
-			type = event_generic_good
+			type = cdol_succubus_event_good
 			left_icon = this
 			right_icon = scope:carn_sex_partner
 
-			# increment variables
+			# gain sexual power
 			cdol_gain_sexual_power_effect = {
 				VALUE = cdol_sexual_power_sex_gain_value
 			}
-			change_variable = {
-				name = cdol_succubus_mastery_level
-				add = 1
-			}
-
-			# gain succubus mastery modifier
 			add_character_modifier = cdol_succubus_mastery
+			cdol_ability_unlock_tooltip_effect = yes
 
 			if = {
 				limit = {
@@ -207,7 +217,7 @@ cdol_drain.0001 = {
 				limit = {
 					scope:cdol_drain_outcome = flag:perk
 				}
-				cdol_unlock_random_temptation_tree_perk_effect = yes
+				cdol_unlock_selected_temptation_tree_perk_effect = yes
 			}
 		}
 	}
@@ -235,8 +245,9 @@ cdol_drain.0010 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -264,16 +275,22 @@ cdol_drain.0010 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_diplomacy_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -295,6 +312,7 @@ cdol_drain.0011 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_diplomacy_drained_modifier
 			years = 5
@@ -328,8 +346,9 @@ cdol_drain.0020 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -357,16 +376,22 @@ cdol_drain.0020 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_martial_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -388,6 +413,7 @@ cdol_drain.0021 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_martial_drained_modifier
 			years = 5
@@ -421,8 +447,9 @@ cdol_drain.0030 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -450,16 +477,22 @@ cdol_drain.0030 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_stewardship_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -481,6 +514,7 @@ cdol_drain.0031 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_stewardship_drained_modifier
 			years = 5
@@ -514,8 +548,9 @@ cdol_drain.0040 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -543,16 +578,22 @@ cdol_drain.0040 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_intrigue_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -574,6 +615,7 @@ cdol_drain.0041 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_intrigue_drained_modifier
 			years = 5
@@ -607,8 +649,9 @@ cdol_drain.0050 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -636,16 +679,22 @@ cdol_drain.0050 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_learning_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -667,6 +716,7 @@ cdol_drain.0051 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_learning_drained_modifier
 			years = 5
@@ -700,8 +750,9 @@ cdol_drain.0060 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -729,16 +780,22 @@ cdol_drain.0060 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		add_prowess_skill = 1
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -760,6 +817,7 @@ cdol_drain.0061 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_prowess_drained_modifier
 			years = 5
@@ -793,8 +851,9 @@ cdol_drain.0070 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -823,16 +882,22 @@ cdol_drain.0070 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		carn_increase_beauty_one_step_effect = yes
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -851,12 +916,12 @@ cdol_drain.0071 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		carn_decrease_beauty_one_step_effect = yes
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -886,8 +951,9 @@ cdol_drain.0080 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -916,16 +982,22 @@ cdol_drain.0080 = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
 		carn_increase_intellect_one_step_effect = yes
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -944,12 +1016,12 @@ cdol_drain.0081 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		carn_decrease_intellect_one_step_effect = yes
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -978,8 +1050,9 @@ cdol_drain.0090 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -1036,16 +1109,22 @@ cdol_drain.0090 = {
 		else = {
 			carn_increase_tits_size_one_step_effect = yes
 		}
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.difficult_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -1064,6 +1143,7 @@ cdol_drain.0091 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		if = {
 			limit = { has_trait = dick_big }
 			carn_decrease_dick_size_one_step_effect = yes
@@ -1076,7 +1156,6 @@ cdol_drain.0091 = {
 			modifier = cdol_health_drained_modifier
 			years = 5
 		}
-		play_music_cue = "mx_cue_stress"
 	}
 
 	option = {
@@ -1105,8 +1184,9 @@ cdol_drain.0100 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_seduction"
 		carn_make_root_and_sex_partner_naked_for_this_event_effect = yes
-		cdol_reveal_root_succubus_nature_for_this_event_effect = yes
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
 	}
 	
 	trigger = {
@@ -1132,16 +1212,22 @@ cdol_drain.0100 = {
 		cdol_gain_sexual_power_effect = {
 			VALUE = cdol_sexual_power_drain_extra_gain_value
 		}
+		cdol_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Don't drain
 		name = cdol_drain.generic_refusal
+		cdol_dont_drain_stress_impact_effect = {
+			VICTIM = scope:carn_sex_partner
+		}
 	}
 
 	after = {
 		carn_make_root_and_sex_partner_no_longer_naked_effect = yes
-		cdol_stop_reveal_root_succubus_nature_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
 
@@ -1163,6 +1249,7 @@ cdol_drain.0101 = {
 	}
 
 	immediate = {
+		play_music_cue = "mx_cue_stress"
 		add_character_modifier = {
 			modifier = cdol_health_drained_modifier
 			years = 5

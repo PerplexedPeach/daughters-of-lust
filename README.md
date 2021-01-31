@@ -3,6 +3,7 @@
 Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 # Goals
+
 - Be hot as fuck
 - Create interesting gameplay
 - Enable "awesome slut" fantasy
@@ -10,21 +11,26 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - Enable "succubus hunter" fantasy
 
 # Todo
-- succubus notification type
+
 - Sexual Power abilities
+- Notifications and UI for Sexual Power ability unlocks
 - Perform Succubus Transformation Ritual
 - Awaken Succubus Ancestry
+- Withdrawal
 - Suspicion
 - Depose Succubus CB
 - Changing identities to avoid Suspicion
 - interesting succubus AI events
 
-# Abilities
+# Completed Abilities
 
 - 1: Drain Life (Inflict major health penalty on someone after sleeping with them)
 - 5: Fascinate (Single target opinion increase)
 - 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
-- 15: Shapeshift (Change own beauty, body part size)
+
+# Todo Abilities
+
+- 15: Alter Self (Change own beauty, body part size)
 - 20: Alter Sexuality (Sexuality change on target)
 - 25: Regenerate (Cure wounds/disfigurements)
 - 30: Torment (Increase Stress on target)
@@ -38,8 +44,18 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - 90: Unsoul (Make someone die or become Incapable after sleeping with them)
 - 100: Succubus Conversion (Transform human into succubus)
 
+# Per ability:
+
+- Implementation
+- Game concept
+- Game concept localization
+- Add to list in "Succubus Mastery" concept
+- Add to cdol_ability_unlock_tooltip_effect
+- Add to cdol_unlocked_abilities_tooltip_effect
+
 # Credits
 
 * Head textures from [Character Beautification](https://steamcommunity.com/sharedfiles/filedetails/?id=2222302033)
 * Trait icon based off pattern 037 from [LewdMarks](https://www.loverslab.com/files/file/9655-lewdmarks/)
-* Birth control illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)
+* Check Succubus Stats illustration edited from [Succubus 2](https://www.deviantart.com/leevitron/art/Succubus-2-113565769) by [Leevitron](https://www.deviantart.com/leevitron)
+* Seal/Unseal Womb illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)

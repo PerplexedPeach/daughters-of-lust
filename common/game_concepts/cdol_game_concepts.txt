@@ -1,10 +1,45 @@
-﻿cdol_succubus = {
+﻿cdol_awaken_succubus_ancestry_decision = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
-	alias = { cdol_succubi }
+	parent = decision
+}
+
+cdol_become_succubus_decision = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = decision
+}
+
+cdol_drain_life_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
+cdol_fascinate_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
+cdol_mesmerize_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
 }
 
 cdol_sexual_power = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+}
+
+cdol_succubus = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	alias = { cdol_succubi }
+}
+
+cdol_succubus_conversion_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
+
+cdol_succubus_mastery = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	alias = { cdol_succubus_mastery_level }
 }
 
 cdol_suspicion = {

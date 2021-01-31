@@ -1,0 +1,10 @@
+﻿@msg_good_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_positive"
+@msg_bad_soundeffect = "event:/SFX/UI/Notifications/Messages/sfx_ui_message_theme_negative"
+
+cdol_succubus_event_good = {
+	icon = "cdol_succubus.dds"
+	title = event_message_title
+	desc = event_message_effect
+	style = good
+	soundeffect = @msg_good_soundeffect
+}

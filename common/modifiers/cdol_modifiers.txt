@@ -1,4 +1,5 @@
 ﻿cdol_succubus_mastery = {
+	icon = fertility_positive
 	fertility = 0.05
 	life_expectancy = 2
 	years_of_fertility = 2
@@ -48,4 +49,9 @@ cdol_health_drained_modifier = {
 	icon = health_negative
 	health = -0.5
 	stacking = yes
+}
+
+cdol_life_drained_modifier = {
+	icon = health_negative
+	health = -2
 }

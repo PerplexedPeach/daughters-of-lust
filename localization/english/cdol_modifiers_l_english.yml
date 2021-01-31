@@ -1,7 +1,7 @@
 ﻿l_english:
 
- cdol_succubus_mastery: "[GetPlayer.Custom('CdolSuccubusName')|U] Mastery"
- cdol_succubus_mastery_desc: "[cdol_sexual_power|E] courses through your body."
+ cdol_succubus_mastery: "Succubus Mastery"
+ cdol_succubus_mastery_desc: "Bonuses per [cdol_succubus_mastery_level|E]:"
 
  cdol_diplomacy_drained_modifier: "Exhausted"
  cdol_diplomacy_drained_modifier_desc: "Exhaustion weights heavily on this character."
@@ -23,3 +23,5 @@
 
  cdol_health_drained_modifier: "Malaise"
  cdol_health_drained_modifier_desc: "This character is not feeling well."
+
+ cdol_life_drained_modifier: "Drained"

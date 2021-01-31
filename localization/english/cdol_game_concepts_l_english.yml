@@ -1,12 +1,34 @@
 ﻿l_english:
 
-game_concept_cdol_succubus: "Succubus"
-game_concept_cdol_succubi: "Succubi"
-game_concept_cdol_succubus_desc: "In #EMP Daughters of Lust#!, a [GetTrait('cdol_succubus').GetName( GetNullCharacter )] is a female [character|E] who can absorb [cdol_sexual_power|E] through sex. This power can be used to fuel special [decisions|E] and [interactions|E].\n\nA succubus may be [shunned|E] or even [criminal|E] in her [faith|E] depending on its views on witchcraft. It is therefore important for her to remain [secret|E] and avoid arousing [cdol_suspicion|E].\n\nTo become succubi, women with the [GetTrait('witch').GetName( GetNullCharacter )] trait can Perform a Succubus Transformation Ritual, and descendants of a succubus can take the Awaken Succubus Ancestry decision. In addition, very powerful succubi can transform humans into succubi with the Succubus Conversion interaction.\n\n#weak Succubi, also called $cdol_yakshi_plural$, $cdol_qarinah_plural$, $cdol_leannan_sidhe_plural$, or $cdol_demoness_plural$, are a race of beautiful women who have coexisted with humans for millennia. Seen as supernatural beings and feared by many, succubi have taken to concealing themselves among human populations to survive.#!"
+game_concept_cdol_awaken_succubus_ancestry_decision: "Awaken Succubus Ancestry"
+game_concept_cdol_awaken_succubus_ancestry_decision_desc: "A female [character|E] with [cdol_succubus|E] ancestry can take this [decision|E] to transform herself into a fully fledged succubus."
+
+game_concept_cdol_become_succubus_decision: "Perform Succubus Transformation Ritual"
+game_concept_cdol_become_succubus_decision_desc: "A female [GetTrait('witch').GetName( GetNullCharacter )] can take this [decision|E] to transform herself into a [cdol_succubus|E]."
+
+game_concept_cdol_drain_life_interaction: "$cdol_drain_life_interaction$"
+game_concept_cdol_drain_life_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_drain_life_succubus_mastery_level')|0] can use this [character_interaction|E] to inflict a severe [health|E] penalty on a [character|E] she has laid with in the past 30 days."
+
+game_concept_cdol_fascinate_interaction: "$cdol_fascinate_interaction$"
+game_concept_cdol_fascinate_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_fascinate_succubus_mastery_level')|0] can use this [character_interaction|E] to increase another [character_possessive|E] [opinion|E] of her."
+
+game_concept_cdol_mesmerize_interaction: "$cdol_mesmerize_interaction$"
+game_concept_cdol_mesmerize_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_mesmerize_succubus_mastery_level')|0] can use this [character_interaction|E] to gain a [weak_hook|E] on a [character|E] she has laid with in the past 30 days."
 
 game_concept_cdol_sexual_power: "Sexual Power"
-game_concept_cdol_sexual_power_desc: "Sexual Power is used by [cdol_succubi|E] to fuel their abilities. It is absorbed through sex and may be spent on powerful [decisions|E] and [interactions|E].\n\nFrequently using Sexual Power may arouse [cdol_suspicion|E]."
+game_concept_cdol_sexual_power_desc: "Sexual Power is used by [cdol_succubi|E] to fuel their abilities. It is absorbed through sex and may be spent on powerful [decisions|E] and [interactions|E] which are unlocked through [cdol_succubus_mastery|E].\n\nFrequently using Sexual Power may arouse [cdol_suspicion|E]."
+
+game_concept_cdol_succubus: "Succubus"
+game_concept_cdol_succubi: "Succubi"
+game_concept_cdol_succubus_desc: "In #EMP Daughters of Lust#!, a [GetTrait('cdol_succubus').GetName( GetNullCharacter )] is a female [character|E] who can absorb [cdol_sexual_power|E] through sex. This power can be used to fuel special [decisions|E] and [interactions|E] unlocked through [cdol_succubus_mastery|E].\n\nA succubus may be [shunned|E] or even [criminal|E] in her [faith|E] depending on its views on witchcraft. It is therefore important for her to remain [secret|E] and avoid arousing [cdol_suspicion|E].\n\nTo become succubi, women with the [GetTrait('witch').GetName( GetNullCharacter )] trait can take the [cdol_become_succubus_decision|E] decision, and descendants of a succubus can take the [cdol_awaken_succubus_ancestry_decision|E] decision. In addition, very powerful succubi can transform humans into succubi with the [cdol_succubus_conversion_interaction|E] interaction.\n\n#weak Succubi, also called $cdol_yakshi_plural$, $cdol_qarinah_plural$, $cdol_leannan_sidhe_plural$, or $cdol_demoness_plural$, are a race of beautiful women who have coexisted with humans for millennia. Seen as supernatural beings and feared by many, succubi have taken to concealing themselves among human populations to survive.#!"
+
+game_concept_cdol_succubus_conversion_interaction: "Succubus Conversion"
+game_concept_cdol_succubus_conversion_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_succubus_conversion_succubus_mastery_level')|0] can use this [character_interaction|E] to transform another female [character|E] into a succubus."
+
+game_concept_cdol_succubus_mastery: "Succubus Mastery"
+game_concept_cdol_succubus_mastery_level: "Succubus Mastery Level"
+game_concept_cdol_succubus_mastery_desc: "Each time a [cdol_succubus|E] absorbs [cdol_sexual_power|E] through sex, she gains a level of [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]. In addition, she gains access to new [decisions|E] and [interactions|E] at certain Succubus Mastery Levels:\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
 
 game_concept_cdol_suspicion: "Suspicion"
 game_concept_cdol_suspicious: "Suspicious"
-game_concept_cdol_suspicion_desc: "When a [cdol_succubus|E] uses [cdol_sexual_power|E] for [decisions|E] or [interactions|E], she may arouse Suspicion.\n\nIf her Suspicion grows too high, other characters may have the opportunity to investigate her and discover her [secret|E]."
+game_concept_cdol_suspicion_desc: "When a [cdol_succubus|E] uses [cdol_sexual_power|E] for [decisions|E] or [interactions|E], she may arouse Suspicion.\n\nIf her Suspicion grows too high, other [characters|E] may have the opportunity to investigate her and discover her [secret|E]."

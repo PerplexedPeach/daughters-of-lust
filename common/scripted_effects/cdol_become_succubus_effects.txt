@@ -16,6 +16,7 @@
 	hidden_effect = {
 		add_character_flag = immune_to_disease
 		add_character_flag = carn_no_pregnancy_complications
+		add_character_flag = carn_lactation_ignores_effective_age
 		set_variable = {
 			name = my_quirk
 			value = flag:lustful
@@ -49,18 +50,4 @@ cdol_give_succubus_secret_or_trait_effect = {
 			add_trait = cdol_succubus
 		}
 	}	
-}
-
-cdol_reveal_root_succubus_nature_for_this_event_effect = {
-	if = {
-		limit = { is_ai = no }
-		add_character_flag = {
-			flag = cdol_show_succubus_revealed_portrait
-			days = 1
-		}
-	}
-}
-
-cdol_stop_reveal_root_succubus_nature_effect = {
-	remove_character_flag = cdol_show_succubus_revealed_portrait
 }

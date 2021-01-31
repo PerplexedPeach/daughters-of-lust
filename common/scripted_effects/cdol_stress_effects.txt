@@ -1,0 +1,111 @@
+﻿cdol_drain_stress_impact_effect = {
+	if = { # I'm not too concerned about their well-being
+		limit = {
+			has_relation_rival = $VICTIM$
+		}
+		stress_impact = {
+			sadistic = medium_stress_impact_loss
+			vengeful = medium_stress_impact_loss
+			gluttonous = minor_stress_impact_loss
+			temperate = minor_stress_impact_gain
+		}
+	}
+	else_if = { # I care about them a lot
+		limit = {
+			OR = {
+				has_relation_friend = $VICTIM$
+				has_relation_soulmate = $VICTIM$
+				any_child = { this = $VICTIM$ }
+			}
+		}
+		stress_impact = {
+			base = minor_stress_impact_gain
+			sadistic = minor_stress_impact_loss
+			callous = minor_stress_impact_loss
+			compassionate = major_stress_impact_gain
+			temperate = minor_stress_impact_gain
+		}
+	}
+	else = { # They're just some guy
+		stress_impact = {
+			sadistic = minor_stress_impact_loss
+			gluttonous = minor_stress_impact_loss
+			compassionate = medium_stress_impact_gain
+			temperate = minor_stress_impact_gain
+		}
+	}
+}
+
+cdol_dont_drain_stress_impact_effect = {
+	if = { # I'm not too concerned about their well-being
+		limit = {
+			has_relation_rival = $VICTIM$
+		}
+		stress_impact = {
+			base = medium_stress_impact_gain
+			sadistic = medium_stress_impact_gain
+			vengeful = medium_stress_impact_gain
+			gluttonous = minor_stress_impact_gain
+			compassionate = minor_stress_impact_loss
+			temperate = minor_stress_impact_loss
+		}
+	}
+	else_if = { # I care about them a lot
+		limit = {
+			OR = {
+				has_relation_friend = $VICTIM$
+				has_relation_soulmate = $VICTIM$
+				any_child = { this = $VICTIM$ }
+			}
+		}
+		stress_impact = {
+			gluttonous = minor_stress_impact_gain
+			compassionate = minor_stress_impact_loss
+			temperate = minor_stress_impact_loss
+		}
+	}
+	else = { # They're just some guy
+		stress_impact = {
+			base = minor_stress_impact_gain
+			gluttonous = minor_stress_impact_gain
+			compassionate = minor_stress_impact_loss
+			temperate = minor_stress_impact_loss
+		}
+	}
+}
+
+cdol_manipulation_stress_impact_effect = {
+	if = { # I'm not too concerned about their well-being
+		limit = {
+			has_relation_rival = $VICTIM$
+		}
+		stress_impact = {
+			honest = minor_stress_impact_gain
+			shy = minor_stress_impact_gain
+		}
+	}
+	else_if = { # I care about them a lot
+		limit = {
+			OR = {
+				has_relation_friend = $VICTIM$
+				has_relation_lover = $VICTIM$
+				has_relation_soulmate = $VICTIM$
+				any_child = { this = $VICTIM$ }
+			}
+		}
+		stress_impact = {
+			base = minor_stress_impact_gain
+			deceitful = minor_stress_impact_loss
+			honest = medium_stress_impact_gain
+			compassionate = minor_stress_impact_gain
+			shy = minor_stress_impact_gain
+		}
+	}
+	else = { # They're just some guy
+		stress_impact = {
+			compassionate = minor_stress_impact_gain
+			honest = minor_stress_impact_gain
+			shy = minor_stress_impact_gain
+		}
+	}
+}
