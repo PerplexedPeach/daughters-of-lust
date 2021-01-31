@@ -1,0 +1,15 @@
+﻿l_french:
+
+cdol_you_have_sexual_power:1 "vous avez $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_you_do_not_have_sexual_power:1 "Vous n'avez pas $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_they_has_sexual_power:1 "[CHARACTER.MakeScope.GetShortUIName|U] a $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_they_do_not_have_sexual_power:1 "[CHARACTER.GetShortUIName|U] n'a pas $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_has_sexual_power:1 "A $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_does_not_have_sexual_power:1 "N'a pas $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+
+cdol_you_recently_laid_with_target:1 "Vous avez couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+cdol_you_did_not_recently_lay_with_target:1 "Vous n'avez pas couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+cdol_they_recently_laid_with_target:1 "[CHARACTER.GetShortUIName|U] a couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+cdol_they_did_not_recently_lay_with_target:1 "[CHARACTER.GetShortUIName|U] n'a pas couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+cdol_recently_laid_with_target:1 "A couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+cdol_did_not_recently_lay_with_target:1 "N'a pas couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"

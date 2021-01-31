@@ -1,7 +1,7 @@
 ﻿l_french:
 
 cdol_succubus_mastery:1 "Maîtrise succubine"
-cdol_succubus_mastery_desc:1 "De la [cdol_sexual_power|El] parcours votre corps."
+cdol_succubus_mastery_desc:1 "Bonus par [cdol_succubus_mastery_level|El]:"
 
 cdol_diplomacy_drained_modifier:1 "Épuisé"
 cdol_diplomacy_drained_modifier_desc:1 "L'épuisement de ce personnage lui pèse fortement."
@@ -23,3 +23,5 @@ cdol_prowess_drained_modifier_desc:1 "Ce personnage a fait trop d'efforts."
 
 cdol_health_drained_modifier:1 "Malaise"
 cdol_health_drained_modifier_desc:1 "Ce personnage ne se sent pas bien."
+
+cdol_life_drained_modifier:1 "Drainé"

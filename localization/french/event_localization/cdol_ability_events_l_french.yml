@@ -1,0 +1,5 @@
+﻿l_french:
+
+cdol_ability.0100.t:1 "Une promesse dans la pénombre"
+cdol_ability.0100.desc:1 "Tout semble s'évanouir lorsque vous êtes avec votre amant [actor.GetTitledFirstName]. Séduisante, parfaite, insatiable : chaque nuit avec elle est un tourbillon de délices charnels et de plaisir indescriptible.\n\nUne nuit, après vous avoir fait atteindre l'orgasme le plus incroyable que vous ayez connu depuis des semaines, votre [recipient.Custom('LoverPetName'] se love à vos côtés et vous murmure quelque chose de sa voix douce et soyeuse. Alors que vous vous délectez de son toucher, vous réalisez qu'elle attend une réponse."
+cdol_ability.0100.a:1 "Oui, bien sûr, ma chère. Tout ce que vous voulez..."
