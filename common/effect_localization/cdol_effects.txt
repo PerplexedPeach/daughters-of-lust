@@ -55,3 +55,7 @@ cdol_current_succubus_mastery_level_description = {
 cdol_unlocked_abilities_text = {
 	first = cdol_unlocked_abilities_text
 }
+
+cdol_line_break_spacer = {
+	first = cdol_line_break_spacer
+}

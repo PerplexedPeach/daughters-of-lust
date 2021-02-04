@@ -7,6 +7,13 @@
  cdol_has_sexual_power: "Has $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
  cdol_does_not_have_sexual_power: "Does not have $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
 
+ cdol_you_have_succubus_mastery: "You have $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_you_do_not_have_succubus_mastery: "You do not have $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_they_has_succubus_mastery: "[CHARACTER.MakeScope.GetShortUIName|U] has $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_they_do_not_have_succubus_mastery: "[CHARACTER.GetShortUIName|U] does not have $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_has_succubus_mastery: "Has $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_does_not_have_succubus_mastery: "Does not have $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+
  cdol_you_recently_laid_with_target: "You have laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
  cdol_you_did_not_recently_lay_with_target: "You have not laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
  cdol_they_recently_laid_with_target: "[CHARACTER.GetShortUIName|U] has laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"

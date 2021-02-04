@@ -1,4 +1,9 @@
-﻿cdol_awaken_succubus_ancestry_decision = {
+﻿cdol_alter_self_decision = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = decision
+}
+
+cdol_awaken_succubus_ancestry_decision = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 	parent = decision
 }

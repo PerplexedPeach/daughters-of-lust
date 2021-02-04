@@ -1,5 +1,11 @@
 ﻿l_english:
 
+ cdol_alter_self_decision: "Alter Self"
+ cdol_alter_self_decision_desc: "I have gained such mastery over flesh that I can change my shape as a serpent sheds its skin, becoming as beautiful or well-endowed as I desire."
+ cdol_alter_self_decision_tooltip: "Use [cdol_sexual_power|E] to purchase a [physical_trait|E]"
+ cdol_alter_self_decision_effect_tooltip: "View each [physical_trait|E] you can purchase"
+ cdol_alter_self_decision_confirm: "Mirror, mirror, on the wall..."
+
  cdol_check_succubus_stats_decision: "Check Succubus Stats"
  cdol_check_succubus_stats_decision_desc: "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
  cdol_check_succubus_stats_decision_confirm: "OK"

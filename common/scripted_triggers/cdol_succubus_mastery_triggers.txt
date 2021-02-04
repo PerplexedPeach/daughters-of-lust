@@ -1,0 +1,7 @@
+﻿cdol_has_succubus_mastery_trigger = {
+	custom_description = {
+		text = "cdol_has_succubus_mastery_trigger_text"
+		value = $VALUE$
+		var:cdol_succubus_mastery_level >= $VALUE$
+	}
+}
