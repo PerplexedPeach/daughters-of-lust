@@ -7,6 +7,15 @@
 	global_not = cdol_does_not_have_sexual_power
 }
 
+cdol_has_succubus_mastery_trigger_text = {
+	first = cdol_you_have_succubus_mastery
+	first_not = cdol_you_do_not_have_succubus_mastery
+	third = cdol_they_has_succubus_mastery
+	third_not = cdol_they_do_not_have_succubus_mastery
+	global = cdol_has_succubus_mastery
+	global_not = cdol_does_not_have_succubus_mastery
+}
+
 cdol_recently_laid_with_target_trigger = {
 	first = cdol_you_recently_laid_with_target
 	first_not = cdol_you_did_not_recently_lay_with_target

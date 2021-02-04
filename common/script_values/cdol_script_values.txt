@@ -12,6 +12,10 @@ cdol_mesmerize_succubus_mastery_level = 10
 cdol_mesmerize_sexual_power_cost = 50
 cdol_mesmerize_cooldown_years = 1
 
+cdol_alter_self_succubus_mastery_level = 15
+cdol_alter_self_sexual_power_cost = 50
+cdol_alter_self_milk_production_change = 100
+
 cdol_succubus_conversion_succubus_mastery_level = 100
 
 cdol_on_drain_milk_production_increase = 50

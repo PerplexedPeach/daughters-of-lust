@@ -1,0 +1,38 @@
+﻿cdol_alter_self_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_alter_self.dds"
+
+	desc = cdol_alter_self_decision_desc
+
+	selection_tooltip = cdol_alter_self_decision_tooltip
+
+	is_shown = {
+		is_adult = yes
+		cdol_has_succubus_powers_trigger = yes
+		var:cdol_succubus_mastery_level >= cdol_alter_self_succubus_mastery_level
+	}
+
+    is_valid_showing_failures_only = {
+		cdol_has_sexual_power_trigger = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+    }
+	
+	effect = {
+		custom_tooltip = cdol_alter_self_decision_effect_tooltip
+		if = {
+			limit = { is_ai = no }
+			carn_undress_character_effect = yes
+		}
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
+		trigger_event = { id = cdol_ability.0200 }
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

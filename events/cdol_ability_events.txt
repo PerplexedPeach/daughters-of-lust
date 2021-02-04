@@ -1,6 +1,7 @@
 ﻿namespace = cdol_ability
 
 # 0100. Mesmerize (recipient)
+# 0200-1. Alter Self
 
 #
 # 0100. Mesmerize (recipient)
@@ -31,5 +32,322 @@ cdol_ability.0100 = {
 
 	option = {
 		name = cdol_ability.0100.a
+	}
+}
+
+#
+# 0200. Alter Self (1)
+#
+
+cdol_ability.0200 = {
+	type = character_event
+	title = cdol_ability.0200.t
+	desc = cdol_ability.0200.desc
+	theme = seduce_scheme
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	option = { # Gain Beauty
+		name = cdol_ability.0200.beauty_up
+		trigger = {
+			NOT = { has_trait = beauty_good_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_increase_beauty_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Beauty
+		name = cdol_ability.0200.beauty_down
+		trigger = {
+			NOT = { has_trait = beauty_bad_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_decrease_beauty_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Gain Physique
+		name = cdol_ability.0200.physique_up
+		trigger = {
+			NOT = { has_trait = physique_good_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_increase_physique_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Physique
+		name = cdol_ability.0200.physique_down
+		trigger = {
+			NOT = { has_trait = physique_bad_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_decrease_physique_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Become Fecund
+		name = cdol_ability.0200.gain_fecund
+		trigger = {
+			NOT = { has_trait = fecund }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		add_trait = fecund
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Fecund
+		name = cdol_ability.0200.lose_fecund
+		trigger = {
+			has_trait = fecund
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		remove_trait = fecund
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Become Giant
+		name = cdol_ability.0200.gain_giant
+		trigger = {
+			NOT = { has_trait = giant }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		add_trait = giant
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Giant
+		name = cdol_ability.0200.lose_giant
+		trigger = {
+			has_trait = giant
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		remove_trait = giant
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Become Albino
+		name = cdol_ability.0200.gain_albino
+		trigger = {
+			NOT = { has_trait = albino }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		add_trait = albino
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Albino
+		name = cdol_ability.0200.lose_albino
+		trigger = {
+			has_trait = albino
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		remove_trait = albino
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Other...
+		name = cdol_ability.0200.other
+		trigger_event = { id = cdol_ability.0201 }
+	}
+
+	option = { # Cancel
+		name = cdol_ability.0200.cancel
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+}
+
+#
+# 0201. Alter Self (2)
+#
+
+cdol_ability.0201 = {
+	type = character_event
+	title = cdol_ability.0200.t
+	desc = cdol_ability.0200.desc
+	theme = seduce_scheme
+	
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	immediate = {
+		carn_create_milk_production_change_effect = yes
+	}
+
+	option = { # Gain tit tize
+		name = cdol_ability.0201.tits_up
+		trigger = {
+			has_game_rule = carn_dt_enabled
+			is_female = yes
+			NOT = { has_trait = tits_big_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_increase_tits_size_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose tit size
+		name = cdol_ability.0201.tits_down
+		trigger = {
+			has_game_rule = carn_dt_enabled
+			is_female = yes
+			NOT = { has_trait = tits_small_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_decrease_tits_size_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Gain dick tize
+		name = cdol_ability.0201.dick_up
+		trigger = {
+			has_game_rule = carn_dt_enabled
+			carn_gender_can_impregnate_trigger = yes
+			NOT = { has_trait = dick_big_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_increase_dick_size_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose dick size
+		name = cdol_ability.0201.dick_down
+		trigger = {
+			has_game_rule = carn_dt_enabled
+			carn_gender_can_impregnate_trigger = yes
+			NOT = { has_trait = dick_small_3 }
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_decrease_dick_size_one_step_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Gain lactation
+		name = cdol_ability.0201.milk_up
+		trigger = {
+			carn_can_lactate_trigger = yes
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		custom_tooltip = carn_milk_production_increases_tooltip
+		hidden_effect = {
+			carn_change_milk_production_effect = {
+				VALUE = cdol_alter_self_milk_production_change
+			}
+			carn_resolve_milk_production_change_effect = {
+				SEND_NOTIFICATION = yes
+			}
+		}
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Stop lactating
+		name = cdol_ability.0201.milk_stop
+		trigger = {
+			carn_is_lactating_trigger = yes
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		custom_tooltip = carn_stops_lactating_tooltip
+		hidden_effect = {
+			carn_stop_milk_production_effect = yes
+			carn_resolve_milk_production_change_effect = {
+				SEND_NOTIFICATION = yes
+			}
+		}
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Become Futa
+		name = cdol_ability.0201.gain_futa
+		trigger = {
+			NOT = { has_game_rule = carn_futa_content_disabled }
+			is_female = yes
+			carn_is_futa_trigger = no
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_add_futa_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Lose Futa
+		name = cdol_ability.0201.lose_futa
+		trigger = {
+			is_female = yes
+			carn_is_futa_trigger = yes
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_self_sexual_power_cost
+		}
+		carn_remove_futa_effect = yes
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+
+	option = { # Other...
+		name = cdol_ability.0200.other
+		trigger_event = { id = cdol_ability.0200 }
+	}
+
+	option = { # Cancel
+		name = cdol_ability.0200.cancel
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
 	}
 }
