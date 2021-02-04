@@ -1,5 +1,11 @@
 ﻿l_french:
 
+cdol_alter_self_decision:1 "Altérer son corps"
+cdol_alter_self_decision_desc:1 "J'ai acquis une telle maîtrise de la chair que je peux changer de forme comme un serpent perd sa peau, devenant aussi belle ou bien dotée que je le désire."
+cdol_alter_self_decision_tooltip:1 "Utiliser de la [cdol_sexual_power|El] pour acquérir un [physical_trait|E]"
+cdol_alter_self_decision_effect_tooltip:1 "Voir chaque [physical_trait|El] que vous pouvez acquérir"
+cdol_alter_self_decision_confirm:1 "Miroir, mon beau miroir..."
+
 cdol_check_succubus_stats_decision:1 "Consulter les statistiques de succube"
 cdol_check_succubus_stats_decision_desc:1 "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
 cdol_check_succubus_stats_decision_confirm:1 "OK"

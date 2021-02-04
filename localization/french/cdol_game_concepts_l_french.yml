@@ -1,5 +1,8 @@
 ﻿l_french:
 
+game_concept_cdol_alter_self_decision:1 "$cdol_alter_self_decision$"
+game_concept_cdol_alter_self_decision_desc:1 "Une [cdol_succubus|El] ayant une [cdol_succubus_mastery_level|El] de [EmptyScope.ScriptValue('cdol_alter_self_succubus_mastery_level')|0] peut utiliser cette [decision|El] pour acquérir ou perdre un [physical_trait|El]."
+
 game_concept_cdol_awaken_succubus_ancestry_decision:1 "Réveiller son ascendance succubine"
 game_concept_cdol_awaken_succubus_ancestry_decision_desc:1 "Un [character|El] féminin ayant un ancêtre [cdol_succubus|El] peut prendre cette [decision|El] pour se transformer en succube à part entière."
 
@@ -27,7 +30,7 @@ game_concept_cdol_succubus_conversion_interaction_desc:1 "Une [cdol_succubus|El]
 
 game_concept_cdol_succubus_mastery:1 "Maîtrise succubine"
 game_concept_cdol_succubus_mastery_level:1 "Niveau de maîtrise succubine"
-game_concept_cdol_succubus_mastery_desc:1 "A chaque fois qu'une [cdol_succubus|El] absorbe de la [cdol_sexual_power|El] lors d'une relation sexuelle, elle gagne un niveau de [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]. De plus, elle gagne accès à de nouvelles [decisions|El] and [interactions|El] à certains niveau de maîtrise succubine :\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
+game_concept_cdol_succubus_mastery_desc:1 "A chaque fois qu'une [cdol_succubus|El] absorbe de la [cdol_sexual_power|El] lors d'une relation sexuelle, elle gagne un niveau de [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]. De plus, elle gagne accès à de nouvelles [decisions|El] and [interactions|El] à certains niveau de maîtrise succubine :\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_self_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
 
 game_concept_cdol_suspicion:1 "Suspicion"
 game_concept_cdol_suspicious:1 "Suspicieux"
