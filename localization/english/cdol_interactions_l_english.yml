@@ -1,11 +1,14 @@
 ﻿l_english:
 
+ cdol_alter_sexuality_interaction: "Alter Sexuality"
+ cdol_alter_sexuality_interaction_desc: "Use [cdol_sexual_power|E] to change [recipient.GetShortUINamePossessiveNoTooltip] [sexuality|E]"
+
  cdol_drain_life_interaction: "Drain Life"
- cdol_drain_life_interaction_desc: "Use [cdol_sexual_power|E] to secretly drain [recipient.GetShortUINameNoTooltip]'s health"
+ cdol_drain_life_interaction_desc: "Use [cdol_sexual_power|E] to secretly drain [recipient.GetShortUINamePossessiveNoTooltip] [health|E]"
  cdol_drain_life_interaction_notification: "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
 
  cdol_fascinate_interaction: "Fascinate"
- cdol_fascinate_interaction_desc: "Use [cdol_sexual_power|E] to improve [recipient.GetShortUINameNoTooltip]'s [opinion|E] of you"
+ cdol_fascinate_interaction_desc: "Use [cdol_sexual_power|E] to improve [recipient.GetShortUINamePossessiveNoTooltip] [opinion|E] of you"
  cdol_fascinate_interaction_notification: "[actor.Custom2('CdolFascinateFlavor', recipient)]"
 
  cdol_mesmerize_interaction: "Mesmerize"

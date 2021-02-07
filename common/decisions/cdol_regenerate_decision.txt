@@ -1,0 +1,89 @@
+﻿cdol_regenerate_decision = {
+	ai_check_interval = 0
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_regenerate.dds"
+
+	desc = cdol_regenerate_decision_desc
+
+	selection_tooltip = cdol_regenerate_decision_tooltip
+
+	is_shown = {
+		is_adult = yes
+		cdol_has_succubus_powers_trigger = yes
+		cdol_has_succubus_mastery_trigger = {
+			VALUE = cdol_regenerate_succubus_mastery_level
+		}
+	}
+
+    is_valid_showing_failures_only = {
+		cdol_has_sexual_power_trigger = {
+			VALUE = cdol_regenerate_sexual_power_cost
+		}
+		custom_description = {
+			text = "cdol_can_regenerate_trigger"
+			OR = {
+				has_trait = wounded
+				carn_has_any_disease_trigger = yes
+				carn_has_any_major_disfigurement_trigger = yes
+				carn_has_any_minor_disfigurement_trigger = yes
+			}
+		}
+    }
+	
+	effect = {
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_regenerate_sexual_power_cost
+		}
+		if = {
+			limit = {
+				has_trait = wounded
+			}
+			send_interface_toast = {
+				title = cdol_regenerate_decision_notification
+				left_icon = root
+				carn_heal_wounds_one_step_effect = yes
+			}
+			cdol_add_suspicion_effect = yes
+		}
+		else_if = {
+			limit = {
+				carn_has_any_disease_trigger = yes
+			}
+			send_interface_toast = {
+				title = cdol_regenerate_decision_notification
+				left_icon = root
+				carn_recover_from_all_diseases_effect = yes
+			}
+			cdol_add_suspicion_effect = yes
+		}
+		else_if = {
+			limit = {
+				carn_has_any_major_disfigurement_trigger = yes
+			}
+			send_interface_toast = {
+				title = cdol_regenerate_decision_notification
+				left_icon = root
+				carn_remove_random_major_disfigurement_effect = yes
+			}
+			cdol_add_heavy_suspicion_effect = yes
+		}
+		else_if = {
+			limit = {
+				carn_has_any_minor_disfigurement_trigger = yes
+			}
+			send_interface_toast = {
+				title = cdol_regenerate_decision_notification
+				left_icon = root
+				carn_remove_random_minor_disfigurement_effect = yes
+			}
+			cdol_add_heavy_suspicion_effect = yes
+		}
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

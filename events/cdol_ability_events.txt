@@ -2,10 +2,11 @@
 
 # 0100. Mesmerize (recipient)
 # 0200-1. Alter Self
+# 0300-1. Alter Sexuality
 
-#
+############################################################################
 # 0100. Mesmerize (recipient)
-#
+############################################################################
 
 cdol_ability.0100 = {
 	type = character_event
@@ -35,9 +36,33 @@ cdol_ability.0100 = {
 	}
 }
 
-#
+############################################################################
 # 0200. Alter Self (1)
-#
+############################################################################
+
+scripted_effect cdol_alter_self_general_effect = {
+	cdol_lose_sexual_power_effect = {
+		VALUE = cdol_alter_self_sexual_power_cost
+	}
+	carn_dress_character_effect = yes
+	cdol_stop_reveal_root_succubus_portrait_effect = yes
+}
+
+scripted_trigger cdol_has_alter_self_disability_trigger = {
+	OR = {
+		has_trait = clubfooted
+		has_trait = hunchbacked
+		has_trait = lisping
+		has_trait = stuttering
+		has_trait = dwarf
+		has_trait = inbred
+		has_trait = spindly
+		has_trait = scaly
+		has_trait = wheezing
+		has_trait = bleeder
+		has_trait = infertile
+	}
+}
 
 cdol_ability.0200 = {
 	type = character_event
@@ -55,12 +80,9 @@ cdol_ability.0200 = {
 		trigger = {
 			NOT = { has_trait = beauty_good_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_increase_beauty_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose Beauty
@@ -68,12 +90,9 @@ cdol_ability.0200 = {
 		trigger = {
 			NOT = { has_trait = beauty_bad_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_decrease_beauty_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_remove_suspicion_effect = yes
 	}
 
 	option = { # Gain Physique
@@ -81,12 +100,9 @@ cdol_ability.0200 = {
 		trigger = {
 			NOT = { has_trait = physique_good_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_increase_physique_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose Physique
@@ -94,51 +110,116 @@ cdol_ability.0200 = {
 		trigger = {
 			NOT = { has_trait = physique_bad_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_decrease_physique_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_remove_suspicion_effect = yes
 	}
 
 	option = { # Become Fecund
 		name = cdol_ability.0200.gain_fecund
 		trigger = {
 			NOT = { has_trait = fecund }
+			cdol_has_alter_self_disability_trigger = no
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		add_trait = fecund
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Lose Fecund
 		name = cdol_ability.0200.lose_fecund
 		trigger = {
 			has_trait = fecund
+			cdol_has_alter_self_disability_trigger = no
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		remove_trait = fecund
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Lose generic disability
+		name = cdol_ability.0200.lose_disability
+		trigger = {
+			cdol_has_alter_self_disability_trigger = yes
+		}
+		cdol_alter_self_general_effect = yes
+		if = {
+			limit = {
+				has_trait = inbred
+			}
+			remove_trait = inbred
+		}
+		else_if = {
+			limit = {
+				has_trait = scaly
+			}
+			remove_trait = scaly
+		}
+		else_if = {
+			limit = {
+				has_trait = hunchbacked
+			}
+			remove_trait = hunchbacked
+		}
+		else_if = {
+			limit = {
+				has_trait = clubfooted
+			}
+			remove_trait = clubfooted
+		}
+		else_if = {
+			limit = {
+				has_trait = wheezing
+			}
+			remove_trait = wheezing
+		}
+		else_if = {
+			limit = {
+				has_trait = bleeder
+			}
+			remove_trait = bleeder
+		}
+		else_if = {
+			limit = {
+				has_trait = spindly
+			}
+			remove_trait = spindly
+		}
+		else_if = {
+			limit = {
+				has_trait = stuttering
+			}
+			remove_trait = stuttering
+		}
+		else_if = {
+			limit = {
+				has_trait = lisping
+			}
+			remove_trait = lisping
+		}
+		else_if = {
+			limit = {
+				has_trait = infertile
+			}
+			remove_trait = infertile
+		}
+		else = {
+			remove_trait = dwarf
+		}
+		cdol_add_suspicion_effect = yes
 	}
 
 	option = { # Become Giant
 		name = cdol_ability.0200.gain_giant
 		trigger = {
-			NOT = { has_trait = giant }
+			NOR = {
+				has_trait = giant
+				has_trait = dwarf
+			}
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		add_trait = giant
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose Giant
@@ -146,12 +227,9 @@ cdol_ability.0200 = {
 		trigger = {
 			has_trait = giant
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		remove_trait = giant
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Become Albino
@@ -159,12 +237,9 @@ cdol_ability.0200 = {
 		trigger = {
 			NOT = { has_trait = albino }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		add_trait = albino
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose Albino
@@ -172,16 +247,20 @@ cdol_ability.0200 = {
 		trigger = {
 			has_trait = albino
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		remove_trait = albino
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Other...
 		name = cdol_ability.0200.other
+		trigger = {
+			OR = {
+				has_game_rule = carn_dt_enabled
+				carn_can_lactate_trigger = yes
+				NOT = { has_game_rule = carn_futa_content_disabled }
+			}
+		}
 		trigger_event = { id = cdol_ability.0201 }
 	}
 
@@ -218,12 +297,9 @@ cdol_ability.0201 = {
 			is_female = yes
 			NOT = { has_trait = tits_big_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_increase_tits_size_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose tit size
@@ -233,12 +309,9 @@ cdol_ability.0201 = {
 			is_female = yes
 			NOT = { has_trait = tits_small_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_decrease_tits_size_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Gain dick tize
@@ -248,12 +321,9 @@ cdol_ability.0201 = {
 			carn_gender_can_impregnate_trigger = yes
 			NOT = { has_trait = dick_big_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_increase_dick_size_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose dick size
@@ -263,12 +333,9 @@ cdol_ability.0201 = {
 			carn_gender_can_impregnate_trigger = yes
 			NOT = { has_trait = dick_small_3 }
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_decrease_dick_size_one_step_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Gain lactation
@@ -276,9 +343,7 @@ cdol_ability.0201 = {
 		trigger = {
 			carn_can_lactate_trigger = yes
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		custom_tooltip = carn_milk_production_increases_tooltip
 		hidden_effect = {
 			carn_change_milk_production_effect = {
@@ -288,8 +353,7 @@ cdol_ability.0201 = {
 				SEND_NOTIFICATION = yes
 			}
 		}
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Stop lactating
@@ -297,9 +361,7 @@ cdol_ability.0201 = {
 		trigger = {
 			carn_is_lactating_trigger = yes
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		custom_tooltip = carn_stops_lactating_tooltip
 		hidden_effect = {
 			carn_stop_milk_production_effect = yes
@@ -307,8 +369,7 @@ cdol_ability.0201 = {
 				SEND_NOTIFICATION = yes
 			}
 		}
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Become Futa
@@ -318,12 +379,9 @@ cdol_ability.0201 = {
 			is_female = yes
 			carn_is_futa_trigger = no
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_add_futa_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Lose Futa
@@ -332,12 +390,9 @@ cdol_ability.0201 = {
 			is_female = yes
 			carn_is_futa_trigger = yes
 		}
-		cdol_lose_sexual_power_effect = {
-			VALUE = cdol_alter_self_sexual_power_cost
-		}
+		cdol_alter_self_general_effect = yes
 		carn_remove_futa_effect = yes
-		carn_dress_character_effect = yes
-		cdol_stop_reveal_root_succubus_portrait_effect = yes
+		cdol_add_heavy_suspicion_effect = yes
 	}
 
 	option = { # Other...
@@ -349,5 +404,322 @@ cdol_ability.0201 = {
 		name = cdol_ability.0200.cancel
 		carn_dress_character_effect = yes
 		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+}
+
+############################################################################
+# 0300. Alter Sexuality (actor)
+############################################################################
+
+cdol_ability.0300 = {
+	type = character_event
+	title = cdol_ability.0300.t
+	desc = cdol_ability.0300.desc
+	theme = seduce_scheme
+	
+	left_portrait = {
+		character = scope:actor
+		animation = flirtation
+	}
+	
+	right_portrait = {
+		character = scope:recipient
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_seduction"
+	}
+
+	option = { # make them Heterosexual
+		trigger = {
+			scope:recipient = {
+				NOT = { has_sexuality = heterosexual }
+			}
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_male = yes
+					NOT = { has_sexuality = bisexual }
+				}
+			}
+			text = cdol_ability.0300.you_like_girls_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_female = yes
+					NOT = { has_sexuality = bisexual }
+				}
+			}
+			text = cdol_ability.0300.you_like_guys_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_male = yes
+					has_sexuality = bisexual
+				}
+			}
+			text = cdol_ability.0300.you_hate_guys_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_female = yes
+					has_sexuality = bisexual
+				}
+			}
+			text = cdol_ability.0300.you_hate_girls_now
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_sexuality_sexual_power_cost
+		}
+		scope:recipient = {
+			show_as_tooltip = {
+				set_sexuality = heterosexual
+			}
+			add_character_flag = cdol_alter_sexuality_heterosexual
+			trigger_event = { id = cdol_ability.0301 }
+		}
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # make them Homosexual
+		trigger = {
+			scope:recipient = {
+				NOT = { has_sexuality = homosexual }
+			}
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_male = yes
+					NOT = { has_sexuality = bisexual }
+				}
+			}
+			text = cdol_ability.0300.you_like_guys_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_female = yes
+					NOT = { has_sexuality = bisexual }
+				}
+			}
+			text = cdol_ability.0300.you_like_girls_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_male = yes
+					has_sexuality = bisexual
+				}
+			}
+			text = cdol_ability.0300.you_hate_girls_now
+		}
+		name = {
+			trigger = {
+				scope:recipient = {
+					is_female = yes
+					has_sexuality = bisexual
+				}
+			}
+			text = cdol_ability.0300.you_hate_guys_now
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_sexuality_sexual_power_cost
+		}
+		scope:recipient = {
+			show_as_tooltip = {
+				set_sexuality = homosexual
+			}
+			add_character_flag = cdol_alter_sexuality_homosexual
+			trigger_event = { id = cdol_ability.0301 }
+		}
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # make them Bisexual
+		name = cdol_ability.0300.you_bi_now
+		trigger = {
+			scope:recipient = {
+				NOT = { has_sexuality = bisexual }
+			}
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_sexuality_sexual_power_cost
+		}
+		scope:recipient = {
+			show_as_tooltip = {
+				set_sexuality = bisexual
+			}
+			add_character_flag = cdol_alter_sexuality_bisexual
+			trigger_event = { id = cdol_ability.0301 }
+		}
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # make them Asexual
+		name = cdol_ability.0300.you_ace_now
+		trigger = {
+			scope:recipient = {
+				NOT = { has_sexuality = asexual }
+			}
+		}
+		cdol_lose_sexual_power_effect = {
+			VALUE = cdol_alter_sexuality_sexual_power_cost
+		}
+		scope:recipient = {
+			show_as_tooltip = {
+				set_sexuality = asexual
+			}
+			add_character_flag = cdol_alter_sexuality_asexual
+			trigger_event = { id = cdol_ability.0301 }
+		}
+		cdol_add_suspicion_effect = yes
+	}
+
+	option = { # Nevermind
+		name = cdol_ability.0300.cancel
+	}
+}
+
+#
+# 0301. Alter Sexuality (recipient)
+#
+
+cdol_ability.0301 = {
+	type = character_event
+	title = cdol_ability.0301.t
+	desc = {
+		desc = cdol_ability.0301.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_sexuality = bisexual
+					has_character_flag = cdol_alter_sexuality_asexual
+				}
+				desc = cdol_ability.0301.im_ace_now
+			}
+			triggered_desc = {
+				trigger = {
+					is_attracted_to_men = yes
+					OR = {
+						AND = {
+							is_male = yes
+							has_character_flag = cdol_alter_sexuality_heterosexual
+						}
+						AND = {
+							is_female = yes
+							has_character_flag = cdol_alter_sexuality_homosexual
+						}
+						has_character_flag = cdol_alter_sexuality_asexual
+					}
+				}
+				desc = cdol_ability.0301.i_hate_guys_now
+			}
+			triggered_desc = {
+				trigger = {
+					is_attracted_to_women = yes
+					OR = {
+						AND = {
+							is_male = yes
+							has_character_flag = cdol_alter_sexuality_homosexual
+						}
+						AND = {
+							is_female = yes
+							has_character_flag = cdol_alter_sexuality_heterosexual
+						}
+						has_character_flag = cdol_alter_sexuality_asexual
+					}
+				}
+				desc = cdol_ability.0301.i_hate_girls_now
+			}
+			desc = ""
+		}
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_sexuality = asexual
+					has_character_flag = cdol_alter_sexuality_bisexual
+				}
+				desc = cdol_ability.0301.im_bi_now
+			}
+			triggered_desc = {
+				trigger = {
+					is_attracted_to_men = no
+					OR = {
+						AND = {
+							is_male = yes
+							has_character_flag = cdol_alter_sexuality_homosexual
+						}
+						AND = {
+							is_female = yes
+							has_character_flag = cdol_alter_sexuality_heterosexual
+						}
+						has_character_flag = cdol_alter_sexuality_bisexual
+					}
+				}
+				desc = cdol_ability.0301.i_like_guys_now
+			}
+			triggered_desc = {
+				trigger = {
+					is_attracted_to_women = no
+					OR = {
+						AND = {
+							is_male = yes
+							has_character_flag = cdol_alter_sexuality_heterosexual
+						}
+						AND = {
+							is_female = yes
+							has_character_flag = cdol_alter_sexuality_homosexual
+						}
+						has_character_flag = cdol_alter_sexuality_bisexual
+					}
+				}
+				desc = cdol_ability.0301.i_like_girls_now
+			}
+			desc = ""
+		}
+	}
+
+	theme = mental_health
+	
+	left_portrait = {
+		character = scope:recipient
+		animation = worry
+	}
+
+	option = {
+		name = cdol_ability.0301.a
+		if = {
+			limit = {
+				has_character_flag = cdol_alter_sexuality_heterosexual
+			}
+			remove_character_flag = cdol_alter_sexuality_heterosexual
+			set_sexuality = heterosexual
+		}
+		else_if = {
+			limit = {
+				has_character_flag = cdol_alter_sexuality_homosexual
+			}
+			remove_character_flag = cdol_alter_sexuality_homosexual
+			set_sexuality = homosexual
+		}
+		else_if = {
+			limit = {
+				has_character_flag = cdol_alter_sexuality_bisexual
+			}
+			remove_character_flag = cdol_alter_sexuality_bisexual
+			set_sexuality = bisexual
+		}
+		else_if = {
+			limit = {
+				has_character_flag = cdol_alter_sexuality_asexual
+			}
+			remove_character_flag = cdol_alter_sexuality_asexual
+			set_sexuality = asexual
+		}
 	}
 }

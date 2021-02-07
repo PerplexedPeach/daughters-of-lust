@@ -9,7 +9,9 @@
 	is_shown = {
 		is_adult = yes
 		cdol_has_succubus_powers_trigger = yes
-		var:cdol_succubus_mastery_level >= cdol_alter_self_succubus_mastery_level
+		cdol_has_succubus_mastery_trigger = {
+			VALUE = cdol_alter_self_succubus_mastery_level
+		}
 	}
 
     is_valid_showing_failures_only = {

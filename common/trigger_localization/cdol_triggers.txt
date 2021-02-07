@@ -1,4 +1,9 @@
-﻿cdol_has_sexual_power_trigger_text = {
+﻿cdol_can_regenerate_trigger = {
+	first_not = cdol_can_regenerate_trigger
+	third_not = cdol_can_regenerate_trigger
+}
+
+cdol_has_sexual_power_trigger_text = {
 	first = cdol_you_have_sexual_power
 	first_not = cdol_you_do_not_have_sexual_power
 	third = cdol_they_has_sexual_power
