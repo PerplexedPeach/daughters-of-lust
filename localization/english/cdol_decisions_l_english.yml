@@ -24,5 +24,11 @@
  msg_cdol_stopped_succubus_birth_control: "Unsealed Womb"
  cdol_stop_succubus_birth_control_decision_effect_tooltip: "You can now get pregnant"
 
+ cdol_regenerate_decision: "Regenerate"
+ cdol_regenerate_decision_desc: "As my understanding of my body grows, I can manipulate my sexual energies to expel my afflictions and regenerate my wounds."
+ cdol_regenerate_decision_tooltip: "Use [cdol_sexual_power|E] to cure yourself of an [illness|E], injury, or disfigurement"
+ cdol_regenerate_decision_confirm: "Begin the ritual"
+ cdol_regenerate_decision_notification: "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+
  cdol_become_succubus_decision: "Perform [ROOT.Char.Custom('CdolSuccubusName')|U] Transformation Ritual"
  cdol_awaken_succubus_ancestry_decision: "Awaken [ROOT.Char.Custom('CdolSuccubusName')|U] Ancestry"

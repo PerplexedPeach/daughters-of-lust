@@ -1,5 +1,6 @@
 ﻿cdol_fascinate_interaction = {
 	category = interaction_category_friendly
+	interface_priority = 10
 	common_interaction = yes
     
     desc = cdol_fascinate_interaction_desc
@@ -7,7 +8,9 @@
     is_shown = {
         scope:actor = {
 		    cdol_has_succubus_powers_trigger = yes
-            var:cdol_succubus_mastery_level >= cdol_fascinate_succubus_mastery_level
+            cdol_has_succubus_mastery_trigger = {
+                VALUE = cdol_fascinate_succubus_mastery_level
+            }
         }
         scope:recipient = {
 		    cdol_has_succubus_powers_trigger = no

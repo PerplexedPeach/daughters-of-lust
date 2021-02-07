@@ -1,0 +1,36 @@
+﻿cdol_alter_sexuality_interaction = {
+    category = interaction_category_friendly
+	interface_priority = 9
+	common_interaction = yes
+    
+    desc = cdol_alter_sexuality_interaction_desc
+
+    is_shown = {
+        scope:actor = {
+		    cdol_has_succubus_powers_trigger = yes
+            cdol_has_succubus_mastery_trigger = {
+                VALUE = cdol_alter_sexuality_succubus_mastery_level
+            }
+        }
+        scope:recipient = {
+            NOT = { has_sexuality = none }
+		    cdol_has_succubus_powers_trigger = no
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        scope:actor = {
+            cdol_has_sexual_power_trigger = {
+                VALUE = cdol_alter_sexuality_sexual_power_cost
+            }
+        }
+    }
+
+    on_accept = {
+        scope:actor = {
+            trigger_event = { id = cdol_ability.0300 }
+        }
+    }
+
+    auto_accept = yes
+}

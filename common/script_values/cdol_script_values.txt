@@ -16,6 +16,12 @@ cdol_alter_self_succubus_mastery_level = 15
 cdol_alter_self_sexual_power_cost = 50
 cdol_alter_self_milk_production_change = 100
 
+cdol_alter_sexuality_succubus_mastery_level = 20
+cdol_alter_sexuality_sexual_power_cost = 30
+
+cdol_regenerate_succubus_mastery_level = 25
+cdol_regenerate_sexual_power_cost = 10
+
 cdol_succubus_conversion_succubus_mastery_level = 100
 
 cdol_on_drain_milk_production_increase = 50

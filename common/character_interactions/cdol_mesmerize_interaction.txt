@@ -1,6 +1,7 @@
 ﻿cdol_mesmerize_interaction = {
     category = interaction_category_hostile
-    
+	interface_priority = 9
+
     desc = cdol_mesmerize_interaction_desc
     use_diplomatic_range = no
 	cooldown_against_recipient = { years = cdol_mesmerize_cooldown_years }
@@ -8,7 +9,9 @@
     is_shown = {
         scope:actor = {
 		    cdol_has_succubus_powers_trigger = yes
-            var:cdol_succubus_mastery_level >= cdol_mesmerize_succubus_mastery_level
+            cdol_has_succubus_mastery_trigger = {
+                VALUE = cdol_mesmerize_succubus_mastery_level
+            }
         }
         scope:recipient = {
 		    cdol_has_succubus_powers_trigger = no
@@ -63,6 +66,7 @@
                 VICTIM = scope:recipient
             }
             cdol_add_heavy_suspicion_effect = yes
+		    cdol_on_ability_milk_production_effect = yes
         }
 		hidden_effect = {
 			scope:recipient = {

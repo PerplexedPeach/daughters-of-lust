@@ -28,11 +28,11 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - 5: Fascinate (Single target opinion increase)
 - 10: Mesmerize (Gain Weak Hook on someone after sleeping with them)
 - 15: Alter Self (Change own beauty, body part size)
+- 20: Alter Sexuality (Sexuality change on target)
+- 25: Regenerate (Cure wounds/disfigurements)
 
 # Todo Abilities
 
-- 20: Alter Sexuality (Sexuality change on target)
-- 25: Regenerate (Cure wounds/disfigurements)
 - 30: Torment (Increase Stress on target)
 - 35: Inspire (Give someone a stat boost after sleeping with them)
 - 40: Incite Rivalry (Make two targets become rivals)
@@ -49,6 +49,7 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - Implementation
 - Game concept
 - Game concept localization
+- Add to cdol_ability_tooltips_l_english.yml
 - Add to list in "Succubus Mastery" concept
 - Add to cdol_ability_unlock_tooltip_effect
 - Add to cdol_unlocked_abilities_tooltip_effect
@@ -60,3 +61,4 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 * Check Succubus Stats illustration edited from [Succubus 2](https://www.deviantart.com/leevitron/art/Succubus-2-113565769) by [Leevitron](https://www.deviantart.com/leevitron)
 * Seal/Unseal Womb illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)
 * Alter Self illustration edited from [Scorched/Marama](https://www.artstation.com/artwork/zAOkqd) by [Nise Loftsteinn](https://www.artstation.com/nise_loftsteinn)
+* Regenerate illustration edited from [Blood Succubus](https://www.deviantart.com/cglas/art/Blood-Succubus-520943014) by [CGlas](https://www.deviantart.com/cglas)

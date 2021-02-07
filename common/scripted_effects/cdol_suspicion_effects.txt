@@ -5,3 +5,7 @@
 cdol_add_heavy_suspicion_effect = {
 	# nothing for now
 }
+
+cdol_remove_suspicion_effect = {
+	# nothing for now
+}

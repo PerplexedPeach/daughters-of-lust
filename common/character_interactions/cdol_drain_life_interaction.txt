@@ -1,5 +1,6 @@
 ﻿cdol_drain_life_interaction = {
     category = interaction_category_hostile
+	interface_priority = 10
     
     desc = cdol_drain_life_interaction_desc
     use_diplomatic_range = no
@@ -7,7 +8,9 @@
     is_shown = {
         scope:actor = {
 		    cdol_has_succubus_powers_trigger = yes
-            var:cdol_succubus_mastery_level >= cdol_drain_life_succubus_mastery_level
+            cdol_has_succubus_mastery_trigger = {
+                VALUE = cdol_drain_life_succubus_mastery_level
+            }
         }
         scope:recipient = {
 		    cdol_has_succubus_powers_trigger = no
