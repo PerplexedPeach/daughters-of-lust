@@ -7,7 +7,7 @@
  cdol_gain_sexual_power_effect: "Gains $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
  cdol_gain_sexual_power_effect_past: "Gained $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
 
- cdol_max_out_sexual_power_effect: "You reach a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
+ cdol_max_out_sexual_power_effect_first: "You reach a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
  cdol_max_out_sexual_power_effect_first_past: "You reached a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
  cdol_max_out_sexual_power_effect_third: "[CHARACTER.GetShortUIName|U] reaches a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
  cdol_max_out_sexual_power_effect_third_past: "[CHARACTER.GetShortUIName|U] reached a maximum of [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]"
