@@ -1,5 +1,7 @@
 ﻿l_french:
 
+cdol_can_regenerate_trigger:1 "Vous n'avez pas de [illness|El], de blessure ou de défigurement"
+
 cdol_you_have_sexual_power:1 "vous avez $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
 cdol_you_do_not_have_sexual_power:1 "Vous n'avez pas $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
 cdol_they_has_sexual_power:1 "[CHARACTER.MakeScope.GetShortUIName|U] a $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"

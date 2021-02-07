@@ -24,5 +24,11 @@ cdol_stop_succubus_birth_control_decision_confirm:1 "Une chaleur circule en moi.
 msg_cdol_stopped_succubus_birth_control:1 "Utérus descellé"
 cdol_stop_succubus_birth_control_decision_effect_tooltip:1 "Vous pouvez à nouveau tomber enceinte"
 
+cdol_regenerate_decision:1 "Se régénérer"
+cdol_regenerate_decision_desc:1 "Alors que la compréhension de mon corps s'accroît, je peux manipuler mes énergies sexuelles pour éliminer mes afflictions et régénérer mes blessures."
+cdol_regenerate_decision_tooltip:1 "Utiliser de la [cdol_sexual_power|El] pour vous guérir d'une [illness|El], d'une blessure, ou d'une défiguration"
+cdol_regenerate_decision_confirm:1 "Commencez le rituel"
+cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+
 cdol_become_succubus_decision:1 "Exécuter le rituel de transformation en [ROOT.Char.Custom('CdolSuccubusName')]"
 cdol_awaken_succubus_ancestry_decision:1 "Réveiller votre ascendance succubine"

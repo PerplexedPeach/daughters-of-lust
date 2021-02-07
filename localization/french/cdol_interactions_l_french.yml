@@ -1,5 +1,8 @@
 ﻿l_french:
 
+cdol_alter_sexuality_interaction:1 "Changer la sexualité"
+cdol_alter_sexuality_interaction_desc:1 "Utiliser de la [cdol_sexual_power|El] pour changer la [sexuality|El] de [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip]"
+
 cdol_drain_life_interaction:1 "Drain de vie"
 cdol_drain_life_interaction_desc:1 "Utiliser de la [cdol_sexual_power|El] pour secrètement drainer la santé [recipient.Custom('FR_du_Char_U_Pi')][recipient.GetShortUINameNoTooltip]"
 cdol_drain_life_interaction_notification:1 "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
