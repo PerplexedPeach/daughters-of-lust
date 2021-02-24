@@ -47,3 +47,7 @@ cdol_ability.0301.im_bi_now:1 "\n\nLorsque je regarde le corps des hommes et des
 cdol_ability.0301.i_like_guys_now:1 "\n\nDe plus en plus, je constate que les beaux hommes provoquent chez moi une bouffée de chaleur et un désir indéniable au niveau de l'entrejambe."
 cdol_ability.0301.i_like_girls_now:1 "\n\nDe plus en plus, je constate que les belles femmes provoquent chez moi une bouffée de chaleur et un désir indéniable au niveau de l'entrejambe."
 cdol_ability.0301.a:1 "Que m'arrive-t-il ?"
+
+cdol_ability.0400.t:1 "Un cauchemar éveillé"
+cdol_ability.0400.desc:1 "Je me réveille trempé[ROOT.Custom('FR_E')] de sueur. Mes pensées sont emplies de visions inquiétantes et de chuchotements moqueurs... La terreur... La terreur... !\n\nJ'essaie de me calmer, mais les murs semblent se rapprocher et les ombres semblent s'agripper à ma chair. Il n'y a pas de refuge contre les terribles cauchemars qui se cachent derrière mes paupières.\n\nAi-je été maudit par [ROOT.Char.GetFaith.DevilName] ? Le monde devient-il fou ?"
+cdol_ability.0400.a:1 "Ô [ROOT.Char.GetFaith.HighGodName], délivre-moi de ce tourment !"
