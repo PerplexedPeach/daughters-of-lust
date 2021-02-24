@@ -49,5 +49,5 @@
  cdol_ability.0301.a: "What is happening to me?"
 
  cdol_ability.0400.t: "A Waking Nightmare"
- cdol_ability.0400.desc: "I wake up drenched in sweat. My thoughts are hazy with disturbing visions and mocking whispers... The terror... The terror...!\n\nI try to calm myself, but the walls seem to close in and the shadows claw at my flesh. No place offers refuge from the terrible nightmares that lurk behind my eyelids.\n\nWhat is happening to me? Have I been cursed by [ROOT.Char.GetFaith.DevilName]? Is the world going mad?"
+ cdol_ability.0400.desc: "I awaken drenched in sweat. My thoughts are heavy with disturbing visions and mocking whispers... The terror... The terror...!\n\nI try to calm myself, but the walls seem to close in and the shadows seem to claw at my flesh. There is no refuge from the terrible nightmares that lurk behind my eyelids.\n\nHave I been cursed by [ROOT.Char.GetFaith.DevilName]? Is the world going mad?"
  cdol_ability.0400.a: "O [ROOT.Char.GetFaith.HighGodName], deliver me from this torment!"
