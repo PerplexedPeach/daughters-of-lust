@@ -1,0 +1,61 @@
+﻿cdol_torment_interaction = {
+    category = interaction_category_hostile
+	interface_priority = 8
+    common_interaction = yes
+
+    desc = cdol_torment_interaction_desc
+    use_diplomatic_range = no
+	cooldown_against_recipient = { years = cdol_torment_cooldown_years }
+
+    is_shown = {
+        scope:actor = {
+		    cdol_has_succubus_powers_trigger = yes
+            cdol_has_succubus_mastery_trigger = {
+                VALUE = cdol_torment_succubus_mastery_level
+            }
+        }
+        scope:recipient = {
+		    cdol_has_succubus_powers_trigger = no
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        scope:actor = {
+            cdol_has_sexual_power_trigger = {
+                VALUE = cdol_torment_sexual_power_cost
+            }
+        }
+        scope:recipient = {
+            stress_level < 3
+        }
+    }
+
+    on_accept = {
+        scope:actor = {
+            cdol_lose_sexual_power_effect = {
+                VALUE = cdol_torment_sexual_power_cost
+            }
+            send_interface_toast = {
+                title = cdol_torment_interaction_notification
+                left_icon = scope:actor
+                right_icon = scope:recipient
+                show_as_tooltip = {
+                    scope:recipient = {
+                        add_stress = massive_stress_gain
+                    }
+                }
+            }
+            cdol_manipulation_stress_impact_effect = {
+                VICTIM = scope:recipient
+            }
+            cdol_add_suspicion_effect = yes
+        }
+		hidden_effect = {
+			scope:recipient = {
+				trigger_event = { id = cdol_ability.0400 }
+			}
+		}
+    }
+
+    auto_accept = yes
+}

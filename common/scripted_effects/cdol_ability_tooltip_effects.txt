@@ -50,6 +50,14 @@
 	if = {
 		limit = {
 			cdol_has_succubus_mastery_trigger = {
+				VALUE = cdol_torment_succubus_mastery_level
+			}
+		}
+		custom_tooltip = cdol_torment_unlocked_tooltip
+	}
+	if = {
+		limit = {
+			cdol_has_succubus_mastery_trigger = {
 				VALUE = cdol_succubus_conversion_succubus_mastery_level
 			}
 		}
@@ -105,6 +113,14 @@ cdol_unlocked_abilities_tooltip_effect = {
 			}
 		}
 		custom_tooltip = cdol_regenerate_list_tooltip
+	}
+	if = {
+		limit = {
+			cdol_has_succubus_mastery_trigger = {
+				VALUE = cdol_torment_succubus_mastery_level
+			}
+		}
+		custom_tooltip = cdol_torment_list_tooltip
 	}
 	if = {
 		limit = {

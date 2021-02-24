@@ -47,3 +47,7 @@
  cdol_ability.0301.i_like_guys_now: "\n\nMore and more, I find that handsome men cause a hot flush to come over me and an unmistakable longing to stir in my loins."
  cdol_ability.0301.i_like_girls_now: "\n\nMore and more, I find that beautiful women cause a hot flush to come over me and an unmistakable longing to stir in my loins."
  cdol_ability.0301.a: "What is happening to me?"
+
+ cdol_ability.0400.t: "A Waking Nightmare"
+ cdol_ability.0400.desc: "I awaken drenched in sweat. My thoughts are heavy with disturbing visions and mocking whispers... The terror... The terror...!\n\nI try to calm myself, but the walls seem to close in and the shadows seem to claw at my flesh. There is no refuge from the terrible nightmares that lurk behind my eyelids.\n\nHave I been cursed by [ROOT.Char.GetFaith.DevilName]? Is the world going mad?"
+ cdol_ability.0400.a: "O [ROOT.Char.GetFaith.HighGodName], deliver me from this torment!"

@@ -60,3 +60,8 @@ cdol_succubus_mastery = {
 cdol_suspicion = {
 	alias = { cdol_suspicious }
 }
+
+cdol_torment_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}
