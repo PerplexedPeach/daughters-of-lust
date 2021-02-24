@@ -3,6 +3,7 @@
 # 0100. Mesmerize (recipient)
 # 0200-1. Alter Self
 # 0300-1. Alter Sexuality
+# 0400. Torment (recipient)
 
 ############################################################################
 # 0100. Mesmerize (recipient)
@@ -721,5 +722,29 @@ cdol_ability.0301 = {
 			remove_character_flag = cdol_alter_sexuality_asexual
 			set_sexuality = asexual
 		}
+	}
+}
+
+############################################################################
+# 0400. Torment (recipient)
+############################################################################
+
+cdol_ability.0400 = {
+	type = character_event
+	title = cdol_ability.0400.t
+	desc = cdol_ability.0400.desc
+	theme = mental_health
+	
+	left_portrait = {
+		character = scope:recipient
+		animation = worry
+	}
+
+	immediate = {
+		add_stress = massive_stress_gain
+	}
+
+	option = {
+		name = cdol_ability.0400.a
 	}
 }

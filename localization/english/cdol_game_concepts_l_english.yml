@@ -36,8 +36,11 @@ game_concept_cdol_succubus_conversion_interaction_desc: "A [cdol_succubus|E] wit
 
 game_concept_cdol_succubus_mastery: "Succubus Mastery"
 game_concept_cdol_succubus_mastery_level: "Succubus Mastery Level"
-game_concept_cdol_succubus_mastery_desc: "Each time a [cdol_succubus|E] absorbs [cdol_sexual_power|E] through sex, she gains a level of [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]. In addition, she gains access to new [decisions|E] and [interactions|E] at certain Succubus Mastery Levels:\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_self_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_sexuality_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_regenerate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
+game_concept_cdol_succubus_mastery_desc: "Each time a [cdol_succubus|E] absorbs [cdol_sexual_power|E] through sex, she gains a level of [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]. In addition, she gains access to new [decisions|E] and [interactions|E] at certain Succubus Mastery Levels:\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_self_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_sexuality_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_regenerate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_torment_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
 
 game_concept_cdol_suspicion: "Suspicion"
 game_concept_cdol_suspicious: "Suspicious"
 game_concept_cdol_suspicion_desc: "When a [cdol_succubus|E] uses [cdol_sexual_power|E] for [decisions|E] or [interactions|E], she may arouse Suspicion.\n\nIf her Suspicion grows too high, other [characters|E] may have the opportunity to investigate her and discover her [secret|E]."
+
+game_concept_cdol_torment_interaction: "$cdol_torment_interaction$"
+game_concept_cdol_torment_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_torment_succubus_mastery_level')|0] can use this [character_interaction|E] to inflict a massive amount of [stress|E] on another [character|E]."
