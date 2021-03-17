@@ -12,10 +12,10 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 # Todo
 
-- Sexual Power abilities
-- Notifications and UI for Sexual Power ability unlocks
+- Game rule to start as succubus
 - Perform Succubus Transformation Ritual
 - Awaken Succubus Ancestry
+- Sexual Power abilities
 - Withdrawal
 - Suspicion
 - Depose Succubus CB
@@ -30,10 +30,10 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 - 15: Alter Self (Change own beauty, body part size)
 - 20: Alter Sexuality (Sexuality change on target)
 - 25: Regenerate (Cure wounds/disfigurements)
+- 30: Torment (Increase Stress on target)
 
 # Todo Abilities
 
-- 30: Torment (Increase Stress on target)
 - 35: Inspire (Give someone a stat boost after sleeping with them)
 - 40: Incite Rivalry (Make two targets become rivals)
 - 45: Incite Lust (Make two targets become lovers)
