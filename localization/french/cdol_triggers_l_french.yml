@@ -22,3 +22,10 @@ cdol_they_recently_laid_with_target:1 "[CHARACTER.GetShortUIName|U] a couché av
 cdol_they_did_not_recently_lay_with_target:1 "[CHARACTER.GetShortUIName|U] n'a pas couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
 cdol_recently_laid_with_target:1 "A couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
 cdol_did_not_recently_lay_with_target:1 "N'a pas couché avec [TARGET_CHARACTER.GetShortUIName|U] ces 30 derniers jours"
+
+cdol_you_are_witch:1 "Vous avez le trait [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_you_are_not_witch:1 "Vous n'avez pas le trait [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_they_are_witch:1 "[CHARACTER.GetShortUIName|U] a le trait [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_they_are_not_witch:1 "[CHARACTER.GetShortUIName|U] n'a pas le trait[GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_is_witch:1 "A le trait [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_is_not_witch:1 "N'a pas le trait [GetTrait('witch').GetName( GetNullCharacter )]"

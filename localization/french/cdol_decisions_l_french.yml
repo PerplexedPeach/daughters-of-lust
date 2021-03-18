@@ -30,5 +30,12 @@ cdol_regenerate_decision_tooltip:1 "Utiliser de la [cdol_sexual_power|El] pour v
 cdol_regenerate_decision_confirm:1 "Commencez le rituel"
 cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
 
+cdol_awaken_succubus_ancestry_decision:1 "Réveiller votre ascendance de [ROOT.Char.Custom('CdolSuccubusName')]"
+cdol_awaken_succubus_ancestry_decision_desc:1 "Les pouvoirs de la tentation charnelle sommeillent dans mes veines. Je devrais rechercher des textes interdits et d'anciens parchemins de magie, afin de pouvoir réveiller mon véritable droit de naissance en tant que fille de [ROOT.Char.Custom('CdolSuccubusPatron')]."
+cdol_awaken_succubus_ancestry_decision_tooltip:1 "Réveillez votre ascendance et devenez une [ROOT.Char.Custom('CdolSuccubusNameGameConcept')] à part entière."
+cdol_awaken_succubus_ancestry_decision_confirm:1 "Commencez le rituel"
+
 cdol_become_succubus_decision:1 "Exécuter le rituel de transformation en [ROOT.Char.Custom('CdolSuccubusName')]"
-cdol_awaken_succubus_ancestry_decision:1 "Réveiller votre ascendance succubine"
+cdol_become_succubus_decision_desc:1 "Les légendes parlent d'une race de tentatrices qui peuvent enchanter et manipuler les mortels. Dans mon initiation aux mystères de l'univers, j'ai appris à me transformer en une [ROOT.Char.Custom('CdolSuccubusName')] des légendes."
+cdol_become_succubus_decision_tooltip:1 "Utilisez les arts interdits pour vous transformer en une [ROOT.Char.Custom('CdolSuccubusNameGameConcept')]."
+cdol_become_succubus_decision_confirm:1 "Commencez le rituel"
