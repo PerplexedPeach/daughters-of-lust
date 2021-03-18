@@ -23,13 +23,21 @@ cdol_show_succubus_revealed_portrait_trigger = {
 }
 
 cdol_has_succubus_ancestry_trigger = {
-	any_ancestor = {
-		cdol_is_succubus_trigger = yes
+	OR = {
+		has_character_flag = cdol_has_succubus_ancestry
+		has_trait_with_flag = cdol_has_succubus_ancestry
+		any_ancestor = {
+			cdol_is_succubus_trigger = yes
+		}
 	}
 }
 
 cdol_has_negative_attitude_towards_succubi_trigger = {
 	cdol_is_succubus_trigger = no
+	cdol_faith_has_negative_attitude_towards_succubi_trigger = yes
+}
+
+cdol_faith_has_negative_attitude_towards_succubi_trigger = {
 	OR = {
 		faith = { has_doctrine_parameter = witchcraft_shunned }
 		faith = { has_doctrine_parameter = witchcraft_illegal }

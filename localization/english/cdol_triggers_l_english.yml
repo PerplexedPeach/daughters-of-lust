@@ -22,3 +22,10 @@
  cdol_they_did_not_recently_lay_with_target: "[CHARACTER.GetShortUIName|U] has not laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
  cdol_recently_laid_with_target: "Has laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
  cdol_did_not_recently_lay_with_target: "Has not laid with [TARGET_CHARACTER.GetShortUIName|U] in the past 30 days"
+
+ cdol_you_are_witch: "You are a [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_you_are_not_witch: "You are not a [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_they_are_witch: "[CHARACTER.GetShortUIName|U] is a [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_they_are_not_witch: "[CHARACTER.GetShortUIName|U] is not a [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_is_witch: "Is a [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_is_not_witch: "Is not a [GetTrait('witch').GetName( GetNullCharacter )]"

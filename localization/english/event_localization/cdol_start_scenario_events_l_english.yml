@@ -1,0 +1,13 @@
+﻿l_english:
+
+cdol_start_scenario.0100.t: "Daughter of Lust"
+cdol_start_scenario.0100.intro: "While researching the ancestry of my noble house, I have discovered an unsettling revelation.\n\nThe folktales of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] tell of an alluring [ROOT.Char.Custom( 'CdolSuccubusName' )] who ensnares men with her feminine wiles. In some tellings, she bears many half-blooded children before her tricks are discovered.\n\nOnly now have I realized that one of her offspring in these tales shares a name with a founder of the [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] dynasty!\n\n"
+cdol_start_scenario.0100.negative: "Could it be that the dark influence of [ROOT.Char.Custom( 'CdolSuccubusPatron' )] runs in our blood, after all these years?"
+cdol_start_scenario.0100.positive: "Could it be that the power of [ROOT.Char.Custom( 'CdolSuccubusPatron' )] runs in our blood, after all these years?"
+
+cdol_start_scenario.0100.a: "May [ROOT.Char.GetFaith.HighGodName] have mercy upon us!"
+cdol_start_scenario.0100.b: "My bloodline has been blessed by [ROOT.Char.Custom( 'CdolSuccubusPatron' )]!"
+cdol_start_scenario.0100.a.t: "You discover your [THIS.Char.Custom( 'CdolSuccubusNameGameConcept' )] ancestry"
+
+cdol_start_scenario.0100.c: "It must be a coincidence, nothing more."
+cdol_start_scenario.0100.c.t: "You decide not to delve into your family's past"

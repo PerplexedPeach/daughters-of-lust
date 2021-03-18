@@ -234,7 +234,7 @@ cdol_drain.0010 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0010.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -335,7 +335,7 @@ cdol_drain.0020 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0020.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -436,7 +436,7 @@ cdol_drain.0030 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0030.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -537,7 +537,7 @@ cdol_drain.0040 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0040.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -638,7 +638,7 @@ cdol_drain.0050 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0050.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -739,7 +739,7 @@ cdol_drain.0060 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0060.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -840,7 +840,7 @@ cdol_drain.0070 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0070.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -940,7 +940,7 @@ cdol_drain.0080 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0080.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -1039,7 +1039,7 @@ cdol_drain.0090 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0090.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous
@@ -1173,7 +1173,7 @@ cdol_drain.0100 = {
 		desc = cdol_drain.generic_opening
 		desc = cdol_drain.0100.ending
 	}
-	theme = seduce_scheme
+	theme = seduction
 	left_portrait = {
 		character = root
 		animation = personality_zealous

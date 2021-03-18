@@ -1,0 +1,21 @@
+﻿namespace = cdol_ruler_designer
+
+# 0001. Initialize ruler designed succubi on game start
+
+cdol_ruler_designer.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		every_player = {
+			if = {
+				limit = {
+					has_trait = cdol_succubus
+					NOT = { has_character_flag = cdol_succubus_initialized }
+				}
+				remove_trait = cdol_succubus
+				cdol_basic_become_succubus_effect = yes
+			}
+		}
+	}
+}

@@ -29,3 +29,12 @@ cdol_recently_laid_with_target_trigger = {
 	global = cdol_recently_laid_with_target
 	global_not = cdol_did_not_recently_lay_with_target
 }
+
+cdol_is_witch_trigger = {
+	first = cdol_you_are_witch
+	first_not = cdol_you_are_not_witch
+	third = cdol_they_are_witch
+	third_not = cdol_they_are_not_witch
+	global = cdol_is_witch
+	global_not = cdol_is_not_witch
+}

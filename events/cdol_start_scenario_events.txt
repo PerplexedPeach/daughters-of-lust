@@ -1,0 +1,92 @@
+﻿namespace = cdol_start_scenario
+
+# 0001. on game start event
+# 0100. Daughter of Lust
+
+# 0001. on game start event
+cdol_start_scenario.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_game_rule = cdol_start_scenario_succubus
+			}
+			every_player = {
+				if = {
+					limit = {
+						is_female = yes
+						cdol_is_succubus_trigger = no
+						cdol_has_succubus_ancestry_trigger = no
+					}
+				}
+				trigger_event = {
+					id = cdol_start_scenario.0100
+					days = 7
+				}
+			}
+		}
+	}
+}
+
+# 0100. Daughter of Lust
+cdol_start_scenario.0100 = {
+	type = character_event
+	title = cdol_start_scenario.0100.t
+	theme = dynasty
+	override_background = {
+		event_background = study
+	}
+
+	desc = {
+		desc = cdol_start_scenario.0100.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					cdol_has_negative_attitude_towards_succubi_trigger = yes
+				}
+				desc = cdol_start_scenario.0100.negative
+			}
+			desc = cdol_start_scenario.0100.positive
+		}
+	}
+
+	left_portrait = {
+		character = this
+		animation = disbelief
+	}
+
+	trigger = {
+		is_female = yes
+		cdol_is_succubus_trigger = no
+		cdol_has_succubus_ancestry_trigger = no
+	}
+
+	option = {
+		name = {
+			trigger = { cdol_has_negative_attitude_towards_succubi_trigger = yes }
+			text = cdol_start_scenario.0100.a
+		}
+		name = {
+			trigger = { cdol_has_negative_attitude_towards_succubi_trigger = no }
+			text = cdol_start_scenario.0100.b
+		}
+		add_character_flag = cdol_has_succubus_ancestry
+		custom_tooltip = cdol_start_scenario.0100.a.t
+		if = {
+			limit = {
+				cdol_has_negative_attitude_towards_succubi_trigger = yes
+			}
+			stress_impact = {
+				base = minor_stress_impact_gain
+				zealous = minor_stress_impact_gain
+			}
+		}
+	}
+
+	option = {
+		name = cdol_start_scenario.0100.c
+		custom_tooltip = cdol_start_scenario.0100.c.t
+	}
+}

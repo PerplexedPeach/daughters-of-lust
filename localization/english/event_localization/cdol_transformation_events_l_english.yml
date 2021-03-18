@@ -1,0 +1,7 @@
+﻿l_english:
+
+ cdol_transformation.0001.t: "An Awakening of Flesh"
+ cdol_transformation.0001.intro: "At last, the hour of change has come. I kneel in my chambers and open myself to the haunting vapors; I writhe as I feel the desire spilling from the dark and forgotten corners of my soul. For the first time in my life, I look within myself and know who I am and what I shall become.\n\n"
+ cdol_transformation.0001.negative: "When I open my eyes, I am a changed woman. I rise unashamed of my naked body, reveling in the hot, sweet caress of the vapors on my flesh. I am my old [ROOT.Char.GetFaith.HighGodName]-fearing self no longer, but a being far more powerful -- more worldly -- more sensual."
+ cdol_transformation.0001.positive: "When I open my eyes, I am a changed woman. I rise unashamed of my naked body, reveling in the hot, sweet caress of the vapors on my flesh. I am my old self no longer, but a being far more powerful -- more divine -- more sensual."
+cdol_transformation.0001.a: "I am a [ROOT.Char.Custom( 'CdolSuccubusName' )], and the earth is mine to inherit."

@@ -109,6 +109,43 @@ CdolSuccubusPatron = {
 	}
 }
 
+CdolSuccubusNameGameConcept = {
+	type = character
+
+	text = {
+		trigger = {
+			cdol_succubus_name_succubus_trigger = yes
+		}
+		localization_key = cdol_succubus_game_concept
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_yakshi_trigger = yes
+		}
+		localization_key = cdol_yakshi_game_concept
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_qarinah_trigger = yes
+		}
+		localization_key = cdol_qarinah_game_concept
+	}
+
+	text = {
+		trigger = {
+			cdol_succubus_name_leannan_sidhe_trigger = yes
+		}
+		localization_key = cdol_leannan_sidhe_game_concept
+	}
+
+	text = {
+		localization_key = cdol_demoness_game_concept
+		fallback = yes
+	}
+}
+
 CdolSuccubusPositiveDescription = {
 	type = character
 

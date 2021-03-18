@@ -1,0 +1,52 @@
+﻿namespace = cdol_transformation
+
+# 0001. Perform Succubus Transformation Ritual / Awaken Succubus Ancestry
+
+# 0001. Perform Succubus Transformation Ritual / Awaken Succubus Ancestry
+
+cdol_transformation.0001 = {
+	type = character_event
+	title = cdol_transformation.0001.t
+	theme = seduction
+	left_portrait = {
+		character = root
+		animation = personality_zealous
+	}
+
+	desc = {
+		desc = cdol_transformation.0001.intro
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					cdol_faith_has_negative_attitude_towards_succubi_trigger = yes
+				}
+				desc = cdol_transformation.0001.negative
+			}
+			desc = cdol_transformation.0001.positive
+		}
+	}
+
+	left_portrait = {
+		character = this
+		animation = personality_zealous
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_faith_conversion"
+		cdol_reveal_root_succubus_portrait_for_this_event_effect = yes
+		if = {
+			limit = { is_ai = no }
+			carn_undress_character_effect = yes
+		}
+		cdol_become_succubus_effect = yes
+	}
+
+	option = {
+		name = cdol_transformation.0001.a
+	}
+
+	after = {
+		carn_dress_character_effect = yes
+		cdol_stop_reveal_root_succubus_portrait_effect = yes
+	}
+}
