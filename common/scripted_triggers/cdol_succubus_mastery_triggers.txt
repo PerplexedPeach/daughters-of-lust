@@ -5,3 +5,7 @@
 		var:cdol_succubus_mastery_level >= $VALUE$
 	}
 }
+
+cdol_succubus_mastery_equals_trigger = {
+	var:cdol_succubus_mastery_level = $VALUE$
+}

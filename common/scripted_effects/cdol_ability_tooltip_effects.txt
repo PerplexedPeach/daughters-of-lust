@@ -1,7 +1,7 @@
 ﻿cdol_ability_unlock_tooltip_effect = {
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_drain_life_succubus_mastery_level
 			}
 		}
@@ -9,7 +9,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_fascinate_succubus_mastery_level
 			}
 		}
@@ -17,7 +17,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_mesmerize_succubus_mastery_level
 			}
 		}
@@ -25,7 +25,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_alter_self_succubus_mastery_level
 			}
 		}
@@ -33,7 +33,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_alter_sexuality_succubus_mastery_level
 			}
 		}
@@ -41,7 +41,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_regenerate_succubus_mastery_level
 			}
 		}
@@ -49,7 +49,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_torment_succubus_mastery_level
 			}
 		}
@@ -57,7 +57,7 @@
 	}
 	if = {
 		limit = {
-			cdol_has_succubus_mastery_trigger = {
+			cdol_succubus_mastery_equals_trigger = {
 				VALUE = cdol_succubus_conversion_succubus_mastery_level
 			}
 		}
