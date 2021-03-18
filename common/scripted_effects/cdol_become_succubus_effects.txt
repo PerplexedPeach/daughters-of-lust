@@ -16,6 +16,22 @@
 	cdol_basic_become_succubus_effect = yes
 }
 
+cdol_become_succubus_tooltip_effect = {
+	if = {
+		limit = {
+			NOT = { has_trait = lustful }
+		}
+		add_trait = lustful
+	}
+	if = {
+		limit = { NOT = { has_sexuality = bisexual } }
+		set_sexuality = bisexual
+	}
+	carn_recover_from_all_diseases_effect = yes
+	carn_remove_all_negative_congenital_traits_effect = yes
+	cdol_give_succubus_secret_or_trait_effect = yes
+}
+
 cdol_basic_become_succubus_effect = {
 	# for ruler designer characters, we keep changes minimal as we assume that the player likes the character in her current state.
 	cdol_give_succubus_secret_or_trait_effect = yes

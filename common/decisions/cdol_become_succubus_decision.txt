@@ -1,0 +1,52 @@
+﻿cdol_become_succubus_decision = {
+	ai_check_interval = 0
+	major = yes
+	picture = "gfx/interface/illustrations/decisions/decision_cdol_become_succubus.dds"
+
+	desc = cdol_become_succubus_decision_desc
+
+	selection_tooltip = cdol_become_succubus_decision_tooltip
+
+	is_shown = {
+		is_female = yes
+		cdol_is_succubus_trigger = no
+		cdol_has_succubus_ancestry_trigger = no
+		OR = {
+			has_trait = witch
+			any_secret = { secret_type = secret_witch }
+		}
+	}
+
+	is_valid = {
+		is_female = yes
+		is_adult = yes
+		custom_description = {
+			text = cdol_is_witch_trigger
+			OR = {
+				has_trait = witch
+				any_secret = { secret_type = secret_witch }
+			}
+		}
+	}
+
+	effect = {
+		show_as_tooltip = {
+			cdol_become_succubus_tooltip_effect = yes
+		}
+		trigger_event = {
+			id = cdol_transformation.0001
+		}
+	}
+
+	cost = {
+		gold = { value = cdol_become_succubus_gold_cost }
+	}
+	
+	ai_potential = {
+		always = no
+	}
+
+	ai_will_do = {
+		base = 0
+	}
+}

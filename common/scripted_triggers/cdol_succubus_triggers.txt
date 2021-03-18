@@ -34,6 +34,10 @@ cdol_has_succubus_ancestry_trigger = {
 
 cdol_has_negative_attitude_towards_succubi_trigger = {
 	cdol_is_succubus_trigger = no
+	cdol_faith_has_negative_attitude_towards_succubi_trigger = yes
+}
+
+cdol_faith_has_negative_attitude_towards_succubi_trigger = {
 	OR = {
 		faith = { has_doctrine_parameter = witchcraft_shunned }
 		faith = { has_doctrine_parameter = witchcraft_illegal }

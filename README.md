@@ -61,3 +61,4 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 * Seal/Unseal Womb illustration edited from [The Fall of Ionia - Irelia](https://www.pixiv.net/en/artworks/73026071) by [Firolian](https://www.pixiv.net/en/users/20223015/)
 * Alter Self illustration edited from [Scorched/Marama](https://www.artstation.com/artwork/zAOkqd) by [Nise Loftsteinn](https://www.artstation.com/nise_loftsteinn)
 * Regenerate illustration edited from [Blood Succubus](https://www.deviantart.com/cglas/art/Blood-Succubus-520943014) by [CGlas](https://www.deviantart.com/cglas)
+* Perform Succubus Transformation Ritual / Awaken Succubus Ancestry illustration edited from [Succubus](https://www.artstation.com/artwork/lVVw15) by [Young June Choi](https://www.artstation.com/gpzang)

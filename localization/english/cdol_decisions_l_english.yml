@@ -30,5 +30,12 @@
  cdol_regenerate_decision_confirm: "Begin the ritual"
  cdol_regenerate_decision_notification: "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
 
- cdol_become_succubus_decision: "Perform [ROOT.Char.Custom('CdolSuccubusName')|U] Transformation Ritual"
  cdol_awaken_succubus_ancestry_decision: "Awaken [ROOT.Char.Custom('CdolSuccubusName')|U] Ancestry"
+ cdol_awaken_succubus_ancestry_decision_desc: "The powers of carnal temptation course dormant in my blood. I should seek out forbidden texts and ancient magic scrolls, so that I may awaken my true birthright as a daughter of [ROOT.Char.Custom('CdolSuccubusPatron')]."
+ cdol_awaken_succubus_ancestry_decision_tooltip: "Awaken your ancestry and become a fully fledged [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]"
+ cdol_awaken_succubus_ancestry_decision_confirm: "Begin the ritual"
+
+ cdol_become_succubus_decision: "Perform [ROOT.Char.Custom('CdolSuccubusName')|U] Transformation Ritual"
+ cdol_become_succubus_decision_desc: "The legends speak of a race of temptresses who can enchant and manipulate mortals. In my initiation into the mysteries of the universe, I have learned how to transform myself into a full-blooded [ROOT.Char.Custom('CdolSuccubusName')] of legend."
+ cdol_become_succubus_decision_tooltip: "Use the forbidden arts to transform yourself into a [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]"
+ cdol_become_succubus_decision_confirm: "Begin the ritual"
