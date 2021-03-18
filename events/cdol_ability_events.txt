@@ -13,7 +13,7 @@ cdol_ability.0100 = {
 	type = character_event
 	title = cdol_ability.0100.t
 	desc = cdol_ability.0100.desc
-	theme = seduce_scheme
+	theme = seduction
 	
 	left_portrait = {
 		character = scope:actor
@@ -69,7 +69,7 @@ cdol_ability.0200 = {
 	type = character_event
 	title = cdol_ability.0200.t
 	desc = cdol_ability.0200.desc
-	theme = seduce_scheme
+	theme = seduction
 	
 	left_portrait = {
 		character = root
@@ -280,7 +280,7 @@ cdol_ability.0201 = {
 	type = character_event
 	title = cdol_ability.0200.t
 	desc = cdol_ability.0200.desc
-	theme = seduce_scheme
+	theme = seduction
 	
 	left_portrait = {
 		character = root
@@ -416,7 +416,7 @@ cdol_ability.0300 = {
 	type = character_event
 	title = cdol_ability.0300.t
 	desc = cdol_ability.0300.desc
-	theme = seduce_scheme
+	theme = seduction
 	
 	left_portrait = {
 		character = scope:actor

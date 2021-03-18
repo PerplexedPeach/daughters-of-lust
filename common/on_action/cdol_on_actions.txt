@@ -1,4 +1,11 @@
-﻿carn_on_sex = {
+﻿on_game_start_after_lobby = {
+	events = {
+		cdol_ruler_designer.0001 # initialize ruler designed succubi
+		cdol_start_scenario.0001 # fire start scenarios
+	}
+}
+
+carn_on_sex = {
 	events = {
 		cdol_drain.0001 # succubus drain on sex
 	}

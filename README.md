@@ -12,7 +12,6 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 # Todo
 
-- Game rule to start as succubus
 - Perform Succubus Transformation Ritual
 - Awaken Succubus Ancestry
 - Sexual Power abilities

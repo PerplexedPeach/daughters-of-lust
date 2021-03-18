@@ -44,7 +44,7 @@ cdol_sexual_power = {
 
 cdol_succubus = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
-	alias = { cdol_succubi }
+	alias = { cdol_succubi cdol_yakshi cdol_qarinah cdol_leannan_sidhe cdol_demoness }
 }
 
 cdol_succubus_conversion_interaction = {
