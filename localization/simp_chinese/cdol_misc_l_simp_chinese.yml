@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ cdol_current_sexual_power_note: "#weak （当前：[CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')]）#!"
+ cdol_current_succubus_mastery_level_note: "#weak （当前：$cdol_current_succubus_mastery_level_description$）#!"
+ cdol_line_break_spacer: "\n"
