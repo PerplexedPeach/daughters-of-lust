@@ -1,0 +1,13 @@
+﻿l_french:
+
+rule_cdol_start_scenario:1 "#X Daughters of Lust:#! Scénario de départ"
+setting_cdol_start_scenario_none:1 "Aucun"
+setting_cdol_start_scenario_none_desc:1 "Aucun événement scénarisé ne se produira au début du jeu."
+setting_cdol_start_scenario_succubus:1 "#high Daughter of Lust#!"
+setting_cdol_start_scenario_succubus_desc:1 "Peu après le début du jeu, les personnages féminins incarnés par un joueur et qui ne sont pas des succubes découvriront leur ascendance de succube."
+
+rule_cdol_succubus_lactation:1 "#X Daughters of Lust:#! Lactation de Succube"
+setting_cdol_succubus_lactation_disabled:1 "désactivé"
+setting_cdol_succubus_lactation_disabled_desc:1 "Les succubes n'allaiteront pas plus que la femme moyenne."
+setting_cdol_succubus_lactation_enabled:1 "#high Activé#!"
+setting_cdol_succubus_lactation_enabled_desc:1 "Les succubes allaiteront après des rapports sexuels et après avoir utilisé certaines capacités de maitrise succubine."

@@ -1,0 +1,31 @@
+﻿l_french:
+
+cdol_drain_life_flavor_1:1 "C'est si bon"
+cdol_drain_life_flavor_2:1 "Une douce nourriture"
+cdol_drain_life_flavor_3:1 "Vous êtes rassasiée"
+cdol_drain_life_flavor_4:1 "Juste pour goûter"
+cdol_drain_life_flavor_5:1 "Délicieux à souhait"
+
+cdol_fascinate_flavor_1:1 "[second.GetSheHe|U] ne peut pas détourner le regard"
+cdol_fascinate_flavor_2:1 "Un clin d'œil et un sourire"
+cdol_fascinate_flavor_3:1 "Vous êtes irrésistible"
+cdol_fascinate_flavor_4:1 "Juste un aperçu alléchant"
+cdol_fascinate_flavor_5:1 "Mes yeux sont là-haut"
+
+cdol_mesmerize_flavor_1:1 "[second.GetSheHe|U] est perdu dans vos yeux"
+cdol_mesmerize_flavor_2:1 "Mené[second.Custom('FR_E')] par le bout du nez"
+cdol_mesmerize_flavor_3:1 "Un murmure dans le noir"
+cdol_mesmerize_flavor_4:1 "Enivré[second.Custom('FR_E')] par votre beauté"
+cdol_mesmerize_flavor_5:1 "Comme une marionnette"
+
+cdol_regenerate_flavor_1:1 "Un nouveau jour, un nouveau soi"
+cdol_regenerate_flavor_2:1 "Renaître dans l'obscurité"
+cdol_regenerate_flavor_3:1 "Refaite pour le plaisir"
+cdol_regenerate_flavor_4:1 "La vitalité s'épanouit"
+cdol_regenerate_flavor_5:1 "Votre chair est renouvelée"
+
+cdol_torment_flavor_1:1 "Des murmures moqueurs"
+cdol_torment_flavor_2:1 "Nuits blanches"
+cdol_torment_flavor_3:1 "Semer le doute"
+cdol_torment_flavor_4:1 "Un cauchemar éveillé"
+cdol_torment_flavor_5:1 "Votre rire résonne"

@@ -1,0 +1,35 @@
+﻿l_french:
+
+cdol_gain_sexual_power_effect_first:1 "Vous gagnez $VALUE|0$ de [cdol_sexual_power|E]"
+cdol_gain_sexual_power_effect_first_past:1 "Vous avez gagné $VALUE|0$ de [cdol_sexual_power|E]"
+cdol_gain_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U] gagne $VALUE|0$ de [cdol_sexual_power|E]"
+cdol_gain_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U] a gagné $VALUE|0$ de [cdol_sexual_power|E]"
+cdol_gain_sexual_power_effect:1 "Gagne $VALUE|0$ de [cdol_sexual_power|E]"
+cdol_gain_sexual_power_effect_past:1 "A gagné $VALUE|0$ de [cdol_sexual_power|E]"
+
+cdol_max_out_sexual_power_effect_first:1 "Vous ateignez un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+cdol_max_out_sexual_power_effect_first_past:1 "Vous avez atteint un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+cdol_max_out_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U] atteint un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+cdol_max_out_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U] a atteint un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+cdol_max_out_sexual_power_effect:1 "Atteint un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+cdol_max_out_sexual_power_effect_past:1 "A atteint un maximum de [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|El]"
+
+cdol_lose_sexual_power_effect_first:1 "Vous perdez $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_lose_sexual_power_effect_first_past:1 "Vous avez perdu $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_lose_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U] perd $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_lose_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U] a perdu $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_lose_sexual_power_effect:1 "Perd $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+cdol_lose_sexual_power_effect_past:1 "A perdu $VALUE|V0$ [cdol_sexual_power|El] $cdol_current_sexual_power_note$"
+
+cdol_lose_all_sexual_power_effect_first:1 "Vous perdez toute [cdol_sexual_power|El]"
+cdol_lose_all_sexual_power_effect_first_past:1 "Vous avez perdu toute [cdol_sexual_power|El]"
+cdol_lose_all_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U] perd toute [cdol_sexual_power|El]"
+cdol_lose_all_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U] a perdu toute [cdol_sexual_power|El]"
+cdol_lose_all_sexual_power_effect:1 "Perd toute [cdol_sexual_power|El]"
+cdol_lose_all_sexual_power_effect_past:1 "A perdu toute [cdol_sexual_power|El]"
+
+cdol_current_sexual_power_description:1 "[cdol_sexual_power|E] : #high [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|V0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')]#!"
+
+cdol_current_succubus_mastery_level_description:1 "[cdol_succubus_mastery_level|E] : #high [CHARACTER.MakeScope.Var('cdol_succubus_mastery_level').GetValue|V0]#!"
+
+cdol_unlocked_abilities_text:1 "Pouvoirs débloqués :"

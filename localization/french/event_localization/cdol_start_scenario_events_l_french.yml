@@ -1,0 +1,13 @@
+﻿l_french:
+
+cdol_start_scenario.0100.t:1 "Fille de la luxure"
+cdol_start_scenario.0100.intro:1 "En recherchant dans les archives de ma noble maison, j'ai fait une découverte troublante.\n\nLes contes populaires de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] parlent d'une séduisante [ROOT.Char.Custom( 'CdolSuccubusName' )] qui piège les hommes avec ses ruses féminines. Dans certains récits, elle donne naissance à de nombreux enfants de sang-mêlé avant que ses ruses ne soient découvertes.\n\nCe n'est que maintenant que je me suis rendu compte que l'un des descendants, issus de ces contes partage le même nom qu'un des fondateurs de la dynastie [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] !\n\n"
+cdol_start_scenario.0100.negative:1 "Se pourrait-il que la sombre influence de [ROOT.Char.Custom( 'CdolSuccubusPatron' )] coule dans nos veines, après toutes ces années ?"
+cdol_start_scenario.0100.positive:1 "Se pourrait-il que le pouvoir de [ROOT.Char.Custom( 'CdolSuccubusPatron' )] coule dans nos veines, après toutes ces années ?
+
+cdol_start_scenario.0100.a:1 "Que [ROOT.Char.GetFaith.HighGodName] ait pitié de nous !"
+cdol_start_scenario.0100.b:1 "Ma lignée a été bénie par [ROOT.Char.Custom( 'CdolSuccubusPatron' )] !"
+cdol_start_scenario.0100.a.t:1 "Vous découvrez votre vôtre ascendance de [THIS.Char.Custom( 'CdolSuccubusNameGameConcept' )]"
+
+cdol_start_scenario.0100.c:1 "Ce doit être une coïncidence, rien de plus."
+cdol_start_scenario.0100.c.t:1 "Vous décidez de ne pas fouiller dans le passé de votre famille."

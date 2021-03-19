@@ -1,0 +1,41 @@
+﻿l_french:
+
+cdol_alter_self_decision:1 "Altérer son corps"
+cdol_alter_self_decision_desc:1 "J'ai acquis une telle maîtrise de la chair que je peux changer de forme comme un serpent perd sa peau, devenant aussi belle ou bien dotée que je le désire."
+cdol_alter_self_decision_tooltip:1 "Utiliser de la [cdol_sexual_power|El] pour acquérir un [physical_trait|E]"
+cdol_alter_self_decision_effect_tooltip:1 "Voir chaque [physical_trait|El] que vous pouvez acquérir"
+cdol_alter_self_decision_confirm:1 "Miroir, mon beau miroir..."
+
+cdol_check_succubus_stats_decision:1 "Consulter les statistiques de succube"
+cdol_check_succubus_stats_decision_desc:1 "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
+cdol_check_succubus_stats_decision_confirm:1 "OK"
+
+cdol_start_succubus_birth_control_decision:1 "Sceller l'utérus"
+cdol_start_succubus_birth_control_decision_desc:1 "En tant que [ROOT.Char.Custom('CdolSuccubusName')], je peux exercer un contrôle précis sur mon cycle de fertilité, et m'assurer que mes aventures n'aboutiront jamais à une grossesse."
+cdol_start_succubus_birth_control_decision_tooltip:1 "Empêcher les grossesses non désirées de se produire"
+cdol_start_succubus_birth_control_decision_confirm:1 "Une chaleur circule en moi..."
+msg_cdol_started_succubus_birth_control:1 "Utérus scellé"
+cdol_start_succubus_birth_control_decision_effect_tooltip:1 "Vous ne pouvez plus tomber enceinte"
+
+cdol_stop_succubus_birth_control_decision:1 "Desceller l'utérus"
+cdol_stop_succubus_birth_control_decision_desc:1 "Il est temps de relâcher le contrôle que j'exerce sur ma fertilité et de me permettre d'éprouver à nouveau la joie d'être fécondée."
+cdol_stop_succubus_birth_control_decision_tooltip:1 "S'autoriser à nouveau à tomber enceinte"
+cdol_stop_succubus_birth_control_decision_confirm:1 "Une chaleur circule en moi..."
+msg_cdol_stopped_succubus_birth_control:1 "Utérus descellé"
+cdol_stop_succubus_birth_control_decision_effect_tooltip:1 "Vous pouvez à nouveau tomber enceinte"
+
+cdol_regenerate_decision:1 "Se régénérer"
+cdol_regenerate_decision_desc:1 "Alors que la compréhension de mon corps s'accroît, je peux manipuler mes énergies sexuelles pour éliminer mes afflictions et régénérer mes blessures."
+cdol_regenerate_decision_tooltip:1 "Utiliser de la [cdol_sexual_power|El] pour vous guérir d'une [illness|El], d'une blessure, ou d'une défiguration"
+cdol_regenerate_decision_confirm:1 "Commencez le rituel"
+cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+
+cdol_awaken_succubus_ancestry_decision:1 "Réveiller votre ascendance de [ROOT.Char.Custom('CdolSuccubusName')]"
+cdol_awaken_succubus_ancestry_decision_desc:1 "Les pouvoirs de la tentation charnelle sommeillent dans mes veines. Je devrais rechercher des textes interdits et d'anciens parchemins de magie, afin de pouvoir réveiller mon véritable droit de naissance en tant que fille de [ROOT.Char.Custom('CdolSuccubusPatron')]."
+cdol_awaken_succubus_ancestry_decision_tooltip:1 "Réveillez votre ascendance et devenez une [ROOT.Char.Custom('CdolSuccubusNameGameConcept')] à part entière."
+cdol_awaken_succubus_ancestry_decision_confirm:1 "Commencez le rituel"
+
+cdol_become_succubus_decision:1 "Exécuter le rituel de transformation en [ROOT.Char.Custom('CdolSuccubusName')]"
+cdol_become_succubus_decision_desc:1 "Les légendes parlent d'une race de tentatrices qui peuvent enchanter et manipuler les mortels. Dans mon initiation aux mystères de l'univers, j'ai appris à me transformer en une [ROOT.Char.Custom('CdolSuccubusName')] des légendes."
+cdol_become_succubus_decision_tooltip:1 "Utilisez les arts interdits pour vous transformer en une [ROOT.Char.Custom('CdolSuccubusNameGameConcept')]."
+cdol_become_succubus_decision_confirm:1 "Commencez le rituel"

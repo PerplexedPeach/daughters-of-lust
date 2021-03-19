@@ -1,0 +1,7 @@
+﻿l_french:
+
+cdol_transformation.0001.t:1 "L'éveil de la chair"
+cdol_transformation.0001.intro:1 "Enfin, l'heure du changement est arrivée. Je m'agenouille dans ma chambre et m'ouvre aux vapeurs obsédantes; je me tords en sentant le désir jaillir des coins sombres et oubliés de mon âme. Pour la première fois de ma vie, je regarde en moi et je sais qui je suis et ce que je vais devenir.\n\n"
+cdol_transformation.0001.negative:1 "Quand j'ouvre les yeux, je suis une femme changée. Je me lève sans aucune honte de mon corps nu, me délectant de la caresse chaude et douce des vapeurs sur ma chair. Je ne suis plus cette femme craignant [ROOT.Char.GetFaith.HighGodName], mais un être bien plus puissant -- plus temporel -- plus sensuel."
+cdol_transformation.0001.positive:1 "Quand j'ouvre les yeux, je suis une femme changée. Je me lève sans aucune honte de mon corps nu, me délectant de la caresse chaude et douce des vapeurs sur ma chair. Je ne suis plus la même femme, mais un être bien plus puissant -- plus divin -- plus sensuel."
+cdol_transformation.0001.a:1 "Je suis une [ROOT.Char.Custom( 'CdolSuccubusName' )], et la terre me reviendra."
