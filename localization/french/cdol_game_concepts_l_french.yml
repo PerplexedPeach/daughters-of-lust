@@ -9,7 +9,7 @@ game_concept_cdol_alter_sexuality_interaction_desc:1 "Une [cdol_succubus|El] aya
 game_concept_cdol_awaken_succubus_ancestry_decision:1 "Réveiller son ascendance de succube"
 game_concept_cdol_awaken_succubus_ancestry_decision_desc:1 "Un [character|El] féminin ayant une ancêtre [cdol_succubus|El] peut prendre cette [decision|El] pour se transformer en succube à part entière."
 
-game_concept_cdol_become_succubus_decision:1 "Effectuer un rituel de transformation en succube"
+game_concept_cdol_become_succubus_decision:1 "Exécuter un rituel de transformation en succube"
 game_concept_cdol_become_succubus_decision_desc:1 "Une femme ayant le trait [GetTrait('witch').GetName( GetNullCharacter )] peut prendre cette [decision|El] pour se transformer en [cdol_succubus|El]."
 
 game_concept_cdol_drain_life_interaction:1 "$cdol_drain_life_interaction$"
