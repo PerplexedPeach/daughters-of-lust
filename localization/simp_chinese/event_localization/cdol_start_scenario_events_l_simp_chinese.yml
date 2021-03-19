@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ cdol_start_scenario.0100.t: "淫欲之女"
+ cdol_start_scenario.0100.intro: "在研究我这高贵的家族的祖先时，我发现了一则令人不安的秘闻。\n\n[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]的民间传说中讲述了一个摄人心魄的[ROOT.Char.Custom( 'CdolSuccubusName' )]，她用自己的身体诱捕各种男人。在一些故事中，她在身份暴露前生下了许多混血儿。\n\n这时候我才意识到，她在故事中的其中一个孩子跟[ROOT.Char.GetDynasty.GetBaseNameNoTooltip]家族的某位创始人有着相同的名字！\n\n"
+ cdol_start_scenario.0100.negative: "有没有可能即使过了这么多年，[ROOT.Char.Custom( 'CdolSuccubusPatron' )]的黑暗力量依然流淌在我们的血液之中？"
+ cdol_start_scenario.0100.positive: "有没有可能即使过了这么多年，[ROOT.Char.Custom( 'CdolSuccubusPatron' )]的力量依然流淌在我们的血液之中？"
+ cdol_start_scenario.0100.a: "伏望[ROOT.Char.GetFaith.HighGodName]垂怜我等！"
+ cdol_start_scenario.0100.b: "我的血脉被[ROOT.Char.Custom( 'CdolSuccubusPatron' )]赐福了！"
+ cdol_start_scenario.0100.a.t: "你发现了你的[THIS.Char.Custom( 'CdolSuccubusNameGameConcept' )]血脉"
+ cdol_start_scenario.0100.c: "只是一个巧合而已。"
+ cdol_start_scenario.0100.c.t: "你决定不再钻研家族的过去。"
