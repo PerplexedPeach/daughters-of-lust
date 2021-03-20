@@ -2,7 +2,8 @@
 
 ## Localization
 
-* Added French translation courtesy of Triskelia
+* Added French translation,  thanks Triskelia
+* Added Simplified Chinese translation, thanks lonelyneet
 
 # Daughters of Lust 0.1
 
