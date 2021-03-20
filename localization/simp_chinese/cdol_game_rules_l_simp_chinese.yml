@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ rule_cdol_start_scenario: "#X 淫欲之女：#!开场剧本"
+ setting_cdol_start_scenario_none: "无"
+ setting_cdol_start_scenario_none_desc: "游戏开始时不会发生特殊事件。"
+ setting_cdol_start_scenario_succubus: "#high 淫欲之女#!"
+ setting_cdol_start_scenario_succubus_desc: "游戏开始不久，不是魅魔的女性角色将会发现她们体内秘藏的魅魔血脉。"
+ rule_cdol_succubus_lactation: "#X 淫欲之女：#!魅魔泌乳"
+ setting_cdol_succubus_lactation_disabled: "关闭"
+ setting_cdol_succubus_lactation_disabled_desc: "魅魔不会比普通女性分泌更多的乳汁。"
+ setting_cdol_succubus_lactation_enabled: "#high 开启#!"
+ setting_cdol_succubus_lactation_enabled_desc: "魅魔会在性爱后以及使用特定魅魔能力后泌乳。"

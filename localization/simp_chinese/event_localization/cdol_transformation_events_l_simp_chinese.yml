@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ cdol_transformation.0001.t: "肉身的觉醒"
+ cdol_transformation.0001.intro: "终于，改变之时到来了。我跪在我的房间里，把自己暴露在萦绕的雾气之中；我感觉到欲望从我灵魂的黑暗和被遗忘的角落里溢出，我的内心止不住地翻腾。我有生以来第一次审视自己，知道我是谁，知道我将成为什么样的人。\n\n"
+ cdol_transformation.0001.negative: "当我睁开眼睛的时候，我已不再是曾经的那个女人了。我丝毫不为我裸露的身躯感到害羞，反而在我体内散发出的那火热、甜美的气息之中妖娆地扭动起来。我不再是之前那个畏惧[ROOT.Char.GetFaith.HighGodName]的我了，现在我更加强大，更加世俗，更加淫乱。"
+ cdol_transformation.0001.positive: "当我睁开眼睛的时候，我已不再是曾经的那个女人了。我丝毫不为我裸露的身躯感到害羞，反而在我体内散发出的那火热、甜美的气息之中妖娆地扭动起来。我不再是过去的我了，现在我更加强大，更加世俗，更加淫乱。"
+ cdol_transformation.0001.a: "我是[ROOT.Char.Custom( 'CdolSuccubusName' )]，世界将由我继承。"
