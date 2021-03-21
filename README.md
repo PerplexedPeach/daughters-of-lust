@@ -53,6 +53,8 @@ Daughters of Lust is a mod that adds succubi to Crusader Kings 3.
 
 # Credits
 
+* French translation by Triskelia
+* Simplified Chinese translation by lonelyneet
 * Head textures from [Character Beautification](https://steamcommunity.com/sharedfiles/filedetails/?id=2222302033)
 * Trait icon based off pattern 037 from [LewdMarks](https://www.loverslab.com/files/file/9655-lewdmarks/)
 * Check Succubus Stats illustration edited from [Succubus 2](https://www.deviantart.com/leevitron/art/Succubus-2-113565769) by [Leevitron](https://www.deviantart.com/leevitron)
