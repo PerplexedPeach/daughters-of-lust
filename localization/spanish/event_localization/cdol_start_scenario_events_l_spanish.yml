@@ -1,0 +1,13 @@
+﻿l_spanish:
+
+cdol_start_scenario.0100.t:1 "Hija de la lujuria"
+cdol_start_scenario.0100.intro:1 "Mientras investigaba la ascendencia de mi noble casa, descubrí una revelación inquietante.\n\nLos cuentos populares de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] hablan de una seductora[ROOT.Char.Custom( 'CdolSuccubusName' )] que atrapa a los hombres con sus artimañas femeninas. En algunos relatos, ella tiene muchos hijos mestizos antes de que se descubran sus trucos.\n\nSólo ahora me he dado cuenta de que uno de sus hijos en estos cuentos comparte un nombre con un fundador de la dinastia [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] \n\n"
+cdol_start_scenario.0100.negative:1 "¿Podría ser que la oscura influencia de [ROOT.Char.Custom( 'CdolSuccubusPatron' )] que corre en nuestra sangre, después de todos estos años?"
+cdol_start_scenario.0100.positive:1 "¿Podría ser que el poder de [ROOT.Char.Custom( 'CdolSuccubusPatron' )] que corre en nuestra sangre, después de todos estos años?
+
+cdol_start_scenario.0100.a:1 "Que [ROOT.Char.GetFaith.HighGodName] tenga piedad de nosotros"
+cdol_start_scenario.0100.b:1 "Mi linaje ha sido bendecido por [ROOT.Char.Custom( 'CdolSuccubusPatron' )]!"
+cdol_start_scenario.0100.a.t:1 "Descubres tu linaje [THIS.Char.Custom( 'CdolSuccubusNameGameConcept' )]"
+
+cdol_start_scenario.0100.c:1 "Debe ser una coincidencia, nada más."
+cdol_start_scenario.0100.c.t:1 "Decides no ahondar en el pasado de tu familia."
