@@ -1,0 +1,23 @@
+﻿l_spanish:
+
+ cdol_alter_sexuality_interaction:1 "Alterar Sexualidad"
+ cdol_alter_sexuality_interaction_desc:1 "Usar [cdol_sexual_power|E] para cambiar [recipient.GetShortUINamePossessiveNoTooltip] [sexuality|E]"
+ 
+ cdol_drain_life_interaction:1 "Drenar Vida"
+ cdol_drain_life_interaction_desc:1 "Usar [cdol_sexual_power|E] para drenar secretamente la salud de [recipient.GetShortUINameNoTooltip]."
+ cdol_drain_life_interaction_notification:1 "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
+
+ cdol_fascinate_interaction:1 "Embelezar"
+ cdol_fascinate_interaction_desc:1 "Usar [cdol_sexual_power|E] para mejorar la [opinion|E] de  [recipient.GetShortUINameNoTooltip] sobre ti"
+ cdol_fascinate_interaction_notification:1 "[actor.Custom2('CdolFascinateFlavor', recipient)]"
+
+ cdol_mesmerize_interaction:1 "Himnotizar"
+ cdol_mesmerize_interaction_desc:1 "Usar [cdol_sexual_power|E] para obtener un [weak_hook|E] de [recipient.GetShortUINameNoTooltip]"
+ cdol_mesmerize_interaction_notification:1 "[actor.Custom2('CdolMesmerizeFlavor', recipient)]"
+
+ cdol_torment_interaction: "Atormentar"
+ cdol_torment_interaction_desc: "Usar [cdol_sexual_power|E] para infligir una cantidad masiva de [stress|E] en [recipient.GetShortUINameNoTooltip]"
+ cdol_torment_interaction_notification: "[actor.Custom2('CdolTormentFlavor', recipient)]"
+ 
+ cdol_succubus_conversion_interaction:1 "Convertir a [ACTOR.Custom('CdolSuccubusName')|U]"
+ cdol_succubus_conversion_interaction_desc:1 "Usar [cdol_sexual_power|E] para transformar a [recipient.GetShortUINameNoTooltip] en [cdol_succubus|E]"
