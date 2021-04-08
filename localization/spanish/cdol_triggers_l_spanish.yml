@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+ cdol_can_regenerate_trigger:1 "No tienes ninguna [illness|E], herida or defiguracion."
+ 
+ cdol_you_have_sexual_power:1 "Tienes $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_you_do_not_have_sexual_power:1 "No tienes $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_they_has_sexual_power:1 "[CHARACTER.MakeScope.GetShortUIName|U] tiene $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_they_do_not_have_sexual_power:1 "[CHARACTER.GetShortUIName|U] no tiene $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_has_sexual_power:1 "Tiene $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+ cdol_does_not_have_sexual_power:1 "No tiene $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+
+ cdol_you_have_succubus_mastery:1 "Tienes $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_you_do_not_have_succubus_mastery:1 "No tienes $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_they_has_succubus_mastery:1 "[CHARACTER.MakeScope.GetShortUIName|U] tiene $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_they_do_not_have_succubus_mastery:1 "[CHARACTER.GetShortUIName|U] no tiene $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_has_succubus_mastery:1 "Tiene $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+ cdol_does_not_have_succubus_mastery:1 "No tiene $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+
+ cdol_you_recently_laid_with_target:1 "Has tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ cdol_you_did_not_recently_lay_with_target:1 "No has tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ cdol_they_recently_laid_with_target:1 "[CHARACTER.GetShortUIName|U] ha tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ cdol_they_did_not_recently_lay_with_target:1 "[CHARACTER.GetShortUIName|U] no ha tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ cdol_recently_laid_with_target:1 "Ha tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ cdol_did_not_recently_lay_with_target:1 "No ha tenido relaciones con [TARGET_CHARACTER.GetShortUIName|U] en el ultimo mes"
+ 
+ cdol_you_are_witch:1 "Eres una [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_you_are_not_witch:1 "No eres una [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_they_are_witch:1 "[CHARACTER.GetShortUIName|U] es una [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_they_are_not_witch:1 "[CHARACTER.GetShortUIName|U] no es una [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_is_witch:1 "Es una [GetTrait('witch').GetName( GetNullCharacter )]"
+ cdol_is_not_witch:1 "No es una [GetTrait('witch').GetName( GetNullCharacter )]"
