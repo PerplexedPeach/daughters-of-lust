@@ -1,6 +1,5 @@
-# Daughters of Lust 0.2
+# Daughters of Lust 0.3
 
 ## Localization
 
-* Added French translation,  thanks Triskelia
-* Added Simplified Chinese translation, thanks lonelyneet
+* Added Spanish translation,  thanks Kalvis

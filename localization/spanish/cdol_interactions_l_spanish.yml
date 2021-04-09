@@ -8,7 +8,7 @@
  cdol_drain_life_interaction_notification:1 "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
 
  cdol_fascinate_interaction:1 "Embelezar"
- cdol_fascinate_interaction_desc:1 "Usar [cdol_sexual_power|E] para mejorar la [opinion|E] de  [recipient.GetShortUINameNoTooltip] sobre ti"
+ cdol_fascinate_interaction_desc:1 "Usar [cdol_sexual_power|E] para mejorar la [opinion|E] de [recipient.GetShortUINameNoTooltip] sobre ti"
  cdol_fascinate_interaction_notification:1 "[actor.Custom2('CdolFascinateFlavor', recipient)]"
 
  cdol_mesmerize_interaction:1 "Himnotizar"
