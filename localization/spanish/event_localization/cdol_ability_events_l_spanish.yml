@@ -1,0 +1,28 @@
+﻿l_spanish:
+
+ cdol_ability.0100.t:1 "Una promesa oscura"
+ cdol_ability.0100.desc:1 "Todo parece desvanecerse cuando estás con tu amante [actor.GetTitledFirstName]. Seductora, impecable, insaciable, cada noche con ella es un torbellino de deleite carnal y placer indescriptible.\n\nUna noche, después de llevarte al orgasmo más increíble que hayas experimentado en semanas, tu [recipient.Custom('LoverPetName'] se acurruca a tu lado y murmura algo con esa suave y sedosa voz suya. Mientras disfruta de la sensación de su toque, se da cuenta de que está esperando una respuesta."
+ cdol_ability.0100.a:1 "Si, porsupuesto querida. Cualquier cosa por ti..."
+
+ cdol_ability.0200.t:1 "El Cuerpo de una Mujer"
+ cdol_ability.0200.desc:1 "Enfoco mi poder hacia mi interior, sintiendo cada curva y hendidura de mi cuerpo. La llama de mi útero se llena de potencial, con la promesa de renacer."
+ cdol_ability.0200.beauty_up:1 "Deseo ser más atractiva."
+ cdol_ability.0200.beauty_down:1 "Deseo ocultar mi belleza."
+ cdol_ability.0200.physique_up:1 "Deseo una fuerza prodigiosa."
+ cdol_ability.0200.physique_down:1 "Deseo mansedumbre en apariencia."
+ cdol_ability.0200.gain_fecund:1 "Deseo caderas amplias para tener hijos"
+ cdol_ability.0200.lose_fecund:1 "Deseo tener menos hijos."
+ cdol_ability.0200.gain_giant:1 "Deseo elevarme sobre todos los demás."
+ cdol_ability.0200.lose_giant:1 "Deseo mirar a mis amantes a los ojos."
+ cdol_ability.0200.gain_albino:1 "Deseo ser temida como un espectro."
+ cdol_ability.0200.lose_albino:1 "Deseo caminar libremente bajo el sol."
+ cdol_ability.0201.tits_up:1 "Deseo un pecho más grande."
+ cdol_ability.0201.tits_down:1 "Deseo un pecho más pequeño."
+ cdol_ability.0201.dick_up:1 "Deseo una hombría más grande."
+ cdol_ability.0201.dick_down:1 "Deseo una virilidad más pequeña."
+ cdol_ability.0201.milk_up:1 "Deseo leche abundante para llenar mis pechos."
+ cdol_ability.0201.milk_stop:1 "Deseo ser purgada del bálsamo de las ternuras." # Translators:1 This is a reference to Lady Macbeth's line in Shakespeare's Macbeth, Act 1, Scene 5
+ cdol_ability.0201.gain_futa:1 "Deseo la investidura de un hombre."
+ cdol_ability.0201.lose_futa:1 "Deseo ser completamente mujer."
+ cdol_ability.0200.other:1 "Tengo otros deseos ..."
+ cdol_ability.0200.cancel:1 "Tal vez en otro momento."

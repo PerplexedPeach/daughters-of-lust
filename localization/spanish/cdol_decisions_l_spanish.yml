@@ -1,0 +1,41 @@
+﻿l_spanish:
+
+ cdol_alter_self_decision:1 "Alterar Apariencia"
+ cdol_alter_self_decision_desc:1 "He ganado tal dominio sobre la carne que puedo cambiar mi forma como una serpiente muda su piel, volviéndome tan hermosa o bien dotada como deseo.."
+ cdol_alter_self_decision_tooltip:1 "Usar [cdol_sexual_power|E] para obtener un [physical_trait|E]"
+ cdol_alter_self_decision_effect_tooltip:1 "Ver cada [physical_trait|E] que puedes comprar"
+ cdol_alter_self_decision_confirm:1 "Espejo, espejito en la pared..."
+
+ cdol_check_succubus_stats_decision:1 "Ver estadísticas de Súcubo"
+ cdol_check_succubus_stats_decision_desc:1 "[cdol_sexual_power|E]:1 #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
+ cdol_check_succubus_stats_decision_confirm:1 "OK"
+
+ cdol_start_succubus_birth_control_decision:1 "Sellar Útero"
+ cdol_start_succubus_birth_control_decision_desc:1 "Como un [ROOT.Char.Custom('CdolsuccubusName')], Puedo ejercer un buen control sobre mi ciclo de fertilidad, asegurándome de que mis citas nunca resulten en un embarazo."
+ cdol_start_succubus_birth_control_decision_tooltip:1 "Evitar que se produzcan embarazos no deseados"
+ cdol_start_succubus_birth_control_decision_confirm:1 "El calor corre a través de mí ..."
+ msg_cdol_started_succubus_birth_control:1 "Útero Sellado"
+ cdol_start_succubus_birth_control_decision_effect_tooltip:1 "Ya no puedes quedar embarazada"
+
+ cdol_stop_succubus_birth_control_decision:1 "Quitar sello de Útero"
+ cdol_stop_succubus_birth_control_decision_desc:1 "Es hora de relajar mi control sobre mi fertilidad y permitirme experimentar la alegría del embarazo una vez más.."
+ cdol_stop_succubus_birth_control_decision_tooltip:1 "Permítete quedar embarazada"
+ cdol_stop_succubus_birth_control_decision_confirm:1 "El calor corre a través de mí ..."
+ msg_cdol_stopped_succubus_birth_control:1 "´Útero sin sello"
+ cdol_stop_succubus_birth_control_decision_effect_tooltip:1 "Ahora puedes quedar embarazada"
+
+ cdol_regenerate_decision:1 "Regenerar"
+ cdol_regenerate_decision_desc:1 "A medida que crece la comprensión de mi cuerpo, puedo manipular mis energías sexuales para expulsar mis aflicciones y regenerar mis heridas."
+ cdol_regenerate_decision_tooltip:1 "Usar [cdol_sexual_power|E] para sanarte de una [illness|E], injury, o desfiguración."
+ cdol_regenerate_decision_confirm:1 "Comienza el ritual"
+ cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+ 
+ cdol_awaken_succubus_ancestry_decision:1 "Despertar linaje [ROOT.Char.Custom('CdolsuccubusName')|U]"
+ cdol_awaken_succubus_ancestry_decision_desc:1 "Los poderes de la tentación carnal siguen latentes en mi sangre. Debería buscar textos prohibidos y antiguos pergaminos mágicos, para poder despertar mi verdadero derecho de nacimiento como hija de [ROOT.Char.Custom('CdolSuccubusPatron')]."
+ cdol_awaken_succubus_ancestry_decision_tooltip:1 "Despierta tu ascendencia y conviértete en un [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]"
+ cdol_awaken_succubus_ancestry_decision_confirm:1 "Comienza el ritual"
+ 
+ cdol_become_succubus_decision:1 "Realizar Ritual de transformación [ROOT.Char.Custom('CdolsuccubusName')|U] "
+ cdol_become_succubus_decision_desc:1 "Las leyendas hablan de una raza de tentadoras que pueden encantar y manipular a los mortales. En mi iniciación en los misterios del universo, he aprendido a transformarme en [ROOT.Char.Custom('CdolSuccubusName')]."
+ cdol_become_succubus_decision_tooltip:1 "Usa las artes prohibidas para transformarte en un[ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]"
+ cdol_become_succubus_decision_confirm:1 "Comienza el ritual"

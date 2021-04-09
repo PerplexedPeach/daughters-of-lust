@@ -1,0 +1,5 @@
+﻿l_spanish:
+
+ trait_cdol_succubus:1 "Súcubo"
+ trait_cdol_succubus_desc:1 "Este personaje es conocido como una tentadora supernatural que obtiene sus poderes mediante el sexo."
+ trait_cdol_succubus_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido como una tentadora supernatural que obtiene sus poderes mediante el sexo."

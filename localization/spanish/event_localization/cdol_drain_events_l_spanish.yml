@@ -1,0 +1,76 @@
+﻿l_spanish:
+
+ cdol_drain.0001.notification:1 "[succubus.Custom('CdolsuccubusName')|U]: Poder Sexual absorbido"
+
+ cdol_drain.generic_title:1 "[succubus.Custom('CdolsuccubusName')|U]: El hambre"
+ cdol_drain.generic_opening:1 "Mientras [carn_sex_partner.GetShortUINameNoTooltip] se estremece de éxtasis, el placer eléctrico se apodera de mí y siento la fuerza de [carn_sex_partner.GetHerHis] fluyendo en mi cuerpo.\n\n"
+
+ cdol_drain.generic_refusal:1 "No, [carn_sex_partner.GetShortUINameNoTooltip] merece algo mejor."
+ cdol_drain.difficult_refusal:1 "Yo ... ¡debo resistir!"
+
+ cdol_drain.0010.ending:1 "La poesía del alma de [carn_sex_partner.GetHerHis] me canta, esperando ser atraída a mis labios con un beso."
+ cdol_drain.0010.a:1 "Estarás encendido por mi gracia."
+
+ cdol_drain.0020.ending:1 "Puedo sentir el fuego de la conviccion de [carn_sex_partner.GetHerHis] en la cúspide de encenderme."
+ cdol_drain.0020.a:1 "Como tú has conquistado, yo te conquistaré."
+
+ cdol_drain.0030.ending:1 "Orgasmo por orgasmo, la precaución y razón de [carn_sex_partner.GetHerHis] dan paso al calor del deseo puro."
+ cdol_drain.0030.a:1 "Tus designios se convertirán en parte de mí."
+
+ cdol_drain.0040.ending:1 "[carn_sex_partner.GetSheHe|U] me mira a los ojos, completamente enamorado, y las ventanas del alma de [carn_sex_partner.GetHerHis] están abiertas para mi."
+ cdol_drain.0040.a:1 "Hagamos uno en la oscuridad."
+
+ cdol_drain.0050.ending:1 "Los pensamientos y preocupaciones de [carn_sex_partner.GetHerHis|U] se desvanecen mientras [carn_sex_partner.GetSheHe] se rinde ante [carn_sex_partner.GetHerselfHimself]."
+ cdol_drain.0050.a:1 "Olvídalo todo y acuéstate conmigo ..."
+
+ cdol_drain.0060.ending:1 "Puedo sentir el poder puro y el arte de [carn_sex_partner.GetHerHis] llenándome como los rayos del sol."
+ cdol_drain.0060.a:1 "Tu fuerza será mi fuerza."
+
+ cdol_drain.0070.ending:1 "Me retuerzo en el orgasmo mientras siento a [carn_sex_partner.GetHerHis], acariciando mi piel y quemando mi alma."
+ cdol_drain.0070.a:1 "¡Completame! ¡Hazme perfecta!"
+
+ cdol_drain.0080.ending:1 "Tenemos el orgasmo como uno, nuestras mentes y experiencias floreciendo en un universo de placer, un clímax que derrite la mente que se extiende hasta el infinito ..."
+ cdol_drain.0080.a:1 "Veo todo, todo...!"
+
+ cdol_drain.0090.ending:1 "Cada toque de [carn_sex_partner.GetHerHis|U] enciende mi piel, inundando mi pecho y mi cuerpo con un fuego inimaginablemente placentero."
+ cdol_drain.0090.a:1 "¡Si! Lléname... ¡Hazme completa!"
+
+ cdol_drain.0100.ending:1 "Puedo sentir la embriagadora pasión y vitalidad de [carn_sex_partner.GetHerHis], derritiéndose deliciosamente en mis labios mientras nos abrazamos."
+ cdol_drain.0100.a:1 "Serás una polilla para mi llama."
+
+
+ cdol_drain.generic_victim_title:1 "Agotamiento"
+ cdol_drain.generic_victim_opening:1 "Últimamente no me he sentido como yo mismo, aunque me costaría encontrar la razón de por qué.\n\n"
+
+ cdol_drain.0011.ending:1 "Cada vez con más frecuencia, me sorprendo tropezando con mis propios zapatos o quedándome dormido en medio de una dirección.."
+ cdol_drain.0011.a:1 "¿Estoy perdiendo mi toque?"
+
+ cdol_drain.0021.ending:1 "Con frecuencia encuentro mis ojos vidriosos ante los informes de los exploradores, y mis tropas susurran que no soy apto para comandar."
+ cdol_drain.0021.a:1 "No entiendo..."
+
+ cdol_drain.0031.ending:1 "Mientras mis asesores presionan para obtener mi juicio sobre impuestos y comercio, me doy cuenta de que no puedo reunir la sabiduría para responderles.."
+ cdol_drain.0031.a:1 "¿Estoy perdiendo la cabeza?"
+
+ cdol_drain.0041.ending:1 "El ritmo de la corte es abrumador y me resulta cada vez más difícil evaluar las intenciones de los demás."
+ cdol_drain.0041.a:1 "Me siento tan cansado."
+
+ cdol_drain.0051.ending:1 "Me he encontrado cada vez más loco, incapaz de recordar las cosas más simples."
+ cdol_drain.0051.a:1 "Debería descansar un poco ..."
+
+ cdol_drain.0061.ending:1 "Me he visto obligado a retirarme del combate, porque estoy demasiado cansado e inestable para sostener una espada.."
+ cdol_drain.0061.a:1 "¿Qué esta pasando?"
+ 
+ cdol_drain.0071.title:1 "Belleza Fugaz"
+ cdol_drain.0071.desc:1 "Mientras me miraba al espejo hoy, me horroricé al ver un rostro que apenas reconocí..\n\nMis imperfecciones se han convertido en enormes hoyuelos y cicatrices antiestéticas, y la gracia natural que una vez poseí no se encuentra en ninguna parte."
+ cdol_drain.0071.a:1 "¿¡Qué!? ¿Quién me ha hecho esto?"
+ 
+ cdol_drain.0081.title:1 "Un sentimiento extraño"
+ cdol_drain.0081.desc:1 "Últimamente, me he sentido extrañamente cansado y agotado en el curso de mis deberes. Mis escribas me han mirado de forma extraña y me han preguntado si me siento bien.\n\nHay una sensación molesta, en el fondo de mi mente, de que he olvidado algo importante."
+ cdol_drain.0081.a:1 "Probablemente no sea nada ..."
+ 
+ cdol_drain.0091.title:1 "Un cambio no deseado"
+ cdol_drain.0091.desc:1 "Hoy, mi cuerpo se sentía extrañamente ligero y dolorido. No pensé en eso hasta que me fui a vestir y me miré al espejo.\n\nMis partes más íntimas se han encogido, a falta de una palabra mejor. Se han vuelto más pequeños y suaves, casi burlándose de mi figura con sus proporciones disminuidas."
+ cdol_drain.0091.a:1 "¿¡Qué!? ¿¡Cómo pudo pasar esto!?"
+
+ cdol_drain.0101.ending:1 "En mis deberes diarios, me siento cansado y apático, sin la motivación para hacer mucho de nada."
+ cdol_drain.0101.a:1 "Quizás debería acostarme un poco..."

@@ -1,0 +1,27 @@
+﻿l_spanish:
+
+ cdol_succubus_mastery:1 "Mastria Súcubo"
+ cdol_succubus_mastery_desc:1 "Bonus por cada [cdol_succubus_mastery_level|E]."
+
+ cdol_diplomacy_drained_modifier:1 "Exhausto"
+ cdol_diplomacy_drained_modifier_desc:1 "El cansancio es demasiado para este personaje."
+
+ cdol_martial_drained_modifier:1 "Debilitado"
+ cdol_martial_drained_modifier_desc:1 "Trasnochar has dejado a este personaje debil y vulnerable."
+
+ cdol_stewardship_drained_modifier:1 "Vulnerable"
+ cdol_stewardship_drained_modifier_desc:1 "Este personaje le resulta dificil hacerse cargo de su trabajo."
+
+ cdol_intrigue_drained_modifier:1 "Desenfocado"
+ cdol_intrigue_drained_modifier_desc:1 "Este personaje tiene dificultades para concentrarse."
+
+ cdol_learning_drained_modifier:1 "Despiste"
+ cdol_learning_drained_modifier_desc:1 "Este personaje tiene problemas para recordar algunas cosas."
+
+ cdol_prowess_drained_modifier:1 "Agobiado"
+ cdol_prowess_drained_modifier_desc:1 "Este personaje se ha excedido demasiado."
+
+ cdol_health_drained_modifier:1 "Malestar"
+ cdol_health_drained_modifier_desc:1 "Este personaje no se siente muy bien."
+
+ cdol_life_drained_modifier:1 "Drenado"

@@ -1,0 +1,31 @@
+﻿l_spanish:
+
+cdol_drain_life_flavor_1:1 "Se siente muy bien"
+cdol_drain_life_flavor_2:1 "Dulce Sustento"
+cdol_drain_life_flavor_3:1 "Estas renovado"
+cdol_drain_life_flavor_4:1 "Solo una probada"
+cdol_drain_life_flavor_5:1 "Pecaminosamente delicioso"
+
+cdol_fascinate_flavor_1:1 "[second.GetSheHeCap] no puede apartar la mirada"
+cdol_fascinate_flavor_2:1 "Un guño y una sonrisa"
+cdol_fascinate_flavor_3:1 "Eres irresistible"
+cdol_fascinate_flavor_4:1 "Solo una mirada tentadora"
+cdol_fascinate_flavor_5:1 "Mis ojos estan aqui arriba"
+
+cdol_mesmerize_flavor_1:1 "[second.GetSheHeCap] esta perdido en tu mirada"
+cdol_mesmerize_flavor_2:1 "En la palma de tu mano"
+cdol_mesmerize_flavor_3:1 "Un susurro en la oscuridad"
+cdol_mesmerize_flavor_4:1 "Ebrio de tu belleza"
+cdol_mesmerize_flavor_5:1 "Una oferta cautivadora"
+
+cdol_regenerate_flavor_1:1 "Un nuevo día, un nuevo yo"
+cdol_regenerate_flavor_2:1 "Renacido en la oscuridad"
+cdol_regenerate_flavor_3:1 "Rehecho por placer"
+cdol_regenerate_flavor_4:1 "La vitalidad surge"
+cdol_regenerate_flavor_5:1 "La carne está retejida"
+
+cdol_torment_flavor_1:1 "Susurros burlones"
+cdol_torment_flavor_2:1 "Noches de insomnio"
+cdol_torment_flavor_3:1 "Sembrando las semillas de la duda"
+cdol_torment_flavor_4:1 "Una pesadilla despierta"
+cdol_torment_flavor_5:1 "Tu risa resuena"

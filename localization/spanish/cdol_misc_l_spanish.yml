@@ -1,0 +1,7 @@
+﻿l_spanish:
+
+ cdol_current_sexual_power_note:1 "#weak (Current:1 [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')])#!"
+
+ cdol_current_succubus_mastery_level_note:1 "#weak (Current:1 $cdol_current_succubus_mastery_level_description$)#!"
+
+ cdol_line_break_spacer:1 "\n"

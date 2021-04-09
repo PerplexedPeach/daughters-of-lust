@@ -1,0 +1,13 @@
+﻿l_spanish:
+
+rule_cdol_start_scenario:1 "#X Daughters of Lust:#! Escenario inicial"
+ setting_cdol_start_scenario_none:1 "Ninguno"
+ setting_cdol_start_scenario_none_desc:1 "No sucederá ningún evento programado al comienzo del juego."
+ setting_cdol_start_scenario_succubus:1 "#high Daughter of Lust#!"
+ setting_cdol_start_scenario_succubus_desc:1 "Poco después de que comience el juego, los personajes femeninos que no son súcubos descubrirán su ascendencia súcubo."
+
+ rule_cdol_succubus_lactation:1 "#X Daughters of Lust:#! Lactancia Súcubo"
+ setting_cdol_succubus_lactation_disabled:1 "Deshabilitada"
+ setting_cdol_succubus_lactation_disabled_desc:1 "Súcubos no produciran leche más que una mujer promedio."
+ setting_cdol_succubus_lactation_enabled:1 "#high Habilitada#!"
+ setting_cdol_succubus_lactation_enabled_desc:1 "Súcubos produciran leche despues de tener relaciones y usar ciertas habilidades con Energia Sexual."

@@ -1,0 +1,7 @@
+﻿l_spanish:
+
+ cdol_transformation.0001.t:1 "Un despertar de la carne"
+ cdol_transformation.0001.intro:1 "Por fin ha llegado la hora del cambio. Me arrodillo en mis aposentos y me abro a los vapores inquietantes; Me retuerzo cuando siento que el deseo se derrama desde los rincones oscuros y olvidados de mi alma. Por primera vez en mi vida, miro dentro de mí y sé quién soy y en qué me convertiré.\n\n"
+ cdol_transformation.0001.negative:1 "Cuando abro los ojos, soy una mujer cambiada. Me levanto sin vergüenza de mi cuerpo desnudo, deleitándome con la caricia cálida y dulce de los vapores en mi carne. Yo soy mi viejo [ROOT.Char.GetFaith.HighGodName]-ya no teme a sí mismo, sino a un ser mucho más poderoso. -- Mas mundano -- more sensual."
+ cdol_transformation.0001.positive:1 "Cuando abro los ojos, soy una mujer cambiada. Me levanto sin vergüenza de mi cuerpo desnudo, deleitándome con la caricia cálida y dulce de los vapores en mi carne. Ya no soy mi antiguo yo, sino un ser mucho más poderoso, más divino, más sensual."
+cdol_transformation.0001.a:1 "Yo soy un [ROOT.Char.Custom( 'CdolSuccubusName' )], y la tierra es mía para heredar."
