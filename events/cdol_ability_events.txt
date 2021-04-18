@@ -295,8 +295,8 @@ cdol_ability.0201 = {
 		name = cdol_ability.0201.tits_up
 		trigger = {
 			has_game_rule = carn_dt_enabled
-			is_female = yes
-			NOT = { has_trait = tits_big_3 }
+			carn_should_have_tits_trigger = yes
+			carn_has_tits_big_3_trigger = no
 		}
 		cdol_alter_self_general_effect = yes
 		carn_increase_tits_size_one_step_effect = yes
@@ -307,8 +307,8 @@ cdol_ability.0201 = {
 		name = cdol_ability.0201.tits_down
 		trigger = {
 			has_game_rule = carn_dt_enabled
-			is_female = yes
-			NOT = { has_trait = tits_small_3 }
+			carn_should_have_tits_trigger = yes
+			carn_has_tits_small_3_trigger = no
 		}
 		cdol_alter_self_general_effect = yes
 		carn_decrease_tits_size_one_step_effect = yes
@@ -319,8 +319,8 @@ cdol_ability.0201 = {
 		name = cdol_ability.0201.dick_up
 		trigger = {
 			has_game_rule = carn_dt_enabled
-			carn_gender_can_impregnate_trigger = yes
-			NOT = { has_trait = dick_big_3 }
+			carn_should_have_dick_trigger = yes
+			carn_has_dick_big_3_trigger = no
 		}
 		cdol_alter_self_general_effect = yes
 		carn_increase_dick_size_one_step_effect = yes
@@ -331,8 +331,8 @@ cdol_ability.0201 = {
 		name = cdol_ability.0201.dick_down
 		trigger = {
 			has_game_rule = carn_dt_enabled
-			carn_gender_can_impregnate_trigger = yes
-			NOT = { has_trait = dick_small_3 }
+			carn_should_have_dick_trigger = yes
+			carn_has_dick_small_3_trigger = no
 		}
 		cdol_alter_self_general_effect = yes
 		carn_decrease_dick_size_one_step_effect = yes

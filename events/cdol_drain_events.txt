@@ -157,15 +157,15 @@ cdol_drain.0001 = {
 			10 = { # opportunity to drain dick/tit size
 				trigger = {
 					has_game_rule = carn_dt_enabled
-					NOT = { has_trait = tits_big_3 }
+					carn_has_tits_big_3_trigger = no
 					OR = {
-						carn_gender_can_impregnate_trigger = no
-						NOT = { has_trait = dick_big_3 }
+						carn_should_have_dick_trigger = no
+						carn_has_dick_big_3_trigger = no
 					}
 					scope:carn_sex_partner = {
 						OR = {
-							has_trait = tits_big
-							has_trait = dick_big
+							carn_has_big_tits_trigger = yes
+							carn_has_big_dick_trigger = yes
 						}
 						NOT = { has_character_flag = cdol_dt_drained }
 					}
@@ -1064,11 +1064,11 @@ cdol_drain.0090 = {
 		scope:carn_sex_partner = {
 			show_as_tooltip = {
 				if = {
-					limit = { has_trait = dick_big }
+					limit = { carn_has_big_dick_trigger = yes }
 					carn_decrease_dick_size_one_step_effect = yes
 				}
 				else_if = {
-					limit = { has_trait = tits_big }
+					limit = { carn_has_big_tits_trigger = yes }
 					carn_decrease_tits_size_one_step_effect = yes
 				}
 				add_character_modifier = {
@@ -1089,20 +1089,20 @@ cdol_drain.0090 = {
 		}
 		if = {
 			limit = {
-				carn_gender_can_impregnate_trigger = yes
-				scope:carn_sex_partner = { has_trait = dick_big }
+				carn_should_have_dick_trigger = yes
+				scope:carn_sex_partner = { carn_has_big_dick_trigger = yes }
 			}
 			carn_increase_dick_size_one_step_effect = yes
 		}
 		else_if = {
 			limit = {
-				scope:carn_sex_partner = { has_trait = tits_big }
+				scope:carn_sex_partner = { carn_has_big_tits_trigger = yes }
 			}
 			carn_increase_tits_size_one_step_effect = yes
 		}
 		else_if = {
 			limit = {
-				carn_gender_can_impregnate_trigger = yes
+				carn_should_have_dick_trigger = yes
 			}
 			carn_increase_dick_size_one_step_effect = yes
 		}
@@ -1145,11 +1145,11 @@ cdol_drain.0091 = {
 	immediate = {
 		play_music_cue = "mx_cue_stress"
 		if = {
-			limit = { has_trait = dick_big }
+			limit = { carn_has_big_dick_trigger = yes }
 			carn_decrease_dick_size_one_step_effect = yes
 		}
 		else_if = {
-			limit = { has_trait = tits_big }
+			limit = { carn_has_big_tits_trigger = yes }
 			carn_decrease_tits_size_one_step_effect = yes
 		}
 		add_character_modifier = {
