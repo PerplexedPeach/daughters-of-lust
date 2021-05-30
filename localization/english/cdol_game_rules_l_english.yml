@@ -1,12 +1,12 @@
 ﻿l_english:
 
- rule_cdol_start_scenario: "#X Daughters of Lust:#! Starting Scenario"
+ rule_cdol_start_scenario: "@cdol_icon! #X Daughters of Lust:#! Starting Scenario"
  setting_cdol_start_scenario_none: "None"
  setting_cdol_start_scenario_none_desc: "No scripted events will happen at the start of the game."
  setting_cdol_start_scenario_succubus: "#high Daughter of Lust#!"
  setting_cdol_start_scenario_succubus_desc: "Shortly after the game starts, female player characters who aren't succubi will discover their succubus ancestry."
 
- rule_cdol_succubus_lactation: "#X Daughters of Lust:#! Succubus Lactation"
+ rule_cdol_succubus_lactation: "@cdol_icon! #X Daughters of Lust:#! Succubus Lactation"
  setting_cdol_succubus_lactation_disabled: "Disabled"
  setting_cdol_succubus_lactation_disabled_desc: "Succubi will not lactate more than the average woman."
  setting_cdol_succubus_lactation_enabled: "#high Enabled#!"
