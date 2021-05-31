@@ -7,3 +7,4 @@
 ## Localization
 
 * Added Spanish translation,  thanks Kalvis
+* Added icons to game rules
