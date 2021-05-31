@@ -1,10 +1,5 @@
-# Daughters of Lust 0.3
+# Daughters of Lust 0.4
 
-## Compatibility
+## Tweaks
 
-* Updated for compatibility with Carnalitas 1.5.
-
-## Localization
-
-* Added Spanish translation,  thanks Kalvis
 * Added icons to game rules
