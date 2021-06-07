@@ -1,0 +1,13 @@
+﻿l_korean:
+
+ rule_cdol_start_scenario:1 "#X Daughters of Lust:#! 게임 시작시"
+ setting_cdol_start_scenario_none:1 "없음"
+ setting_cdol_start_scenario_none_desc:1 "게임을 시작할 때 스크립트로 작성된 이벤트가 발생하지 않습니다."
+ setting_cdol_start_scenario_succubus:1 "#high Daughter of Lust#!"
+ setting_cdol_start_scenario_succubus_desc:1 "게임 시작 직후, 서큐버스가 아닌 여성 플레이어 캐릭터는 자신의 서큐버스 혈통을 발견할 것입니다."
+
+ rule_cdol_succubus_lactation:1 "#X Daughters of Lust:#! 서큐버스 모유"
+ setting_cdol_succubus_lactation_disabled:1 "비활성화"
+ setting_cdol_succubus_lactation_disabled_desc:1 "서큐버스는 보통 여성만큼만 모유를 분비합니다."
+ setting_cdol_succubus_lactation_enabled:1 "#high 활성화#!"
+ setting_cdol_succubus_lactation_enabled_desc:1 "서큐버스는 섹스 후 또는 특정 서큐버스 숙련 어빌리티를 사용한 후 모유를 분비합니다."

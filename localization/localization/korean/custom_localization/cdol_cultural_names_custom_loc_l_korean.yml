@@ -1,0 +1,38 @@
+﻿l_korean:
+번역
+cdol_succubus:1 "서큐버스"
+cdol_succubus_cap:1 "서큐버스"
+cdol_succubus_plural:1 "서큐버스"
+cdol_succubus_patron:1 "릴리스"
+cdol_succubus_game_concept:1 "[cdol_succubus|E]"
+
+cdol_yakshi:1 "야크시"
+cdol_yakshi_cap:1 "야크시"
+cdol_yakshi_plural:1 "야크시"
+cdol_yakshi_patron:1 "쿠베라"
+cdol_yakshi_game_concept:1 "[cdol_yakshi|E]"
+
+cdol_qarinah:1 "카리나"
+cdol_qarinah_cap:1 "카리나"
+cdol_qarinah_plural:1 "카리나"
+cdol_qarinah_patron:1 "연기 없는 불꽃"
+cdol_qarinah_game_concept:1 "[cdol_qarinah|E]"
+
+cdol_leannan_sidhe:1 "레아난 시"
+cdol_leannan_sidhe_cap:1 "레아난 시"
+cdol_leannan_sidhe_plural:1 "레아난 시"
+cdol_leannan_sidhe_patron:1 "다누"
+cdol_leannan_sidhe_game_concept:1 "[cdol_leannan_sidhe|E]"
+
+cdol_demoness:1 "데모니스"
+cdol_demoness_cap:1 "데모니스"
+cdol_demoness_plural:1 "데모니스"
+cdol_demoness_patron:1 "정신세계"
+cdol_demoness_game_concept:1 "[cdol_demoness|E]"
+
+cdol_an_angel_sent_by_highgodname:1 "[ROOT.Char.GetFaith.GetHighGodName]께서 보낸 천사"
+cdol_a_bodhisattva:1 "보디사트바"
+cdol_an_emissary_of_kubera:1 "쿠베라의 사절"
+cdol_an_innocent_sidhe:1 "순수한 요정"
+cdol_a_sacred_maiden_of_the_wild:1 "성스러운 들처녀"
+cdol_a_divine_spirit:1 "신성한 정신"

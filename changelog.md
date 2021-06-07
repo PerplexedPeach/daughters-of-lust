@@ -3,3 +3,7 @@
 ## Tweaks
 
 * Added icons to game rules
+
+## Localization
+
+* Added Korean localization. Thanks AKTKNGS!

@@ -1,0 +1,76 @@
+﻿l_korean:
+
+ cdol_drain.0001.notification:1 "[succubus.Custom('CdolSuccubusName')|U]: 성마력 흡수"
+
+ cdol_drain.generic_title:1 "[succubus.Custom('CdolSuccubusName')|U]: 갈망"
+ cdol_drain.generic_opening:1 "[carn_sex_partner.GetShortUINameNoTooltip]의 몸이 황홀경에 떨 때, 열렬한 쾌락이 나를 휩쓸며 [carn_sex_partner.GetHerHis] 힘이 내 몸으로 흘러들어오는 것을 느낀다.\n\n"
+
+ cdol_drain.generic_refusal:1 "아니, [carn_sex_partner.GetShortUINameNoTooltip]의 가치가 더 커."
+ cdol_drain.difficult_refusal:1 "난... 견뎌야 해!"
+
+ cdol_drain.0010.ending:1 "[carn_sex_partner.GetHerHis] 영혼의 시가 내게 노래하며, 키스로 내 입술이 감겨올 것을 기다린다."
+ cdol_drain.0010.a:1 "너는 내 우아함을 위한 재료가 될 것이다."
+
+ cdol_drain.0020.ending:1 "나를 흥분시킬 수 있다는 [carn_sex_partner.GetHerHis] 확신의 불꽃이 느껴진다."
+ cdol_drain.0020.a:1 "네가 나를 정복한 것처럼, 나도 너를 정복할 것이다."
+
+ cdol_drain.0030.ending:1 "절정 그리고 절정, [carn_sex_partner.GetHerHis] 경계심과 이성은 원초적인 욕망의 열기에 무너지고 만다."
+ cdol_drain.0030.a:1 "너는 내 일부가 될 것이야."
+
+ cdol_drain.0040.ending:1 "[carn_sex_partner.GetSheHe|U]는 완전히 반한 눈으로 내 눈을 바라보고, [carn_sex_partner.GetHerHis] 영혼의 창 또한 내게 열렸다."
+ cdol_drain.0040.a:1 "어둠 속에서 하나가 되는 거야."
+
+ cdol_drain.0050.ending:1 "나의 도취시키는 몸에 굴복하면서, [carn_sex_partner.GetSheHe]가 내 [carn_sex_partner.GetHerHis|U] 상념과 우려는 녹아 사라진다."
+ cdol_drain.0050.a:1 "다 잊어버리고 나를 안아..."
+
+ cdol_drain.0060.ending:1 "태양의 빛처럼 나를 채우는 [carn_sex_partner.GetHerHis] 신체에서 원초적인 힘과 기교가 느껴진다."
+ cdol_drain.0060.a:1 "너의 힘이 곧 내 힘이 될 것이다."
+
+ cdol_drain.0070.ending:1 "내 살갗을 달콤하게 애무하고 내 영혼 안으로 장엄하게 타들어가는 [carn_sex_partner.GetHerHim]를 느끼며, 나는 오르가즘에 온몸을 비튼다."
+ cdol_drain.0070.a:1 "채워 줘! 나를 완성시켜 줘!"
+
+ cdol_drain.0080.ending:1 "하나가 되어 절정하며, 우리의 정신은 쾌락의 우주에 녹아들듯이 꽃피어 무한으로 뻗어나간다..."
+ cdol_drain.0080.a:1 "보여... 모든 것이...!"
+
+ cdol_drain.0090.ending:1 "[carn_sex_partner.GetHerHis|U] 손길 하나하나가 내 몸을 불타게 만들고, 상상도 못할 쾌락의 불길이 내 가슴과 국부에 몰아친다."
+ cdol_drain.0090.a:1 "그래! 채워 줘... 온 몸을 다!"
+
+ cdol_drain.0100.ending:1 "우리는 서로를 껴안고, 나는 [carn_sex_partner.GetHerHis] 열정과 생명력이 내 입술에 맛있게 녹아드는 것을 느낀다."
+ cdol_drain.0100.a:1 "당신은 내 불꽃 앞의 나방이야."
+
+
+ cdol_drain.generic_victim_title:1 "탈진"
+ cdol_drain.generic_victim_opening:1 "최근 나는 나 자신이 아닌 것 같이 느낀다. 왜 이러는 건지 이유를 찾으려고 애를 쓰지만...\n\n"
+
+ cdol_drain.0011.ending:1 "내 신발에 걸려 넘어지거나, 연설 도중에 잠이 들어 버리는 나 자신을 발견한다. 점점 더 자주."
+ cdol_drain.0011.a:1 "감각을 잃어버린 건가?"
+
+ cdol_drain.0021.ending:1 "정찰병들의 보고에 집중하지 못하는 나 자신을 종종 발견한다. 병사들은 내가 지휘에 적합하지 않다고 수군거린다."
+ cdol_drain.0021.a:1 "이해가 잘 안 돼..."
+
+ cdol_drain.0031.ending:1 "자문위원들이 세금과 교역에 관한 내 결단을 촉구하면서, 나는 그들에게 대답할 지혜가 없어졌다는 것을 깨달았다."
+ cdol_drain.0031.a:1 "정신이 쇠한 건가?"
+
+ cdol_drain.0041.ending:1 "궁정 회의의 속도가 엄청나게 빨라져, 점점 다른 사람들의 의도를 가늠하기가 힘들어진다."
+ cdol_drain.0041.a:1 "너무 피곤하다."
+
+ cdol_drain.0051.ending:1 "내 머리가 점점 산만해져서, 단순한 것조차 기억해내지 못하곤 한다."
+ cdol_drain.0051.a:1 "휴식을 좀 취해야겠어..."
+
+ cdol_drain.0061.ending:1 "검을 오랫동안 들지도 못할 정도로 지쳐서, 나는 대련 훈련에서 나올 수밖에 없었다.."
+ cdol_drain.0061.a:1 "어떻게 된 거지?"
+ 
+ cdol_drain.0071.title:1 "한때의 아름다움"
+ cdol_drain.0071.desc:1 "오늘 거울을 들여다보자, 알아보기조차 힘든 내 얼굴을 보고 소스라치게 놀랐다.\n\n거대한 보조개와 흉측한 상처가 자라나, 한때 내가 가졌던 천부의 미모는 흔적도 없이 사라졌다."
+ cdol_drain.0071.a:1 "말도 안 돼! 누가 내게 이런 짓을!?"
+ 
+ cdol_drain.0081.title:1 "낯선 감각"
+ cdol_drain.0081.desc:1 "최근에 나는 업무를 수행하면서 이상하게 피곤하고 무기력한 느낌을 받았다. 필경사들은 이상한 표정으 지으며 내게 괜찮은지 묻는다.\n\n머릿속 한 구석에서, 내가 중요한 것을 잊고 있다는 목소리가 계속 들린다."
+ cdol_drain.0081.a:1 "아무 일도 아니겠지..."
+ 
+ cdol_drain.0091.title:1 "달갑지 않은 변화"
+ cdol_drain.0091.desc:1 "오늘, 내 몸이 이상하게 희고 화끈거렸다. 옷을 입고 거울을 보기 전까지는 아무 생각도 없었다.\n\n내 성적인 부분은 쪼그라들었다고밖에 표현할 말이 없다. 크기도 작아지고 물렁해져서, 내 [ROOT.Char.GetWomanMan]성을 조롱하는 것만 같다."
+ cdol_drain.0091.a:1 "뭐야!? 어떻게 이럴 수가 있지!?"
+
+ cdol_drain.0101.ending:1 "일상 업무에서 나는 피곤하고 무기력하다. 아무 것도 할 의욕이 나질 않는다."
+ cdol_drain.0101.a:1 "잠시라도 누워 있고 싶다..."

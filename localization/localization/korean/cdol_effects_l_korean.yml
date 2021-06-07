@@ -1,0 +1,35 @@
+﻿l_korean:
+
+ cdol_gain_sexual_power_effect_first:1 "$VALUE|V0$ [cdol_sexual_power|E]을 획득함 $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_first_past:1 "$VALUE|V0$ [cdol_sexual_power|E]을 획득함 $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U], $VALUE|V0$ [cdol_sexual_power|E]을 획득함 $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U], $VALUE|V0$ [cdol_sexual_power|E]을 획득함 $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect:1 "$VALUE|V0$ [cdol_sexual_power|E]을 획득함 $cdol_current_sexual_power_note$"
+ cdol_gain_sexual_power_effect_past:1 "$VALUE|V0$ [cdol_sexual_power|E]을 획득했음 $cdol_current_sexual_power_note$"
+
+ cdol_max_out_sexual_power_effect_first:1 "최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달함"
+ cdol_max_out_sexual_power_effect_first_past:1 "최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달함"
+ cdol_max_out_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U], 최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달함"
+ cdol_max_out_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U], 최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달함"
+ cdol_max_out_sexual_power_effect:1 "최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달함"
+ cdol_max_out_sexual_power_effect_past:1 "최대치인 [CHARACTER.Custom('CdolSexualPowerMaximumDescription')] [cdol_sexual_power|E]에 도달했음"
+
+ cdol_lose_sexual_power_effect_first:1 "$VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_first_past:1 "$VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U], $VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U], $VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect:1 "$VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+ cdol_lose_sexual_power_effect_past:1 "$VALUE|V0$ [cdol_sexual_power|E]을 상실함 $cdol_current_sexual_power_note$"
+
+ cdol_lose_all_sexual_power_effect_first:1 "[cdol_sexual_power|E]을 모두 상실함"
+ cdol_lose_all_sexual_power_effect_first_past:1 "[cdol_sexual_power|E]을 모두 상실했음"
+ cdol_lose_all_sexual_power_effect_third:1 "[CHARACTER.GetShortUIName|U](이)가 [cdol_sexual_power|E]을 모두 상실함"
+ cdol_lose_all_sexual_power_effect_third_past:1 "[CHARACTER.GetShortUIName|U](이)가 [cdol_sexual_power|E]을 모두 상실했음"
+ cdol_lose_all_sexual_power_effect:1 "[cdol_sexual_power|E]을 모두 상실함"
+ cdol_lose_all_sexual_power_effect_past:1 "[cdol_sexual_power|E]을 모두 상실했음"
+
+ cdol_current_sexual_power_description:1 "[cdol_sexual_power|E]: #high [CHARACTER.MakeScope.Var('cdol_sexual_power').GetValue|V0]/[CHARACTER.Custom('CdolSexualPowerMaximumDescription')]#!"
+
+ cdol_current_succubus_mastery_level_description:1 "[cdol_succubus_mastery_level|E]: #high [CHARACTER.MakeScope.Var('cdol_succubus_mastery_level').GetValue|V0]#!"
+
+ cdol_unlocked_abilities_text:1 "능력이 해금됨:"

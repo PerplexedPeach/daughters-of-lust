@@ -1,0 +1,27 @@
+﻿l_korean:
+
+ cdol_succubus_mastery:1 "서큐버스 숙련"
+ cdol_succubus_mastery_desc:1 "[cdol_succubus_mastery_level|E]에 보너스:"
+
+ cdol_diplomacy_drained_modifier:1 "탈진"
+ cdol_diplomacy_drained_modifier_desc:1 "탈진 상태가 이 인물을 무겁게 짓누릅니다."
+
+ cdol_martial_drained_modifier:1 "쇠약"
+ cdol_martial_drained_modifier_desc:1 "기나긴 밤이 이 인물을 약하고 불안정하게 만들었습니다."
+
+ cdol_stewardship_drained_modifier:1 "불안정"
+ cdol_stewardship_drained_modifier_desc:1 "이 인물은 업무를 따라가기 힘들어합니다."
+
+ cdol_intrigue_drained_modifier:1 "산만"
+ cdol_intrigue_drained_modifier_desc:1 "이 인물은 집중하는 데 어려움을 겪습니다."
+
+ cdol_learning_drained_modifier:1 "건망증"
+ cdol_learning_drained_modifier_desc:1 "이 인물은 사소한 것을 자꾸 잊어버립니다."
+
+ cdol_prowess_drained_modifier:1 "과로"
+ cdol_prowess_drained_modifier_desc:1 "이 인물은 너무 많은 힘을 발휘했습니다."
+
+ cdol_health_drained_modifier:1 "불안"
+ cdol_health_drained_modifier_desc:1 "이 인물은 기분이 썩 좋지 않습니다."
+
+ cdol_life_drained_modifier:1 "흡정"

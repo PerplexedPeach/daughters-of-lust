@@ -1,0 +1,50 @@
+﻿l_korean:
+
+game_concept_cdol_alter_self_decision:1 "$cdol_alter_self_decision$"
+game_concept_cdol_alter_self_decision_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_alter_self_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [decision|E]으로 [physical_trait|E]을 획득 또는 상실할 수 있습니다.\n\n부정적인 [congenital_traits|E]은 이 방법으로 제거할 수 있지만 [illnesses|E], 부상, 불구는 그렇지 않습니다."
+
+game_concept_cdol_alter_sexuality_interaction:1 "$cdol_alter_sexuality_interaction$"
+game_concept_cdol_alter_sexuality_interaction_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_alter_sexuality_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 다른 [character_possessive|E] [sexuality|E]을 바꿀 수 있습니다."
+
+game_concept_cdol_awaken_succubus_ancestry_decision:1 "서큐버스 혈통 각성"
+game_concept_cdol_awaken_succubus_ancestry_decision_desc:1 "[cdol_succubus|E] 혈통을 가진 여성 [character|E]은 이 [decision|E]으로 완전히 날개를 편 서큐버스가 될 수 있습니다."
+
+game_concept_cdol_become_succubus_decision:1 "서큐버스 변신 의식 수행"
+game_concept_cdol_become_succubus_decision_desc:1 "여성 [GetTrait('witch').GetName( GetNullCharacter )]는 이 [decision|E]으로 [cdol_succubus|E]가 될 수 있습니다."
+
+game_concept_cdol_drain_life_interaction:1 "$cdol_drain_life_interaction$"
+game_concept_cdol_drain_life_interaction_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_drain_life_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 30일 이내에 동침한 [character|E]에게 심각한 [health|E] 페널티를 안길 수 있습니다."
+
+game_concept_cdol_fascinate_interaction:1 "$cdol_fascinate_interaction$"
+game_concept_cdol_fascinate_interaction_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_fascinate_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 자신에 대한 [character_possessive|E] [opinion|E]을 향상시킬 수 있습니다."
+
+game_concept_cdol_mesmerize_interaction:1 "$cdol_mesmerize_interaction$"
+game_concept_cdol_mesmerize_interaction_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_mesmerize_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 30일 이내에 동침한 [character|E]에게 [weak_hook|E]을 획득할 수 있습니다."
+
+game_concept_cdol_regenerate_decision:1 "$cdol_regenerate_decision$"
+game_concept_cdol_regenerate_decision_desc:1 "[cdol_succubus_mastery_level|E]가 of [EmptyScope.ScriptValue('cdol_regenerate_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [decision|E]으로 [illness|E], 부상, 불구를 치유할 수 있습니다."
+
+game_concept_cdol_sexual_power:1 "성마력"
+game_concept_cdol_sexual_power_desc:1 "성마력(Sexual Power)은 [cdol_succubi|E]의 능력에 연료로 쓰입니다. 성마력은 섹스를 통해 흡수되며, [cdol_succubus_mastery|E]로 해금할 수 있는 강력한 [decisions|E]이나 [interactions|E]에 소비됩니다.\n\n성마력을 자주 이용하는 것은 [cdol_suspicion|E]을 불러일으킬 수 있습니다."
+
+game_concept_cdol_succubus:1 "서큐버스"
+game_concept_cdol_succubi:1 "서큐버스"
+game_concept_cdol_yakshi:1 "$cdol_yakshi_cap$"
+game_concept_cdol_qarinah:1 "$cdol_qarinah_cap$"
+game_concept_cdol_leannan_sidhe:1 "$cdol_leannan_sidhe_cap$"
+game_concept_cdol_demoness:1 "$cdol_demoness_cap$"
+game_concept_cdol_succubus_desc:1 "#EMP Daughters of Lust#!에서, [GetTrait('cdol_succubus').GetName( GetNullCharacter )]는 섹스를 통해 [cdol_sexual_power|E]을 흡수할 수 있는 여성 [character|E]입니다. 이 능력은 [cdol_succubus_mastery|E]로 해금할 수 있는 특별한 [decisions|E]이나 [interactions|E]의 연료로 사용할 수 있습니다.\n\n서큐버스는 마녀에 대한 관점에 따라 그녀의 [faith|E]에서 [shunned|E]받거나 아예 [criminal|E]일 수 있습니다. 그러므로 서큐버스는 [secret|E]을 유지하고 [cdol_suspicion|E]받는 것을 피하는 것이 중요합니다.\n\n서큐버스가 되기 위해서, [GetTrait('witch').GetName( GetNullCharacter )] 특성을 가진 여성은 [cdol_become_succubus_decision|E] 결단을, 서큐버스의 자손은 [cdol_awaken_succubus_ancestry_decision|E] 결단을 사용할 수 있습니다. 또한, 매우 강력한 서큐버스는 [cdol_succubus_conversion_interaction|E] 상호작용으로 인간을 서큐버스로 변화시킬 수 있습니다.\n\n#weak 서큐버스는 $cdol_yakshi_plural$, $cdol_qarinah_plural$, $cdol_leannan_sidhe_plural$, or $cdol_demoness_plural$라고도 불리며, 이들은 수천 년간 인간과 공존해온 아름다운 여성 종족입니다. 초자연적인 존재로 여겨져 많은 사람들이 두려워한 서큐버스들은, 살아남기 위해 인간들 사이로 몸을 숨겼습니다.#!"
+
+game_concept_cdol_succubus_conversion_interaction:1 "서큐버스로 전환"
+game_concept_cdol_succubus_conversion_interaction_desc:1 "[cdol_succubus_mastery_level|E]이 [EmptyScope.ScriptValue('cdol_succubus_conversion_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 다른 여성 [character|E]를 서큐버스로 변화시킬 수 있습니다."
+
+game_concept_cdol_succubus_mastery:1 "서큐버스 숙련도"
+game_concept_cdol_succubus_mastery_level:1 "서큐버스 숙련도"
+game_concept_cdol_succubus_mastery_desc:1 "[cdol_succubus|E]가 섹스를 통해 [cdol_sexual_power|E]을 흡수할 때마다, [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L]의 숙련도를 얻습니다. 또한 특정 서큐버스 숙련도에서 새로운 [decisions|E]이나 [interactions|E]을 사용할 수 있게 됩니다:1\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_self_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_sexuality_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_regenerate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_torment_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
+
+game_concept_cdol_suspicion:1 "의심"
+game_concept_cdol_suspicious:1 "의심스러운"
+game_concept_cdol_suspicion_desc:1 "[cdol_succubus|E]가 [decisions|E]이나 [interactions|E]에 [cdol_sexual_power|E]을 사용하면 의심을 불러일으킬 수 있습니다.\n\n의심이 과도하게 커지면, 다른 [characters|E]들이 서큐버스를 조사하거나 [secret|E]을 발견할 기회가 생길 수 있습니다."
+
+game_concept_cdol_torment_interaction:1 "$cdol_torment_interaction$"
+game_concept_cdol_torment_interaction_desc:1 "[cdol_succubus_mastery_level|E]가 [EmptyScope.ScriptValue('cdol_torment_succubus_mastery_level')|0] 이상인 [cdol_succubus|E]는 이 [character_interaction|E]으로 다른 [character|E]에게 엄청난 양의 [stress|E]를 안길 수 있습니다."

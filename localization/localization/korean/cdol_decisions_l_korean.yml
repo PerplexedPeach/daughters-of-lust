@@ -1,0 +1,41 @@
+﻿l_korean:
+
+ cdol_alter_self_decision:1 "자기개조"
+ cdol_alter_self_decision_desc:1 "나는 육체에 대한 숙련을 얻어 뱀이 허물을 벗듯 스스로의 모습을 바꿀 수 있게 되었다. 나는 원하는 만큼 아름다운 얼굴과 훌륭한 물건을 가질 수 있다."
+ cdol_alter_self_decision_tooltip:1 "[cdol_sexual_power|E]을 소비해서 [physical_trait|E]을 얻습니다."
+ cdol_alter_self_decision_effect_tooltip:1 "획득할 수 있는 [physical_trait|E]을 봅니다."
+ cdol_alter_self_decision_confirm:1 "거울아, 거울아..."
+
+ cdol_check_succubus_stats_decision:1 "서큐버스 상태 확인"
+ cdol_check_succubus_stats_decision_desc:1 "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
+ cdol_check_succubus_stats_decision_confirm:1 "확인함"
+
+ cdol_start_succubus_birth_control_decision:1 "자궁 봉인"
+ cdol_start_succubus_birth_control_decision_desc:1 "[ROOT.Char.Custom('CdolSuccubusName')]로서, 나는 생식 주기를 정밀하게 조정하여 성적인 밀회가 임신으로 이어지지 않게 할 수 있다."
+ cdol_start_succubus_birth_control_decision_tooltip:1 "원치 않는 임신 발생을 방지합니다."
+ cdol_start_succubus_birth_control_decision_confirm:1 "따뜻한 기운이 나를 스쳐간다..."
+ msg_cdol_started_succubus_birth_control:1 "자궁 봉인"
+ cdol_start_succubus_birth_control_decision_effect_tooltip:1 "당신은 이제 임신하지 않습니다."
+
+ cdol_stop_succubus_birth_control_decision:1 "자궁 봉인 해제"
+ cdol_stop_succubus_birth_control_decision_desc:1 "이제 내 생식력 통제를 풀고, 다시 한 번 임신의 기쁨을 경험할 수 있게 하겠다."
+ cdol_stop_succubus_birth_control_decision_tooltip:1 "스스로의 임신을 허락합니다."
+ cdol_stop_succubus_birth_control_decision_confirm:1 "따뜻한 기운이 나를 스쳐간다..."
+ msg_cdol_stopped_succubus_birth_control:1 "자궁 봉인 해제"
+ cdol_stop_succubus_birth_control_decision_effect_tooltip:1 "당신은 이제 임신할 수 있습니다."
+
+ cdol_regenerate_decision:1 "재생"
+ cdol_regenerate_decision_desc:1 "내 몸에 대한 이해도가 높아져, 나는 성적 에너지를 조작해 고통을 축출하고 상처를 재생할 수 있다."
+ cdol_regenerate_decision_tooltip:1 "[cdol_sexual_power|E]를 사용하여 자신의 [illness|E], 부상, 불구를 치유합니다."
+ cdol_regenerate_decision_confirm:1 "의식을 시작한다"
+ cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+
+ cdol_awaken_succubus_ancestry_decision:1 "[ROOT.Char.Custom('CdolSuccubusName')|U] 혈통 각성"
+ cdol_awaken_succubus_ancestry_decision_desc:1 "육체적 유횩의 힘은 내 피 안에 잠재되어 흐른다. 나는 금지된 문서와 마법 주문을 찾아 진정한 [ROOT.Char.Custom('CdolSuccubusPatron')]의 딸로서 태어나야 한다."
+ cdol_awaken_succubus_ancestry_decision_tooltip:1 "당신의 혈통을 각성시켜 완전히 날개를 편 [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]가 됩니다."
+ cdol_awaken_succubus_ancestry_decision_confirm:1 "의식을 시작한다"
+
+ cdol_become_succubus_decision:1 "[ROOT.Char.Custom('CdolSuccubusName')|U] 변신 의식 수행"
+ cdol_become_succubus_decision_desc:1 "전설에는 인간을 매혹하고 조종하는 종족이 있다. 우주의 신비를 향한 연구의 초입에서, 나는 전설 속의 순수 혈통 [ROOT.Char.Custom('CdolSuccubusName')]가 되는 방법을 배웠다."
+ cdol_become_succubus_decision_tooltip:1 "금지된 기술을 사용하여 [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]로 변신합니다."
+ cdol_become_succubus_decision_confirm:1 "의식을 시작한다"

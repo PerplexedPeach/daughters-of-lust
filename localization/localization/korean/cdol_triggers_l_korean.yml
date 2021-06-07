@@ -1,0 +1,31 @@
+﻿l_korean:
+
+ cdol_can_regenerate_trigger:1 "당신이 [illness|E], 부상, 또는 불구 상태가 아님"
+
+ cdol_you_have_sexual_power:1 "당신이 $VALUE|V0$ [cdol_sexual_power|E]을 보유함 $cdol_current_sexual_power_note$"
+ cdol_you_do_not_have_sexual_power:1 "당신이 $VALUE|V0$ [cdol_sexual_power|E]을 보유하지 않음 $cdol_current_sexual_power_note$"
+ cdol_they_has_sexual_power:1 "[CHARACTER.MakeScope.GetShortUIName|U](이)가 $VALUE|V0$ [cdol_sexual_power|E]을 보유함 $cdol_current_sexual_power_note$"
+ cdol_they_do_not_have_sexual_power:1 "[CHARACTER.GetShortUIName|U](이)가 $VALUE|V0$ [cdol_sexual_power|E]을 보유하지 않음 $cdol_current_sexual_power_note$"
+ cdol_has_sexual_power:1 "$VALUE|V0$ [cdol_sexual_power|E]을 보유함 $cdol_current_sexual_power_note$"
+ cdol_does_not_have_sexual_power:1 "$VALUE|V0$ [cdol_sexual_power|E]을 보유하지 않음 $cdol_current_sexual_power_note$"
+
+ cdol_you_have_succubus_mastery:1 "당신이 $VALUE|V0$ [cdol_succubus_mastery|E]를 보유함 $cdol_current_succubus_mastery_note$"
+ cdol_you_do_not_have_succubus_mastery:1 "당신이 $VALUE|V0$ [cdol_succubus_mastery|E]를 보유하지 않음 $cdol_current_succubus_mastery_note$"
+ cdol_they_has_succubus_mastery:1 "[CHARACTER.MakeScope.GetShortUIName|U](이)가 $VALUE|V0$ [cdol_succubus_mastery|E]를 보유함 $cdol_current_succubus_mastery_note$"
+ cdol_they_do_not_have_succubus_mastery:1 "[CHARACTER.GetShortUIName|U](이)가 $VALUE|V0$ [cdol_succubus_mastery|E]를 보유하지 않음 $cdol_current_succubus_mastery_note$"
+ cdol_has_succubus_mastery:1 "$VALUE|V0$ [cdol_succubus_mastery|E]를 보유함 $cdol_current_succubus_mastery_note$"
+ cdol_does_not_have_succubus_mastery:1 "$VALUE|V0$ [cdol_succubus_mastery|E]를 보유하지 않음 $cdol_current_succubus_mastery_note$"
+
+ cdol_you_recently_laid_with_target:1 "당신이 30일 내로 [TARGET_CHARACTER.GetShortUIName|U]와(과) 동침함"
+ cdol_you_did_not_recently_lay_with_target:1 "당신이 30일 내로 [TARGET_CHARACTER.GetShortUIName|U]와(과) 동침하지 않음"
+ cdol_they_recently_laid_with_target:1 "[CHARACTER.GetShortUIName|U]이(가) 30일 내로[TARGET_CHARACTER.GetShortUIName|U]와(과) 동침함"
+ cdol_they_did_not_recently_lay_with_target:1 "[CHARACTER.GetShortUIName|U]이(가) 30일 내로 [TARGET_CHARACTER.GetShortUIName|U]와(과) 동침하지 않음"
+ cdol_recently_laid_with_target:1 "는 30일 내로 [TARGET_CHARACTER.GetShortUIName|U]와(과) 동침함"
+ cdol_did_not_recently_lay_with_target:1 "는 30일 내로 [TARGET_CHARACTER.GetShortUIName|U]와(과) 동침하지 않음"
+
+ cdol_you_are_witch:1 "당신이 [GetTrait('witch').GetName( GetNullCharacter )]임"
+ cdol_you_are_not_witch:1 "당신이 [GetTrait('witch').GetName( GetNullCharacter )]가 아님"
+ cdol_they_are_witch:1 "[CHARACTER.GetShortUIName|U](이)가 [GetTrait('witch').GetName( GetNullCharacter )]임"
+ cdol_they_are_not_witch:1 "[CHARACTER.GetShortUIName|U](이)가 [GetTrait('witch').GetName( GetNullCharacter )]가 아님"
+ cdol_is_witch:1 "(이)가 [GetTrait('witch').GetName( GetNullCharacter )] 마녀임"
+ cdol_is_not_witch:1 "(이)가 [GetTrait('witch').GetName( GetNullCharacter )]가 아님"

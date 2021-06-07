@@ -1,0 +1,23 @@
+﻿l_korean:
+
+ cdol_alter_sexuality_interaction:1 "성 정체성 변경"
+ cdol_alter_sexuality_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 [recipient.GetShortUINamePossessiveNoTooltip] [sexuality|E]을 바꿉니다."
+
+ cdol_drain_life_interaction:1 "생명력 흡수"
+ cdol_drain_life_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 [recipient.GetShortUINamePossessiveNoTooltip] [health|E]을 몰래 흡수합니다."
+ cdol_drain_life_interaction_notification:1 "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
+
+ cdol_fascinate_interaction:1 "매료"
+ cdol_fascinate_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 당신에 대한 [recipient.GetShortUINamePossessiveNoTooltip] [opinion|E]을 향상시킵니다."
+ cdol_fascinate_interaction_notification:1 "[actor.Custom2('CdolFascinateFlavor', recipient)]"
+
+ cdol_mesmerize_interaction:1 "최면"
+ cdol_mesmerize_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 [recipient.GetShortUINameNoTooltip]에게 [weak_hook|E]을 획득합니다."
+ cdol_mesmerize_interaction_notification:1 "[actor.Custom2('CdolMesmerizeFlavor', recipient)]"
+
+ cdol_torment_interaction:1 "고통 주기"
+ cdol_torment_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 [recipient.GetShortUINameNoTooltip]에게 엄청난 양의 [stress|E]를 안깁니다."
+ cdol_torment_interaction_notification:1 "[actor.Custom2('CdolTormentFlavor', recipient)]"
+
+ cdol_succubus_conversion_interaction:1 "[ACTOR.Custom('CdolSuccubusName')|U] 전환"
+ cdol_succubus_conversion_interaction_desc:1 "[cdol_sexual_power|E]을 사용하여 [recipient.GetShortUINameNoTooltip]을(를) [cdol_succubus|E]로 변화시킵니다."
