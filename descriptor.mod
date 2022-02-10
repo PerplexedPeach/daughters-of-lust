@@ -6,4 +6,4 @@ tags={
 	"Gameplay"
 }
 name="Cheri - Daughters of Lust"
-supported_version="1.3.*"
+supported_version="1.5.*"
