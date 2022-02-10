@@ -66,12 +66,12 @@ cdol_revealed_succubus_portrait = {
 				x = 0.0
 				y = 0.2
 			}
-			morph = {
-				mode = add
-				gene = gene_cdol_succubus
-				value = 1.0
-				template = cdol_succubus
-			}
+			# morph = {
+			#	mode = add
+			#	gene = gene_cdol_succubus
+			#	value = 1.0
+			#	template = cdol_succubus
+			# }
 		}		
 		weight = {
 			base = 0
