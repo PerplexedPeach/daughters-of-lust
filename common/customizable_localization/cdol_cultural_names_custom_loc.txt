@@ -174,7 +174,7 @@ CdolSuccubusPositiveDescription = {
 		trigger = {
 			cdol_succubus_positive_description_fairy_trigger = yes
 		}
-		localization_key = cdol_an_innocent_fairy
+		localization_key = cdol_an_innocent_sidhe
 	}
 
 	text = {

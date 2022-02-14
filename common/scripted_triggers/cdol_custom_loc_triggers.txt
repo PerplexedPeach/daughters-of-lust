@@ -4,13 +4,8 @@ cdol_succubus_name_succubus_trigger = {
 	OR = {
 		faith = { religion_tag = christianity_religion }
 		faith = { religion_tag = judaism_religion }
-		has_culture_group = culture_group:iberian_group
-		has_culture_group = culture_group:israelite_group
-		has_culture_group = culture_group:frankish_group
-		has_culture_group = culture_group:latin_group
-		has_culture_group = culture_group:west_germanic_group
-		has_culture_group = culture_group:central_germanic_group
-		has_culture_group = culture_group:byzantine_group
+		culture_has_central_european_heritage_pillar_trigger = yes
+		culture_has_south_european_heritage_pillar_trigger = yes
 	}
 }
 
@@ -19,23 +14,23 @@ cdol_succubus_name_yakshi_trigger = {
 		faith = { religion_tag = hinduism_religion }
 		faith = { religion_tag = buddhism_religion }
 		faith = { religion_tag = jainism_religion }
-		has_culture_group = culture_group:dravidian_group
-		has_culture_group = culture_group:indo_aryan_group
+		culture = { has_cultural_pillar = heritage_dravidian }
+		culture = { has_cultural_pillar = heritage_indo_aryan }
 	}
 }
 
 cdol_succubus_name_qarinah_trigger = {
 	OR = {
 		faith = { religion_tag = islam_religion }
-		has_culture_group = culture_group:arabic_group
-		has_culture_group = culture_group:iranian_group
+		culture = { has_cultural_pillar = heritage_arabic }
+		culture = { has_cultural_pillar = heritage_iranian }
 	}
 }
 
 cdol_succubus_name_leannan_sidhe_trigger = {
 	OR = {
-		has_culture_group = culture_group:brythonic_group
-		has_culture_group = culture_group:goidelic_group
+		culture = { has_cultural_pillar = heritage_brythonic }
+		culture = { has_cultural_pillar = heritage_goidelic }
 	}
 }
 
@@ -54,23 +49,27 @@ cdol_succubus_positive_description_kubera_emissary_trigger = {
 	OR = {
 		faith = { religion_tag = hinduism_religion }
 		faith = { religion_tag = jainism_religion }
-		has_culture_group = culture_group:dravidian_group
-		has_culture_group = culture_group:indo_aryan_group
+		culture = { has_cultural_pillar = heritage_dravidian }
+		culture = { has_cultural_pillar = heritage_indo_aryan }
 	}
 }
 
 cdol_succubus_positive_description_fairy_trigger = {
 	OR = {
-		has_culture_group = culture_group:brythonic_group
-		has_culture_group = culture_group:goidelic_group
-		has_culture_group = culture_group:west_germanic_group
+		culture = { has_cultural_pillar = heritage_brythonic }
+		culture = { has_cultural_pillar = heritage_goidelic }
+		culture = { has_cultural_pillar = heritage_west_germanic }
 	}
 }
 
 cdol_succubus_positive_description_wild_maiden_trigger = {
 	OR = {
-		has_culture_group = culture_group:north_germanic_group
-		has_culture_group = culture_group:balto_finnic_group
-		has_culture_group = culture_group:south_slavic_group
+		culture = { has_cultural_pillar = heritage_volga_finnic }
+		culture = { has_cultural_pillar = heritage_east_slavic }
+		culture = { has_cultural_pillar = heritage_baltic }
+		culture = { has_cultural_pillar = heritage_ugro_permian }
+		culture = { has_cultural_pillar = heritage_north_germanic }
+		culture = { has_cultural_pillar = heritage_balto_finnic }
+		culture = { has_cultural_pillar = heritage_south_slavic }
 	}
 }

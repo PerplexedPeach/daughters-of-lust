@@ -25,11 +25,6 @@ cdol_transformation.0001 = {
 			desc = cdol_transformation.0001.positive
 		}
 	}
-
-	left_portrait = {
-		character = this
-		animation = personality_zealous
-	}
 	
 	immediate = {
 		play_music_cue = "mx_cue_faith_conversion"
