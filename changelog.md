@@ -1,9 +1,13 @@
 # Daughters of Lust 0.4
 
-## Tweaks
-
-* Added icons to game rules
-
 ## Localization
 
 * Added Korean localization. Thanks AKTKNGS!
+
+## Compatibility
+
+* Now works with Royal Court update.
+
+## Tweaks
+
+* Added icons to game rules.
