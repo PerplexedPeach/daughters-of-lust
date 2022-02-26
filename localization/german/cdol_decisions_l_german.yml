@@ -1,0 +1,41 @@
+﻿l_german:
+
+cdol_alter_self_decision:1 "Sich selbst verändern"
+cdol_alter_self_decision_desc:1 "Ich habe eine solche Meisterschaft über das Fleischliche erlangt, dass ich meine Gestalt ändern kann, wie eine Schlange ihre Haut abstößt, und so schön oder gut ausgestattet sein kann, wie ich es wünsche."
+cdol_alter_self_decision_tooltip:1 "Nutzt [cdol_sexual_power|E] um ein [physical_trait|E] zu erwerben"
+cdol_alter_self_decision_effect_tooltip:1 "Alle [physical_trait|E] anzeigen, die Ihr kaufen könnt"
+cdol_alter_self_decision_confirm:1 "Spieglein, Spieglein, an der Wand ..."
+
+cdol_check_succubus_stats_decision:1 "Succubus Werte prüfen"
+cdol_check_succubus_stats_decision_desc:1 "[cdol_sexual_power|E]: #high [ROOT.Var('cdol_sexual_power').GetValue|V0]/[SCOPE.ScriptValue('cdol_sexual_power_maximum')|V0]#!"
+cdol_check_succubus_stats_decision_confirm:1 "OK"
+
+cdol_start_succubus_birth_control_decision:1 "Mutterleib verschließen"
+cdol_start_succubus_birth_control_decision_desc:1 "Als ein [ROOT.Char.Custom('CdolSuccubusName')] kann ich meinen Fruchtbarkeitszyklus gut kontrollieren und sicherstellen, dass Kontakt mit meinen Verabredungen nie zu einer Schwangerschaft führen."
+cdol_start_succubus_birth_control_decision_tooltip:1 "Ungewollte Schwangerschaften vermeiden"
+cdol_start_succubus_birth_control_decision_confirm:1 "Wärme durchströmt mich ..."
+msg_cdol_started_succubus_birth_control:1 "Verschlossener Mutterleib"
+cdol_start_succubus_birth_control_decision_effect_tooltip:1 "Ihr könnt nicht länger schwanger werden"
+
+cdol_stop_succubus_birth_control_decision:1 "Mutterleib öffnen"
+cdol_stop_succubus_birth_control_decision_desc:1 "Es ist Zeit, meine Kontrolle über meine Fruchtbarkeit loszulassen und mir zu erlauben, die Freude der Befruchtung noch einmal zu erleben."
+cdol_stop_succubus_birth_control_decision_tooltip:1 "Sich erlauben, schwanger zu werden"
+cdol_stop_succubus_birth_control_decision_confirm:1 "Wärme durchströmt mich ..."
+msg_cdol_stopped_succubus_birth_control:1 "Geöffneter Mutterleib"
+cdol_stop_succubus_birth_control_decision_effect_tooltip:1 "Ihr könnt jetzt wieder schwanger werden"
+
+cdol_regenerate_decision:1 "Regenerieren"
+cdol_regenerate_decision_desc:1 "Als mein Verständnis meines Körpers wächst, kann ich meine sexuellen Energien manipulieren, um meine Leiden zu vertreiben und meine Wunden zu regenerieren."
+cdol_regenerate_decision_tooltip:1 "Nutzt [cdol_sexual_power|E], um Euch selbst von einer [illness|E], Verletzung oder Verunstaltung zu heilen"
+cdol_regenerate_decision_confirm:1 "Das Ritual beginnen ..."
+cdol_regenerate_decision_notification:1 "[ROOT.Char.Custom('CdolRegenerateFlavor')]"
+
+cdol_awaken_succubus_ancestry_decision:1 "Die Abstammung von [ROOT.Char.Custom('CdolSuccubusName')|U] erwacht"
+cdol_awaken_succubus_ancestry_decision_desc:1 "Die Kräfte der fleischlichen Versuchung schlummern in meinem Blut. Ich sollte verbotene Texte und alte magische Schriftrollen suchen, damit ich mein wahres Geburtsrecht als Tochter von [ROOT.Char.Custom('CdolSuccubusPatron')] erwacken kann."
+cdol_awaken_succubus_ancestry_decision_tooltip:1 "Erweckt Eure Abstammung und werdet ein vollwertiger [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U]"
+cdol_awaken_succubus_ancestry_decision_confirm:1 "Das Ritual beginnen ..."
+
+cdol_become_succubus_decision:1 "Das Ritual der Transformation von [ROOT.Char.Custom('CdolSuccubusName')|U]"
+cdol_become_succubus_decision_desc:1 "Die Legenden sprechen von einer Rasse von Verführerinnen, die Sterbliche verzaubern und manipulieren können. In meiner Einweihung in die Geheimnisse des Universums habe ich gelernt, wie ich mich in einen vollblütigen [ROOT.Char.Custom('CdolSuccubusName')] aus den Legenden verwandeln kann."
+cdol_become_succubus_decision_tooltip:1 "Verwendet die dunklen Künste, um Euch in einen [ROOT.Char.Custom('CdolSuccubusNameGameConcept')|U] zu verwandeln"
+cdol_become_succubus_decision_confirm:1 "Das Ritual beginnen ..."

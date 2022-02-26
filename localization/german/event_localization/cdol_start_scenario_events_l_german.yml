@@ -1,0 +1,13 @@
+﻿l_german:
+
+cdol_start_scenario.0100.t:1 "Daughter of Lust"
+cdol_start_scenario.0100.intro:1 "Bei der Erforschung der Vorfahren meiner Dynastie musste ich eine beunruhigende Entdeckung machen.\n\nDie Volksmärchen von [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] erzählen von einem verführerischen [ROOT.Char.Custom( 'CdolSuccubusName' )], der Männer mit seiner femininen List umgarnt. In manchen Erzählungen gebiert der [ROOT.Char.Custom( 'CdolSuccubusName' )] viele halbblütige Kinder, bevor seine List entlarvt wird.\n\nErst jetzt ist mir aufgefallen, dass einer der Nachkommen in diesen Geschichten den Namen mit einem Gründer der [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] Dynastie teilt!\n\n"
+cdol_start_scenario.0100.negative:1 "Könnte es sein, dass der dunkle Einfluss des [ROOT.Char.Custom( 'CdolSuccubusPatron' )] durch meine Adern fließt, nach all den Jahren?"
+cdol_start_scenario.0100.positive:1 "Könnte es sein, dass die Kraft des [ROOT.Char.Custom( 'CdolSuccubusPatron' )] durch meine Adern fließt, nach all den Jahren?"
+
+cdol_start_scenario.0100.a:1 "Möge [ROOT.Char.GetFaith.HighGodName] mit uns gnädig sein!"
+cdol_start_scenario.0100.b:1 "Meine Blutlinie wurde von [ROOT.Char.Custom( 'CdolSuccubusPatron' )] gesegnet!"
+cdol_start_scenario.0100.a.t:1 "Ihr entdeckt Euren [THIS.Char.Custom( 'CdolSuccubusNameGameConcept' )] Vorfahren"
+
+cdol_start_scenario.0100.c:1 "Es muss ein Zufall sein, mehr nicht."
+cdol_start_scenario.0100.c.t:1 "Ihr beschließt, nicht in die Vergangenheit Eurer Dynastie abzutauchen."

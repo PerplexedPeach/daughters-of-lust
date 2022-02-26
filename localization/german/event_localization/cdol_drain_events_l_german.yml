@@ -1,0 +1,76 @@
+﻿l_german:
+
+cdol_drain.0001.notification:1 "[succubus.Custom('CdolSuccubusName')|U]: Absorbierte sexuelle Kraft"
+
+cdol_drain.generic_title:1 "[succubus.Custom('CdolSuccubusName')|U]: Der Hunger"
+cdol_drain.generic_opening:1 "Als [carn_sex_partner.GetShortUINameNoTooltip] von Ekstase geschüttelt wird, überflutet mich elektrifizierendes Vergnügen und ich fühle, wie [Select_CString( carn_sex_partner.isFemale, 'ihre', 'seine' )] Kraft in meinen Körper fließt.\n\n"
+
+cdol_drain.generic_refusal:1 "Nein, [carn_sex_partner.GetShortUINameNoTooltip] verdient Besseres."
+cdol_drain.difficult_refusal:1 "Ich ... ich muss widerstehen!"
+
+cdol_drain.0010.ending:1 "Die Poesie [Select_CString( carn_sex_partner.isFemale, 'ihrer', 'seiner' )] Seele singt für mich und wartet darauf, mit einem Kuss meiner Lippen aufgesogen zu werden."
+cdol_drain.0010.a:1 "Du solltest für meine Gnade dankbar sein."
+
+cdol_drain.0020.ending:1 "Ich kann das Feuer [Select_CString( carn_sex_partner.isFemale, 'ihrer', 'seiner' )] Überzeugung an der Schwelle spüren, mich in Brand zu setzen."
+cdol_drain.0020.a:1 "Wie du mich erobert hast, werde ich dich erobern."
+
+cdol_drain.0030.ending:1 "Orgasmus um Orgasmus weichen [Select_CString( carn_sex_partner.isFemale, 'ihre', 'seine' )] Vorsicht und Vernunft der Hitze des rohen Verlangens."
+cdol_drain.0030.a:1 "Deine Entwicklung soll ein Teil von mir werden"
+
+cdol_drain.0040.ending:1 "[carn_sex_partner.GetSheHe|U] schaut mir in die Augen, völlig hingerissen, und die Fenster zu [Select_CString( carn_sex_partner.isFemale, 'ihrer', 'seiner' )] Soul stehen mir offen."
+cdol_drain.0040.a:1 "Lass uns eins im Dunkeln werden."
+
+cdol_drain.0050.ending:1 "[Select_CString( carn_sex_partner.isFemale, 'Ihre', 'Seine' )] Gedanken und Sorgen schmelzen dahin, während [carn_sex_partner.GetSheHe] sich meiner berauschenden Gestalt hingibt."
+cdol_drain.0050.a:1 "Vergiss alles und schlafe mit mir ..."
+
+cdol_drain.0060.ending:1 "Ich kann die rohe Kraft und [Select_CString( carn_sex_partner.isFemale, 'ihre', 'seine' )] Fähigkeiten spüren, die mich wie die Strahlen der Sonne erfüllen."
+cdol_drain.0060.a:1 "Deine Stärke soll meine Stärke sein."
+
+cdol_drain.0070.ending:1 "Ich winde mich im Orgasmus, während ich [Select_CString( carn_sex_partner.isFemale, 'ihre', 'seine' )] Süße fühle, [Select_CString( die.isFemale, 'ihre', 'seine' )] Großartigkeit, die meine Haut streichelt und sich in meine Seele einbrennt."
+cdol_drain.0070.a:1 "Vervollständige mich! Mache mich perfekt!"
+
+cdol_drain.0080.ending:1 "Wir gelangen als Einheit zum Orgasmus, unser Geist und unsere Erfahrungen erblühen zu einem Universum der Freude, einem den Geist schmelzenden Höhepunkt, der sich in die Unendlichkeit erstreckt ..."
+cdol_drain.0080.a:1 "Ich sehe alles, alles ...!"
+
+cdol_drain.0090.ending:1 "Jede [Select_CString( carn_sex_partner.isFemale, 'ihrer', 'seiner' )] Berührungen setzt meine Haut in Brand und überflutet meinen Busen und meine Lenden mit einem unvorstellbar angenehmen Feuer."
+cdol_drain.0090.a:1 "Ja! Fülle mich auf ... Mach' mich wieder ganz!"
+
+cdol_drain.0100.ending:1 "Ich kann [Select_CString( carn_sex_partner.isFemale, 'ihre', 'seine' )] berauschende Leidenschaft und Vitalität spüren, die köstlich mit meinen Lippen verschmilzen, während wir uns umarmen."
+cdol_drain.0100.a:1 "Du sollst eine Motte um meine Flamme sein."
+
+
+cdol_drain.generic_victim_title:1 "Erschöpfung"
+cdol_drain.generic_victim_opening:1 "In letzter Zeit fühle ich mich nicht wie ich selbst, obwohl es mir schwer fällt, den Grund dafür zu nennen.\n\n"
+
+cdol_drain.0011.ending:1 "Immer öfter ertappe ich mich dabei, wie ich über meine eigenen Schuhe stolpere oder mitten in einer Ansprache einschlafe."
+cdol_drain.0011.a:1 "Verliere ich den Kontakt zu mir?"
+
+cdol_drain.0021.ending:1 "Ich entdecke immer häufiger, dass meine Augen während der Berichte der Späher glasig werden, und meine Truppen flüstern sich bereits zu, dass ich nicht mehr in der Lage bin, sie zu befehligen."
+cdol_drain.0021.a:1 "Ich verstehe nicht ..."
+
+cdol_drain.0031.ending:1 "Während meine Berater auf mein Urteil zu Steuern und Handel drängen, stelle ich fest, dass ich nicht in der Lage bin, die geistigen Fähigkeiten aufzubringen, um ihnen zu antworten."
+cdol_drain.0031.a:1 "Verliere ich meinen Verstand?"
+
+cdol_drain.0041.ending:1 "Das Tempo beim Hofgericht ist überwältigend, und ich finde es immer schwieriger, die Absichten anderer einzuschätzen."
+cdol_drain.0041.a:1 "Ich fühle mich so müde."
+
+cdol_drain.0051.ending:1 "Ich habe festgestellt, dass ich immer zerstreuter werde und mich nicht mehr an die einfachsten Dinge erinnern kann."
+cdol_drain.0051.a:1 "Ich sollte mich etwas ausruhen ..."
+
+cdol_drain.0061.ending:1 "Ich war gezwungen, mich vom Kampftraining zurückzuziehen, weil ich zu müde und zu unsicher war, ein Schwert zu führen."
+cdol_drain.0061.a:1 "Was geschieht hier?"
+
+cdol_drain.0071.title:1 "Flüchtige Schönheit"
+cdol_drain.0071.desc:1 "Als ich heute in den Spiegel schaute, war ich entsetzt, ein Gesicht zu sehen, das ich kaum wiedererkannte.\n\nMeine Unvollkommenheiten sind zu riesigen Grübchen und unansehnlichen Narben geworden, und die natürliche Anmut, die ich einst besaß, ist nirgendwo mehr zu finden."
+cdol_drain.0071.a:1 "Was!? Wer hat mir das angetan!?"
+
+cdol_drain.0081.title:1 "Ein seltsames Gefühl"
+cdol_drain.0081.desc:1 "In letzter Zeit fühle ich mich im Laufe der Ausübung meiner Pflichten seltsam müde und ausgelaugt. Meine Schreiber werfen mir seltsame Blicke zu und fragen, ob es mir gut gehe.\n\nIch habe das nagende Gefühl im Hinterkopf, dass ich etwas Wichtiges vergessen habe."
+cdol_drain.0081.a:1 "Wahrscheinlich ist es nichts ..."
+
+cdol_drain.0091.title:1 "Eine unwillkommene Möglichkeit"
+cdol_drain.0091.desc:1 "Heute fühlte sich mein Körper seltsam leicht und wund an. Ich habe mir nichts dabei gedacht, bis ich mich angezogen und in den Spiegel geschaut habe.\n\nMeine intimsten Teile sind, in Ermangelung eines besseren Wortes, geschrumpft. Sie sind kleiner und flacher geworden und verspotten mit ihren verringerten Proportionen beinahe meine [Select_CString( ROOT.Char.isFemale, 'weibliche', 'männliche' )] Figur."
+cdol_drain.0091.a:1 "Was!? Wie konnte das geschehen!?"
+
+cdol_drain.0101.ending:1 "Bei meinen täglichen Aufgaben fühle ich mich müde und lustlos und ohne die Motivation, viel zu leisten."
+cdol_drain.0101.a:1 "Vielleicht sollte ich mich etwas hinlegen ..."

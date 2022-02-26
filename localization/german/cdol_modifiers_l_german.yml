@@ -1,0 +1,27 @@
+﻿l_german:
+
+cdol_succubus_mastery:1 "Succubus Meisterschaft"
+cdol_succubus_mastery_desc:1 "Boni für [cdol_succubus_mastery_level|E]:"
+
+cdol_diplomacy_drained_modifier:1 "Erschöpft"
+cdol_diplomacy_drained_modifier_desc:1 "Erschöpfung belastet diesen Charakter schwer."
+
+cdol_martial_drained_modifier:1 "Geschwächt"
+cdol_martial_drained_modifier_desc:1 "Lange Nächte haben diesen Charakter schwach und verunsichert zurückgelassen."
+
+cdol_stewardship_drained_modifier:1 "Verunsichert"
+cdol_stewardship_drained_modifier_desc:1 "Dieser Charakter findet es schwierig, mit all den Angelegenheiten Schritt zu halten."
+
+cdol_intrigue_drained_modifier:1 "Unkonzentriert"
+cdol_intrigue_drained_modifier_desc:1 "Dieser Charakter hat Probleme, sich zu konzentieren."
+
+cdol_learning_drained_modifier:1 "Zerstreut"
+cdol_learning_drained_modifier_desc:1 "Dieser Charakter vergisst anhaltend einfachste Dinge."
+
+cdol_prowess_drained_modifier:1 "Überfordert"
+cdol_prowess_drained_modifier_desc:1 "Dieser Charakter hat sich zu sehr angestrengt."
+
+cdol_health_drained_modifier:1 "Unwohlsein"
+cdol_health_drained_modifier_desc:1 "Dieser Charakter fühlt sich nicht gut."
+
+cdol_life_drained_modifier:1 "Ausgelaugt"

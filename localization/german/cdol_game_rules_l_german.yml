@@ -1,0 +1,13 @@
+﻿l_german:
+
+rule_cdol_start_scenario:1 "#X Daughters of Lust:#! Start-Szenario"
+setting_cdol_start_scenario_none:1 "Keines"
+setting_cdol_start_scenario_none_desc:1 "Zu Beginn des Spiels finden keine geskripteten Ereignisse statt."
+setting_cdol_start_scenario_succubus:1 "#high Daughter of Lust#!"
+setting_cdol_start_scenario_succubus_desc:1 "Kurz nach Spielbeginn werden weibliche Spielercharaktere, die keine Succubi sind, ihre Succubus-Abstammung entdecken."
+
+rule_cdol_succubus_lactation:1 "#X Daughters of Lust:#! Succubus Laktation"
+setting_cdol_succubus_lactation_disabled:1 "Aus"
+setting_cdol_succubus_lactation_disabled_desc:1 "Succubi werden nicht mehr Milch abgeben als normale Frauen."
+setting_cdol_succubus_lactation_enabled:1 "#high An#!"
+setting_cdol_succubus_lactation_enabled_desc:1 "Succubi werden nach einem Sexakt oder nachdem spezielle Fähigkeiten der Succubus-Meisterschaft mehr Milch abgeben."

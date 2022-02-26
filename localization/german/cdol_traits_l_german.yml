@@ -1,0 +1,5 @@
+﻿l_german:
+
+trait_cdol_succubus:1 "Succubus"
+trait_cdol_succubus_desc:1 "Dieser Charakter ist als übernatürliche Verführerin bekannt, die Kraft durch Sex gewinnt."
+trait_cdol_succubus_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ist als übernatürliche Verführerin bekannt, die Kraft durch Sex erlangt."

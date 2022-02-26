@@ -1,0 +1,50 @@
+﻿l_german:
+
+game_concept_cdol_alter_self_decision:1 "$cdol_alter_self_decision$"
+game_concept_cdol_alter_self_decision_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_alter_self_succubus_mastery_level')|0] kann diese [decision|E] heranziehen, um ein [physical_trait|E] zu erhalten oder zu verlieren.\n\nNegative [congenital_traits|E] können auf diese Weise entfernt werden, aber keine [illnesses|E], Verletzungen oder Enstellungen."
+
+game_concept_cdol_alter_sexuality_interaction:1 "$cdol_alter_sexuality_interaction$"
+game_concept_cdol_alter_sexuality_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_alter_sexuality_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um die [sexuality|E] eines anderen [character_possessive|E] zu ändern."
+
+game_concept_cdol_awaken_succubus_ancestry_decision:1 "Succubus-Vorfahren erwecken"
+game_concept_cdol_awaken_succubus_ancestry_decision_desc:1 "Ein weiblicher [character|E] mit [cdol_succubus|E]-Vorfahren kann diese [decision|E] heranziehen, um sich selbst in einen vollständigen Succubus zu verwandeln"
+
+game_concept_cdol_become_succubus_decision:1 "Ritual der Succubus-Transformation ausführen"
+game_concept_cdol_become_succubus_decision_desc:1 "Eine [GetTrait('witch').GetName( GetNullCharacter )] kann diese [decision|E] heranziehen, um sich selbst in einen [cdol_succubus|E] zu verwandeln."
+
+game_concept_cdol_drain_life_interaction:1 "$cdol_drain_life_interaction$"
+game_concept_cdol_drain_life_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_drain_life_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um einem [character|E], mit dem sie in den letzten 30 Tagen geschlafen hat, einen schweren Schaden der [health|E] zuzufügen."
+
+game_concept_cdol_fascinate_interaction:1 "$cdol_fascinate_interaction$"
+game_concept_cdol_fascinate_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_fascinate_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um die [opinion|E] eines anderen [character_possessive|E] über sich selbst zu erhöhen."
+
+game_concept_cdol_mesmerize_interaction:1 "$cdol_mesmerize_interaction$"
+game_concept_cdol_mesmerize_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_mesmerize_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um von einem [character|E], mit dem sie in den letzten 30 Tagen geschlafen hat, ein leichtes Druckmittel zu erlangen."
+
+game_concept_cdol_regenerate_decision:1 "$cdol_regenerate_decision$"
+game_concept_cdol_regenerate_decision_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_regenerate_succubus_mastery_level')|0] kann diese [decision|E] heranziehen, um sich selbst von [illness|E], Verletzungen und Entstellungen zu heilen."
+
+game_concept_cdol_sexual_power:1 "Sexuelle Kraft"
+game_concept_cdol_sexual_power_desc:1 "Sexuelle Kraft wird von [cdol_succubi|E] verwendet, um ihre Fähigkeiten aufzufüllen. Sie wird durch Sex absorbiert und für mächtige [decisions|E] und [interactions|E] aufgebraucht, die durch die [cdol_succubus_mastery|E] freigeschaltet werden.\n\nOft kann die Verwendung der sexuellen Kraft einen [cdol_suspicion|E] erregen."
+
+game_concept_cdol_succubus:1 "Succubus"
+game_concept_cdol_succubi:1 "Succubi"
+game_concept_cdol_yakshi:1 "$cdol_yakshi_cap$"
+game_concept_cdol_qarinah:1 "$cdol_qarinah_cap$"
+game_concept_cdol_leannan_sidhe:1 "$cdol_leannan_sidhe_cap$"
+game_concept_cdol_demoness:1 "$cdol_demoness_cap$"
+game_concept_cdol_succubus_desc:1 "In #EMP Daughters of Lust#!, einem [GetTrait('cdol_succubus').GetName( GetNullCharacter )], geht es um einen weiblichen [character|E], der [cdol_sexual_power|E] durch Sex absorbieren kann. Diese Kraft kann eingesetzt werden, um spezielle [decisions|E] und [interactions|E] aufzufüllen, die im Laufe der [cdol_succubus_mastery|E] freigeschaltet werden.\n\nEin Succubus kann [shunned|E] sein oder sogar als [criminal|E] gelten innerhalb ihres [faith|E], in Abhängigkeit von dessen Ansichten über Hexerei. Es ist deshalb wichtig, das [secret|E] zu war´hren und [cdol_suspicion|E] zu vermeiden.\n\Um ein Succubus zu werden, können Frauen mit dem Merkmal [GetTrait('witch').GetName( GetNullCharacter )] die Entscheidung [cdol_become_succubus_decision|E] treffen, und Nachkommen einen Succubus können die Entscheidung [cdol_awaken_succubus_ancestry_decision|E] treffen. Zusätzlich können sehr mächtige Succubi Menschen mit der Interaktion [cdol_succubus_conversion_interaction|E] ebenfalls in Succubi verwandeln.\n\n#weak Succubi werden auch $cdol_yakshi_plural$, $cdol_qarinah_plural$, $cdol_leannan_sidhe_plural$ oder $cdol_demoness_plural$ genannt und sind eine Rasse schöner Frauen, die Jahrtausende mit den Menschen koexistiert haben. Succubi gelten als übernatürliche Wesen und werden von vielen gefürchtet. Sie haben es sich zur Aufgabe gemacht, sich unter den Menschen zu verstecken, um zu überleben.#!"
+
+game_concept_cdol_succubus_conversion_interaction:1 "Konvertierung zum Succubus"
+game_concept_cdol_succubus_conversion_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_succubus_conversion_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um einen anderen weiblichen [character|E] in einen Succubus zu verwandeln."
+
+game_concept_cdol_succubus_mastery:1 "Succubus Meisterschaft"
+game_concept_cdol_succubus_mastery_level:1 "Succubus Meistergrad"
+game_concept_cdol_succubus_mastery_desc:1 "Jedesmal, wenn ein [cdol_succubus|E] [cdol_sexual_power|E] mittels Sex absorbiert, erhält sie eine Stufe von [GetModifier( 'cdol_succubus_mastery' ).GetNameWithTooltip|L] dazu. Zusätzlich erhält sie Zugang zu neuen [decisions|E] und [interactions|E] bei bestimmten Succubus Meister-Stufen:\n\n$EFFECT_LIST_BULLET$ $cdol_drain_life_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_fascinate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_mesmerize_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_self_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_alter_sexuality_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_regenerate_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_torment_list_tooltip$\n$EFFECT_LIST_BULLET$ $cdol_succubus_conversion_list_tooltip$"
+
+game_concept_cdol_suspicion:1 "Verdacht"
+game_concept_cdol_suspicious:1 "Verdacht"
+game_concept_cdol_suspicion_desc:1 "Wenn ein [cdol_succubus|E] [cdol_sexual_power|E] für [decisions|E] oder [interactions|E] nutzt, kann es vorkommen, dass sie Verdacht hervorruft.\n\nWenn der Verdacht zu hoch steigt, könnten andere [characters|E] die Möglichkeit erlangen, sie genauer zu überprüfen und ihr [secret|E] zu entdecken."
+
+game_concept_cdol_torment_interaction:1 "$cdol_torment_interaction$"
+game_concept_cdol_torment_interaction_desc:1 "Ein [cdol_succubus|E] mit einem [cdol_succubus_mastery_level|E] von [EmptyScope.ScriptValue('cdol_torment_succubus_mastery_level')|0] kann die Interaktionen [character_interaction|E] verwenden, um einem anderen [character|E] eine große Menge [stress|E] zuzufügen."

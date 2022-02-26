@@ -1,0 +1,31 @@
+﻿l_german:
+
+cdol_can_regenerate_trigger:1 "Ihr habt keine [illness|E], Verletzung oder Missgestaltung"
+
+cdol_you_have_sexual_power:1 "Ihr habt $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+cdol_you_do_not_have_sexual_power:1 "Ihr habt nicht $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+cdol_they_has_sexual_power:1 "[CHARACTER.MakeScope.GetShortUIName|U] hat $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+cdol_they_do_not_have_sexual_power:1 "[CHARACTER.GetShortUIName|U] hat nicht $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+cdol_has_sexual_power:1 "Hat $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+cdol_does_not_have_sexual_power:1 "Hat nicht $VALUE|V0$ [cdol_sexual_power|E] $cdol_current_sexual_power_note$"
+
+cdol_you_have_succubus_mastery:1 "Ihr habt $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+cdol_you_do_not_have_succubus_mastery:1 "Ihr habt nicht $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+cdol_they_has_succubus_mastery:1 "[CHARACTER.MakeScope.GetShortUIName|U] hat $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+cdol_they_do_not_have_succubus_mastery:1 "[CHARACTER.GetShortUIName|U] hat nicht $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+cdol_has_succubus_mastery:1 "Hat $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+cdol_does_not_have_succubus_mastery:1 "Hat nicht $VALUE|V0$ [cdol_succubus_mastery|E] $cdol_current_succubus_mastery_note$"
+
+cdol_you_recently_laid_with_target:1 "Ihr habt in den letzten 30 Tagen mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+cdol_you_did_not_recently_lay_with_target:1 "Ihr habt in den letzten 30 Tagen nicht mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+cdol_they_recently_laid_with_target:1 "[CHARACTER.GetShortUIName|U] hat in den letzten 30 Tagen mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+cdol_they_did_not_recently_lay_with_target:1 "[CHARACTER.GetShortUIName|U] hat in den letzten 30 Tagen nicht mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+cdol_recently_laid_with_target:1 "Hat in den letzten 30 Tagen mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+cdol_did_not_recently_lay_with_target:1 "Hat in den letzten 30 Tagen nicht mit [TARGET_CHARACTER.GetShortUIName|U] geschlafen"
+
+cdol_you_are_witch:1 "Ihr seid eine [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_you_are_not_witch:1 "Ihr seid keine [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_they_are_witch:1 "[CHARACTER.GetShortUIName|U] ist eine [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_they_are_not_witch:1 "[CHARACTER.GetShortUIName|U] ist keine [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_is_witch:1 "Ist eine [GetTrait('witch').GetName( GetNullCharacter )]"
+cdol_is_not_witch:1 "Ist keine [GetTrait('witch').GetName( GetNullCharacter )]"
