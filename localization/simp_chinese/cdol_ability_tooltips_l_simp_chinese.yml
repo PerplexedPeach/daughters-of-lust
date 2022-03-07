@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
  cdol_you_unlocked: "你解锁了"
  cdol_drain_life_unlocked_tooltip: "$cdol_you_unlocked$[cdol_drain_life_interaction|E]"
  cdol_fascinate_unlocked_tooltip: "$cdol_you_unlocked$[cdol_fascinate_interaction|E]"
