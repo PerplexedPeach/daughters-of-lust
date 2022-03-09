@@ -48,3 +48,6 @@ game_concept_cdol_suspicion_desc: "When a [cdol_succubus|E] uses [cdol_sexual_po
 
 game_concept_cdol_torment_interaction: "$cdol_torment_interaction$"
 game_concept_cdol_torment_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_torment_succubus_mastery_level')|0] can use this [character_interaction|E] to inflict a massive amount of [stress|E] on another [character|E]."
+
+game_concept_cdol_incite_rivalry_interaction: "$cdol_incite_rivalry_interaction$"
+game_concept_cdol_incite_rivalry_interaction_desc: "A [cdol_succubus|E] with a [cdol_succubus_mastery_level|E] of [EmptyScope.ScriptValue('cdol_incite_rivalry_succubus_mastery_level')|0] can use this [character_interaction|E] to make two [characters|E] become [rivals|E] or [nemeses|E]."
