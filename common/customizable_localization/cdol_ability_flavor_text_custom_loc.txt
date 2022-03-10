@@ -47,3 +47,13 @@ CdolTormentFlavor = {
 	text = { localization_key = cdol_torment_flavor_4 }
 	text = { localization_key = cdol_torment_flavor_5 }
 }
+
+CdolInciteRivalryFlavor = {
+	type = character
+	random_valid = yes
+	text = { localization_key = cdol_incite_rivalry_flavor_1 }
+	text = { localization_key = cdol_incite_rivalry_flavor_2 }
+	text = { localization_key = cdol_incite_rivalry_flavor_3 }
+	text = { localization_key = cdol_incite_rivalry_flavor_4 }
+	text = { localization_key = cdol_incite_rivalry_flavor_5 }
+}

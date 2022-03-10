@@ -65,3 +65,8 @@ cdol_torment_interaction = {
 	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
 	parent = interaction
 }
+
+cdol_incite_rivalry_interaction = {
+	texture = "gfx/interface/icons/traits/cdol_succubus.dds"
+	parent = interaction
+}

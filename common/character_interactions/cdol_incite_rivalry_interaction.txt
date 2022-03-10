@@ -1,0 +1,121 @@
+cdol_incite_rivalry_interaction = {
+	category = interaction_category_diplomacy
+	common_interaction = yes
+ 
+	desc = cdol_incite_rivalry_interaction_desc
+	cooldown_against_recipient = {
+		years = cdol_incite_rivalry_cooldown_years
+	}
+
+	is_shown = {
+		scope:actor = {
+			cdol_has_succubus_powers_trigger = yes
+			cdol_has_succubus_mastery_trigger = {
+				VALUE = cdol_incite_rivalry_succubus_mastery_level
+			}
+		}
+		scope:recipient = {
+			NOT = {
+				this = scope:actor
+			}
+		}
+	}
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			cdol_has_sexual_power_trigger = {
+				VALUE = cdol_incite_rivalry_sexual_power_cost
+			}
+		}
+		scope:recipient = {
+			OR = {
+				has_relation_lover = scope:actor
+				is_spouse_of = scope:actor
+				is_concubine_of = scope:actor
+			}
+			is_imprisoned = no
+			is_diplomatically_available = yes
+		}
+	}
+
+	populate_actor_list = {
+		scope:actor = {
+			every_relation = {
+				type = lover
+				limit = {
+					NOT = {
+						this = scope:recipient
+					}
+				}
+				add_to_list = characters
+			}
+			
+			every_spouse = {
+				limit = {
+					NOT = {
+						this = scope:recipient
+					}
+				}
+				add_to_list = characters
+			}
+			every_concubine = {
+				limit = {
+					NOT = {
+						this = scope:recipient
+					}
+				}
+				add_to_list = characters
+			}
+		}
+	}
+	prompt = cdol_incite_rivalry_interaction_prompt
+
+	on_accept = {
+		scope:actor = {
+			cdol_lose_sexual_power_effect = {
+				VALUE = cdol_incite_rivalry_sexual_power_cost
+			}
+
+			send_interface_toast = {
+				title = cdol_incite_rivalry_interaction_notification
+				left_icon = scope:actor
+				right_icon = scope:recipient
+				scope:recipient = {
+					scope:secondary_actor = {
+						if = {
+							limit = {
+								OR = {
+									has_relation_rival = scope:recipient
+									scope:cdol_incite_rivalry_interaction_set_relation_nemesis = yes
+								}
+							}
+							set_relation_nemesis = scope:recipient
+						}
+						else = {
+							set_relation_rival = scope:recipient
+						}
+					}
+				}
+			}
+			cdol_manipulation_stress_impact_effect = {
+				VICTIM = scope:recipient
+			}
+			cdol_add_suspicion_effect = yes
+		}
+	}
+	auto_accept = yes
+	
+	send_option = {
+		is_shown = {
+			exists = scope:secondary_actor
+			scope:secondary_actor = {
+				NOT = {
+					has_relation_rival = scope:recipient
+				}
+			}
+		}
+		flag = cdol_incite_rivalry_interaction_set_relation_nemesis
+		localization = cdol_incite_rivalry_interaction_set_relation_nemesis
+		current_description = cdol_incite_rivalry_interaction_set_relation_nemesis_desc
+	}
+	send_options_exclusive = no
+}

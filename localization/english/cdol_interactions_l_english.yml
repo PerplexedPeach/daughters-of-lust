@@ -19,5 +19,12 @@
  cdol_torment_interaction_desc: "Use [cdol_sexual_power|E] to inflict a massive amount of [stress|E] on [recipient.GetShortUINameNoTooltip]"
  cdol_torment_interaction_notification: "[actor.Custom2('CdolTormentFlavor', recipient)]"
 
+ cdol_incite_rivalry_interaction: "Incite Rivalry"
+ cdol_incite_rivalry_interaction_desc: "Use [cdol_sexual_power|E] to make two [characters|E] become [rivals|E] or [nemeses|E]"
+ cdol_incite_rivalry_interaction_notification: "[actor.Custom2('CdolInciteRivalryFlavor', recipient)]"
+ actor_secondary_cdol_incite_rivalry_interaction: "Rivals"
+ cdol_incite_rivalry_interaction_set_relation_nemesis: "Become nemeses"
+ cdol_incite_rivalry_interaction_set_relation_nemesis_desc: "Make two targets become nemeses"
+
  cdol_succubus_conversion_interaction: "[ACTOR.Custom('CdolSuccubusName')|U] Conversion"
  cdol_succubus_conversion_interaction_desc: "Use [cdol_sexual_power|E] to transform [recipient.GetShortUINameNoTooltip] into a [cdol_succubus|E]"
