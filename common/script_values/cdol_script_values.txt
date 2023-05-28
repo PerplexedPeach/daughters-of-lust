@@ -2,6 +2,9 @@
 cdol_sexual_power_drain_extra_gain_value = 10
 cdol_sexual_power_maximum = 100
 
+cdol_sexual_power = 0
+cdol_succubus_mastery = 0
+
 cdol_drain_life_succubus_mastery_level = 1
 cdol_drain_life_sexual_power_cost = 20
 

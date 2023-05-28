@@ -1,0 +1,30 @@
+﻿l_simp_chinese:
+ cdol_alter_sexuality_interaction: "改變性慾"
+ cdol_alter_sexuality_interaction_desc: "使用 [cdol_sexual_power|E]改變[recipient.GetShortUINamePossessiveNoTooltip] [sexuality|E]"
+
+ cdol_drain_life_interaction: "吸取生命"
+ cdol_drain_life_interaction_desc: "使用[cdol_sexual_power|E]秘密吸取[recipient.GetShortUINamePossessiveNoTooltip] [health|E]"
+ cdol_drain_life_interaction_notification: "[actor.Custom2('CdolDrainLifeFlavor', recipient)]"
+
+ cdol_fascinate_interaction: "魅惑"
+ cdol_fascinate_interaction_desc: "使用[cdol_sexual_power|E]改善了 [recipient.GetShortUINamePossessiveNoTooltip] 對你的[opinion|E]"
+ cdol_fascinate_interaction_notification: "[actor.Custom2('CdolFascinateFlavor', recipient)]"
+
+ cdol_mesmerize_interaction: "催眠"
+ cdol_mesmerize_interaction_desc: "使用 [cdol_sexual_power|E] 以獲得 [recipient.GetShortUINameNoTooltip] 的[weak_hook|E]"
+ cdol_mesmerize_interaction_notification: "[actor.Custom2('CdolMesmerizeFlavor', recipient)]"
+
+ cdol_torment_interaction: "折磨"
+ cdol_torment_interaction_desc: "使用[cdol_sexual_power|E]造成[recipient.GetShortUINameNoTooltip]大量的[stress|E]"
+ cdol_torment_interaction_notification: "[actor.Custom2('CdolTormentFlavor', recipient)]"
+
+ cdol_incite_rivalry_interaction: "煽動競爭"
+ cdol_incite_rivalry_interaction_desc: "使用[cdol_sexual_power|E]讓兩個目標[characters|E]成為[rivals|E]或者[nemeses|E]"
+ cdol_incite_rivalry_interaction_prompt: "選擇想要變成[recipient.GetShortUINameNoTooltip]的[rivals|E]或者[nemeses|E]的人"
+ cdol_incite_rivalry_interaction_notification: "[actor.Custom2('CdolInciteRivalryFlavor', recipient)]"
+ actor_secondary_cdol_incite_rivalry_interaction: "競爭者"
+ cdol_incite_rivalry_interaction_set_relation_nemesis: "成為仇敵"
+ cdol_incite_rivalry_interaction_set_relation_nemesis_desc: "讓兩個目標成為仇敵"
+
+ cdol_succubus_conversion_interaction: "[ACTOR.Custom('CdolSuccubusName')|U] 轉化"
+ cdol_succubus_conversion_interaction_desc: "使用 [cdol_sexual_power|E] 轉化 [recipient.GetShortUINameNoTooltip]成為 [cdol_succubus|E]"

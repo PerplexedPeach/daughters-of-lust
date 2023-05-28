@@ -1,4 +1,4 @@
-version="0.5"
+version="0.5.1"
 tags={
 	"Character Interactions"
 	"Decisions"
@@ -6,4 +6,4 @@ tags={
 	"Gameplay"
 }
 name="Cheri - Daughters of Lust"
-supported_version="1.5.*"
+supported_version="1.9.*"

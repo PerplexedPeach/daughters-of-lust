@@ -21,6 +21,7 @@
 
  cdol_incite_rivalry_interaction: "Incite Rivalry"
  cdol_incite_rivalry_interaction_desc: "Use [cdol_sexual_power|E] to make two [characters|E] become [rivals|E] or [nemeses|E]"
+ cdol_incite_rivalry_interaction_prompt: "Select a person to become [recipient.GetShortUINameNoTooltip]'s [rivals|E] or [nemeses|E]"
  cdol_incite_rivalry_interaction_notification: "[actor.Custom2('CdolInciteRivalryFlavor', recipient)]"
  actor_secondary_cdol_incite_rivalry_interaction: "Rivals"
  cdol_incite_rivalry_interaction_set_relation_nemesis: "Become nemeses"

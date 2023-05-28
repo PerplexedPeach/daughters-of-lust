@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ cdol_succubus_crime: "已知的[GetTrait('cdol_succubus').GetName( GetNullCharacter )]"
+ cdol_succubus_intolerant: "已知的[GetTrait('cdol_succubus').GetName( GetNullCharacter )]"
+ cdol_fascinated_opinion: "被魅惑"
