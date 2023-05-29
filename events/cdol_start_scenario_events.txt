@@ -4,7 +4,7 @@
 # 0100. Daughter of Lust
 
 
-# 0001.1 trigger on 
+# 0000. trigger on 
 cdol_start_scenario.0000 = {
 	immediate = {
 		if = {
@@ -24,7 +24,6 @@ cdol_start_scenario.0000 = {
 		if = {
 			limit = {
 				var:cdol_times_had_sex > 1
-				NOT = { has_character_flag = cdol_deny_succubus_ancestry }
 			}
 			
 			trigger_event = {
@@ -49,6 +48,7 @@ cdol_start_scenario.0001 = {
 						is_female = yes
 						cdol_is_succubus_trigger = no
 						cdol_has_succubus_ancestry_trigger = no
+						NOT = { has_character_flag = cdol_deny_succubus_ancestry }
 					}
 
 					trigger_event = {
