@@ -41,3 +41,5 @@ cdol_on_ability_milk_production_increase = 50
 cdol_on_ability_milk_production_cap = 550
 
 cdol_become_succubus_gold_cost = 500
+
+cdol_times_had_sex = 0

@@ -3,7 +3,6 @@
 # 0001. Initialize ruler designed succubi on game start
 
 cdol_ruler_designer.0001 = {
-	type = empty
 	hidden = yes
 
 	immediate = {
