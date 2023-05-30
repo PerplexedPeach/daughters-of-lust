@@ -1,9 +1,10 @@
-# Daughters of Lust 0.5
+# Daughters of Lust 0.5.1
 
 ## Localization
 
-* Added German localization. Thanks MariaStellina!
+* Added Tradition Chinese localization (just copy and replace simp_chinese all file =]).
 
 ## Features
 
-* Added Incite Rivalry power. Thanks to undefined for helping out!
+* Updated to support Version 1.9.*
+* Added new trigger of start scenario setting (Need to has sex interaction with someone at least once)
