@@ -7,3 +7,4 @@ tags={
 }
 name="Daughters of Lust"
 supported_version="1.9.*"
+path="mod/daughters-of-lust"
