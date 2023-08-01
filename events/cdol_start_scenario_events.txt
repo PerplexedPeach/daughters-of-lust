@@ -5,7 +5,8 @@
 
 
 # 0000. trigger on 
-cdol_start_scenario.0000 = {
+cdol_start_scenario.0050 = {
+	hidden = yes
 	immediate = {
 		if = {
 			limit = { NOT = { exists = var:cdol_times_had_sex } }
@@ -67,7 +68,7 @@ cdol_start_scenario.0100 = {
 	title = cdol_start_scenario.0100.t
 	theme = dynasty
 	override_background = {
-		event_background = study
+		reference = study
 	}
 
 	desc = {

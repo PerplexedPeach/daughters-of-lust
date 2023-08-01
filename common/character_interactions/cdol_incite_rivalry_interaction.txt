@@ -1,4 +1,4 @@
-cdol_incite_rivalry_interaction = {
+﻿cdol_incite_rivalry_interaction = {
 	category = interaction_category_diplomacy
 	common_interaction = yes
  
