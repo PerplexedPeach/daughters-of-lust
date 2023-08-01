@@ -26,6 +26,9 @@ cdol_drain.0001 = {
 
 	immediate = {
 		save_scope_as = succubus
+		
+		debug_log = "succubus drain event"
+
 
 		set_variable = {
 			name = cdol_recent_succubus_sex_partner

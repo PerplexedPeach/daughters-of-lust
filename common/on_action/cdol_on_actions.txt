@@ -6,6 +6,14 @@
 }
 
 carn_on_sex = {
+	on_actions = {
+		cdol_sex_pulse
+	}
+}
+cdol_sex_pulse = {
+	effect = {
+		debug_log = "cdol on sex pulse"
+	}
 	events = {
 		cdol_drain.0001 # succubus drain on sex
 		cdol_start_scenario.0050
