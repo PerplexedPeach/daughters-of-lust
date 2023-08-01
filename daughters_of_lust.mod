@@ -1,10 +1,10 @@
-version="0.5.1"
+version="0.5.2"
 tags={
 	"Character Interactions"
 	"Decisions"
 	"Events"
 	"Gameplay"
 }
-name="Daughters of Lust"
+name="Lazy's Daughters of Lust"
 supported_version="1.9.*"
 path="mod/daughters-of-lust"
